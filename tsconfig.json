@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/page.tsx", "app/layout.tsx", "app/teams/atlanta-united/page.jsx", "app/teams/austin-fc/page.jsx", "app/teams/cf-montreal/page.jsx"],
   "exclude": ["node_modules"]
 }
