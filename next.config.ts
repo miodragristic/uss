@@ -16,15 +16,13 @@ const nextConfig = {
       'www.mlssoccer.com',
       'phantom-marca.unidadeditorial.es',
       'assets.bundesliga.com',
-      'www.telegram.hr',  
-       "www.amazon.com",
-      "m.media-amazon.com",
-      'drop-assets.ea.com'  // Dodaj ovo
+      'www.telegram.hr',
+      'www.amazon.com',
+      'm.media-amazon.com',
+      'drop-assets.ea.com',
+      'images.pexels.com',    
     ],
   },
 };
 
 module.exports = nextConfig;
-
-
-
