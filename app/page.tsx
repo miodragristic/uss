@@ -74,6 +74,24 @@ const slides = [
 ];
 
 const blogPosts = [
+  {
+    id: 22,
+    title: 'Chucky Lozano: San Diego’s Last-Minute Hero',
+    author: 'Mio Ristic',
+    date: 'May 25, 2025',
+    excerpt: 'Hirving "Chucky" Lozano scored a dramatic 95th-minute winner to secure a thrilling victory for San Diego FC against LA Galaxy.',
+    imageUrl: 'https://assets.goal.com/images/v3/getty-2216178867/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216178867.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+    link: '/blog/lozano-becomes-a-san-diego-legend',
+  },
+  {
+    id: 20,
+    title: 'Walker Zimmerman Is Back',
+    author: 'Mio Ristic',
+    date: 'May 26, 2025',
+    excerpt: 'After a period sidelined by injury, Walker Zimmerman returns to strengthen Nashville SC’s defense.',
+    imageUrl: 'https://the18.com/sites/default/files/styles/x-large_square__4_3_/public/feature-images/20220429-The18-Image-Walker-Zimmerman-GettyImages-1316150108.jpeg?itok=dewBb8Ju',
+    link: '/blog/zimmerman-is-back',
+   },
    {
       id: 19,
       title: ' Top 10 MLS Jerseys of 2024',
@@ -82,7 +100,6 @@ const blogPosts = [
       excerpt: ' Style, Passion & a Bit of Magic',
       imageUrl: 'https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp',
       link: '/blog/top-mls-jersey2024',
-
     },
     {
       id: 18,
@@ -111,24 +128,7 @@ const blogPosts = [
       imageUrl: 'https://assets.goal.com/images/v3/getty-2208819749/crop/MM5DEMBUHA5DCMJVGI5G433XMU5DENZTHI3TA===/GettyImages-2208819749.jpg?auto=webp&format=pjpg&width=3840&quality=60',
       link: '/blog/columbusvsmiamimlsblog',
     },
-    {
-      id: 15,
-      title: 'Peter Vermes Bids Farewell to Sporting KC',
-      author: 'Mio Ristic',
-      date: 'April 16, 2025',
-      excerpt: ' A Storied Legacy and Logical Parting.',
-      imageUrl: 'https://nb1.hu/wp-content/uploads/2023/10/GettyImages-1257216781-scaled-e1743504066347.jpg',
-      link: '/blog/petervermesblog',
-    },
-    {
-      id: 14,
-      title: 'Chicago Fire Makes Ambitious Move for Kevin De Bruyne',
-      author: 'Mio Ristic',
-      date: 'April 16, 2025',
-      excerpt: ' What We Know So Far.',
-      imageUrl: 'https://icdn.sempreinter.com/wp-content/uploads/2023/05/Kevin-De-Bruyne-8.jpg',
-      link: '/blog/kevindb',
-    },
+    
 ];
 
 export default function HomePage() {

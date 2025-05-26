@@ -20,7 +20,8 @@ const nextConfig = {
       'www.amazon.com',
       'm.media-amazon.com',
       'drop-assets.ea.com',
-      'images.pexels.com',    
+      'images.pexels.com',
+      'the18.com',  
     ],
   },
 };

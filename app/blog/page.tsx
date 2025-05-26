@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 21,
+      title: 'Chucky Lozano: San Diego’s Last-Minute Hero',
+      author: 'Mio Ristic',
+      date: 'May 25, 2025',
+      excerpt: 'Hirving "Chucky" Lozano scored a dramatic 95th-minute winner to secure a thrilling victory for San Diego FC against LA Galaxy.',
+      imageUrl: 'https://assets.goal.com/images/v3/getty-2216178867/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216178867.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      slug: 'lozano-becomes-a-san-diego-legend',
+    },
+    {
+      id: 20,
+      title: 'Walker Zimmerman Is Back',
+      author: 'Mio Ristic',
+      date: 'May 26, 2025',
+      excerpt: 'After a period sidelined by injury, Walker Zimmerman returns to strengthen Nashville SC’s defense.',
+      imageUrl: 'https://the18.com/sites/default/files/styles/x-large_square__4_3_/public/feature-images/20220429-The18-Image-Walker-Zimmerman-GettyImages-1316150108.jpeg?itok=dewBb8Ju',
+      slug: 'zimmerman-is-back',
+    },
+    {
       id: 19,
       title: 'Top 10 MLS Jerseys of 2024',
       author: 'Mio Ristic',

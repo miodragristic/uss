@@ -4,7 +4,7 @@ export const metadata = {
     openGraph: {
       title: 'Top 10 MLS Selling Jerseys in 2024',
       description: 'Discover the best-selling MLS jerseys of 2024 featuring stars like Messi, Suarez, and more!',
-      url: 'https://tvoj-sajt.com/top-10-mls-selling-jerseys-2024', // zameni sa stvarnom URL adresom
+      url: 'https://www.us11fc.com', // zameni sa stvarnom URL adresom
       siteName: 'MLS Fan Store',
       images: [
         {
