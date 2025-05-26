@@ -1,13 +1,15 @@
+// app/chucky-lozano/layout.js
+
 export const metadata = {
-  title: 'Chucky Lozano: San Diego’s Last-Minute Hero Against LA Galaxy',
+  title: 'Chucky Lozano: San Diego’s Last-Minute Hero',
   description:
-    'Hirving “Chucky” Lozano scores a dramatic 95th-minute winner to give San Diego FC a thrilling victory over reigning MLS champions LA Galaxy.',
+    'San Diego FC clinched a thrilling victory against LA Galaxy thanks to a last-minute header from Hirving "Chucky" Lozano. Highlights and details here.',
   openGraph: {
-    title: 'Chucky Lozano: San Diego’s Last-Minute Hero Against LA Galaxy',
+    title: 'Chucky Lozano: San Diego’s Last-Minute Hero',
     description:
-      'Lozano scores in the 95th minute to lift San Diego FC over LA Galaxy. The city erupts. A moment to remember.',
-    url: 'https://www.us11fc.com/blog/lozano-becomes-a-san-diego-legend', // tačan URL tvoje stranice
-    siteName: 'US11 FC',
+      'Discover how Hirving Lozano’s late goal secured a win for San Diego FC over LA Galaxy.',
+    url: 'https://www.us11fc.com/',  
+    siteName: 'MLS Fan Store',
     images: [
       {
         url: 'https://assets.goal.com/images/v3/getty-2216178867/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216178867.jpg?auto=webp&format=pjpg&width=3840&quality=60',
@@ -20,16 +22,16 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Chucky Lozano: San Diego’s Last-Minute Hero Against LA Galaxy',
+    title: 'Chucky Lozano: San Diego’s Last-Minute Hero',
     description:
-      '95th-minute winner! Lozano lifts San Diego FC past LA Galaxy in dramatic style.',
+      'San Diego FC secures a dramatic win with a late goal from Hirving Lozano. Watch the highlights and get tickets.',
     images: [
       'https://assets.goal.com/images/v3/getty-2216178867/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216178867.jpg?auto=webp&format=pjpg&width=3840&quality=60',
     ],
-    creator: '@us11fc', // stavi svoj Twitter handle ako imaš
+    creator: '@tvojTwitterHandle', // zameni ako imaš
   },
 };
 
-export default function LozanoLayout({ children }) {
+export default function ChuckyLozanoLayout({ children }) {
   return <>{children}</>;
 }
