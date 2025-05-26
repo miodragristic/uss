@@ -10,7 +10,7 @@ export const metadata = {
       siteName: "US11 FC",
       images: [
         {
-          url: "https://example.com/images/zimmerman-hero.jpg", // zameni stvarnom slikom ako imaš
+          url: "https://the18.com/sites/default/files/styles/x-large_square__4_3_/public/feature-images/20220429-The18-Image-Walker-Zimmerman-GettyImages-1316150108.jpeg?itok=dewBb8Ju", // zameni stvarnom slikom ako imaš
           width: 1200,
           height: 800,
         },
