@@ -6,7 +6,7 @@ const SanDiegoBrawl = () => {
     <div className='w-full min-h-screen bg-white'>
       <div className='max-w-4xl mx-auto py-8 px-4 md:px-0'>
         <h1 className='text-4xl sm:text-6xl font-bold text-[#020617] mb-8 mt-16 lg:mt-1'>
-          Chaos in California: LA Galaxy vs San Diego FC Turns Violent
+          Chaos in California: San Diego FC vs LA Galaxy Turns Violent
         </h1>
 
         <img
