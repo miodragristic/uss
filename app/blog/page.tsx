@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 23,
+      title: 'Chaos in California: LA Galaxy vs San Diego FC Turns Violent',
+      author: 'Mio Ristic',
+      date: 'May 26, 2025',
+      excerpt: 'After the final whistle blew in a tense showdown between LA Galaxy and new rivals San Diego FC',
+      imageUrl: 'https://assets.goal.com/images/v3/getty-2212164120/crop/MM5DIOBWGU5DENZTG45G433XMU5DAORSGUZQ====/GettyImages-2212164120.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      slug: 'rivalry-on-the-edge',
+    },
+    {
       id: 21,
       title: 'Chucky Lozano: San Diego’s Last-Minute Hero',
       author: 'Mio Ristic',
@@ -24,7 +33,7 @@ const Blog = () => {
       id: 20,
       title: 'Walker Zimmerman Is Back',
       author: 'Mio Ristic',
-      date: 'May 26, 2025',
+      date: 'May 25, 2025',
       excerpt: 'After a period sidelined by injury, Walker Zimmerman returns to strengthen Nashville SC’s defense.',
       imageUrl: 'https://the18.com/sites/default/files/styles/x-large_square__4_3_/public/feature-images/20220429-The18-Image-Walker-Zimmerman-GettyImages-1316150108.jpeg?itok=dewBb8Ju',
       slug: 'zimmerman-is-back',
