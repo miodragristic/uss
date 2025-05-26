@@ -4,7 +4,7 @@ export const metadata = {
   openGraph: {
     title: 'Chucky Lozano: San Diego’s Last-Minute Hero Against LA Galaxy',
     description: 'Lozano scores in the 95th minute to lift San Diego FC over LA Galaxy. The city erupts. A moment to remember.',
-    url: 'https://www.us11fc.com',
+    url: 'https://www.us11fc.com/blog/lozano-becomes-a-san-diego-legend',
     siteName: 'US11',
     images: [
       {
