@@ -1,34 +1,95 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      'images.supersport.com',
-      'assets.goal.com',
-      'nb1.hu',
-      'icdn.sempreinter.com',
-      'en.nogomania.com',
-      'assets.spox.com',
-      'www.parismatch.com',
-      'images.topps.com',
-      'www.mlsstore.com',
-      'i.pinimg.com',
-      'images.unsplash.com',
-      'www.mlssoccer.com',
-      'phantom-marca.unidadeditorial.es',
-      'assets.bundesliga.com',
-      'www.telegram.hr',
-      'www.amazon.com',
-      'm.media-amazon.com',
-      'drop-assets.ea.com',
-      'images.pexels.com',
-      'the18.com',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.supersport.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.goal.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.hu',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.sempreinter.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.nogomania.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.spox.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.parismatch.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.topps.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.mlsstore.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.pinimg.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.mlssoccer.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.unidadeditorial.es',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.bundesliga.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.telegram.hr',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.amazon.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'drop-assets.ea.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'the18.com',
+      },
     ],
   },
   env: {
-    PRERENDER_TOKEN: process.env.PRERENDER_TOKEN,
+    PRERENDER_TOKEN: process.env.PRERENDER_TOKEN || '',
   },
 };
 
 module.exports = nextConfig;
+
 
 
