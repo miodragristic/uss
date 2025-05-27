@@ -8,7 +8,7 @@ export const metadata = {
     title: 'Chaos in California: LA Galaxy vs San Diego FC Turns Violent',
     description:
       'Tensions boil over after LA Galaxy fall to San Diego FC. Read about the violent post-match clash and what it means for MLS.',
-    url: 'https://www.us11fc.com/',
+    url: 'https://www.us11fc.com/san-diego-brawl',
     siteName: 'MLS Fan Store',
     images: [
       {
