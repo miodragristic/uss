@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 24,
+      title: 'Why Mauricio Pochettino Is Facing Major Backlash Ahead of the 2025 Gold Cup',
+      author: 'Mio Ristic',
+      date: 'May 27, 2025',
+      excerpt: 'The upcoming 2025 CONCACAF Gold Cup is stirring up excitement on and off the pitch, especially among U.S. soccer fans.',
+      imageUrl: 'https://assets.goal.com/images/v3/getty-2193742272/crop/MM5DCOBQHA5DCMBRG45G433XMU5DKOBZHI3DI===/GettyImages-2193742272.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      slug: 'why-mauricio-pochettino-is-facing',
+    },
+    {
       id: 23,
       title: 'Chaos in California: LA Galaxy vs San Diego FC Turns Violent',
       author: 'Mio Ristic',
