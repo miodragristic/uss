@@ -12,7 +12,7 @@ export const metadata = {
       siteName: "US11 FC",
       images: [
         {
-          url: "https://assets.goal.com/images/v3/getty-2212164120/crop/MM5DIOBWGU5DENZTG45G433XMU5DAORSGUZQ====/GettyImages-2212164120.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+          url: "https://assets.goal.com/images/v3/getty-2212164120/crop/MM5DIOBWGU5DENZTG45G433XMU5DAORSGUZQ====/GettyImages-2212164120.jpg?auto=webp&format=pjpg&width=3840&quality=60",
           width: 1200,
           height: 800,
           alt: "LA Galaxy vs San Diego FC Brawl",
@@ -27,9 +27,9 @@ export const metadata = {
       description:
         "Tensions explode as a brawl erupts between fans during LA Galaxy vs San Diego FC, raising questions about safety and rivalry culture in MLS.",
       images: [
-        "https://assets.goal.com/images/v3/getty-2212164120/crop/MM5DIOBWGU5DENZTG45G433XMU5DAORSGUZQ====/GettyImages-2212164120.jpg?auto=webp&format=pjpg&width=1200&quality=80",
+        "https://assets.goal.com/images/v3/getty-2212164120/crop/MM5DIOBWGU5DENZTG45G433XMU5DAORSGUZQ====/GettyImages-2212164120.jpg?auto=webp&format=pjpg&width=3840&quality=60",
       ],
-      creator: "@us11fc", // Promeni ako koristiš drugi Twitter handle
+      creator: "@us11fc", // promeni ako koristiš drugi Twitter handle
     },
   };
   
