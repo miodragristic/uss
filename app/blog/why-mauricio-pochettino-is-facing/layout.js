@@ -6,7 +6,7 @@ export const metadata = {
       title: 'Why Mauricio Pochettino Is Facing Backlash Ahead of the Gold Cup',
       description:
         'USMNT head coach Mauricio Pochettino faces criticism for his roster choices and team culture as the Gold Cup approaches.',
-      url: 'https://www.us11fc.com/blog/why-mauricio-pochettino-is-facing-backlash',
+      url: 'https://www.us11fc.com/blog/why-mauricio-pochettino-is-facing',
       siteName: 'MLS Fan Store',
       images: [
         {

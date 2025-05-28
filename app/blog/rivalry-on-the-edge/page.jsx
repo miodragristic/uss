@@ -82,4 +82,4 @@ Copyright: 2025 Getty Images
   );
 };
 
-export default SanDiegoBrawl;  
+
