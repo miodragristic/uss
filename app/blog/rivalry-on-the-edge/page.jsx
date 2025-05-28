@@ -16,21 +16,18 @@ const SanDiegoBrawl = () => {
         />
 
         <div className="mb-10 text-center text-sm text-gray-500">
-          <p>Creator: Sean M. Haffey 
-| 
-Credit: Getty Images
-Copyright: 2025 Getty Images
-</p>
+          <p>
+            Creator: Sean M. Haffey | Credit: Getty Images | Copyright: 2025 Getty Images
+          </p>
         </div>
 
         <div className='flex justify-center space-x-4 mt-4 mb-4'>
-        <Link href='/teams/san-diego' className='bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg'>
+          <Link href='/teams/san-diego' className='bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg'>
             San Diego FC
           </Link>
           <Link href='/teams/la-galaxy' className='bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-lg'>
             LA Galaxy
           </Link>
-          
         </div>
 
         <div className='space-y-6 text-[#020617] text-lg mb-10'>
@@ -57,8 +54,6 @@ Copyright: 2025 Getty Images
             In a rare act of unity, both clubs released a joint statement condemning the violence: “Soccer is meant to unite. What happened in the stands does not reflect our clubs, our players, or our true fans.”
           </p>
 
-        
-
           <h2 className='text-xl font-semibold mt-8'>📎 Final Thoughts</h2>
           <p>
             Rivalries fuel the fire of football, but the line between passion and violence must never blur. Saturday night’s events serve as a reminder that fan behavior is as much a part of the game’s integrity as anything on the pitch.
@@ -66,20 +61,19 @@ Copyright: 2025 Getty Images
         </div>
 
         <div className="flex justify-center mb-8">
-  <iframe
-    width="100%"
-    height="400"
-    src="https://www.youtube.com/embed/mvIxpYILwCA"
-    title="San Diego FC vs LA Galaxy Brawl"
-    frameBorder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-</div>
-
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/mvIxpYILwCA"
+            title="San Diego FC vs LA Galaxy Brawl"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
 };
 
-
+export default SanDiegoBrawl;
