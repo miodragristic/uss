@@ -81,7 +81,7 @@ const blogPosts = [
     date: 'May 28, 2025',
     excerpt: 'Rumors link Ángel Di María with Inter Miami, promising excitement and questions. Will this signing last or fizzle out?',
     imageUrl: 'https://dynamo.kiev.ua/media/posts/2024/03/24/GettyImages-2097724773.jpg',
-    link: 'blog/di-maria-to-inter-miami',
+    link: 'blog/di-maria-inter-miami',
   },
   {
     id: 24,
@@ -128,15 +128,7 @@ const blogPosts = [
       imageUrl: 'https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp',
       link: '/blog/top-mls-jersey2024',
     },
-    {
-      id: 18,
-      title: ' Vancouver Whitecaps: A Club for Sale, Currently First in the West',
-      author: 'Mio Ristic',
-      date: 'April 20, 2025',
-      excerpt: ' A Club for Sale, Currently First in the West',
-      imageUrl: 'https://assets.goal.com/images/v3/getty-2209348788/crop/MM5DINZZGU5DENRZG45G433XMU5DAORSGUYA====/GettyImages-2209348788.jpg?auto=webp&format=pjpg&width=3840&quality=60',
-      link: '/blog/vancouver-whitecaps-for-sale',
-    },
+ 
     
     
     

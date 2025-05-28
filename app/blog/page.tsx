@@ -18,7 +18,7 @@ const Blog = () => {
       date: 'May 28, 2025',
       excerpt: 'Rumors link Ángel Di María with Inter Miami, promising excitement and questions. Will this signing last or fizzle out?',
       imageUrl: 'https://dynamo.kiev.ua/media/posts/2024/03/24/GettyImages-2097724773.jpg',
-      slug: 'di-maria-to-inter-miami',
+      slug: 'di-maria-inter-miami',
     },
     {
       id: 24,

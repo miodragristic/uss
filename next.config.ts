@@ -22,6 +22,7 @@ const nextConfig = {
       'drop-assets.ea.com',
       'images.pexels.com',
       'the18.com',
+      'dynamo.kiev.ua'
     ],
   },
 };

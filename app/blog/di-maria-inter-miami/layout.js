@@ -6,7 +6,7 @@ export const metadata = {
       title: 'Di María to Inter Miami: The Last Dance or Just Another Flash?',
       description:
         'Explore the potential impact and risks of Ángel Di María joining Inter Miami alongside Lionel Messi in MLS.',
-      url: 'https://www.us11fc.com/di-maria-inter-miami',
+      url: 'https://www.us11fc.com/blog/di-maria-inter-miami',
       siteName: 'MLS Fan Store',
       images: [
         {
