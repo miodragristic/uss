@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 25,
+      title: 'Di María to Inter Miami: The Last Dance or Just Another Flash',
+      author: 'Mio Ristic',
+      date: 'May 28, 2025',
+      excerpt: 'Rumors link Ángel Di María with Inter Miami, promising excitement and questions. Will this signing last or fizzle out?',
+      imageUrl: 'https://dynamo.kiev.ua/media/posts/2024/03/24/GettyImages-2097724773.jpg',
+      slug: 'di-maria-to-inter-miami',
+    },
+    {
       id: 24,
       title: 'Why Mauricio Pochettino Is Facing Major Backlash Ahead of the 2025 Gold Cup',
       author: 'Mio Ristic',
