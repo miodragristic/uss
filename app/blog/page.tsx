@@ -12,9 +12,18 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 27,
+      title: "USL Is Building the Future of American Soccer",
+      author: "Mio Ristic",
+      date: "May 30, 2025",
+      excerpt: "In a world of fleeting hype, USL builds lasting success through vision, community, and sustainable growth in American soccer.",
+      imageUrl: "https://the18.com/sites/default/files/feature-images/GettyImages-1258549217.jpg",
+      slug: "usl-future",
+    },    
+    {
       id: 26,
       title: "MLS Round Recap: 13 Matches, 1 Night, Pure Chaos",
-      author: "Mio Ristic",
+      author: "Mio 29, Ristic",
       date: "May 2025",
       excerpt: "From Messi’s magic in Miami to Galaxy’s meltdown in LA — Matchday 16 in MLS was packed with drama, goals, and surprises.",
       imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1884518040-scaled.jpg",

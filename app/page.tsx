@@ -75,6 +75,15 @@ const slides = [
 
 const blogPosts = [
   {
+    id: 27,
+    title: "USL Is Building the Future of American Soccer",
+    author: "Mio Ristic",
+    date: "May 30, 2025",
+    excerpt: "In a world of fleeting hype, USL builds lasting success through vision, community, and sustainable growth in American soccer.",
+    imageUrl: "https://the18.com/sites/default/files/feature-images/GettyImages-1258549217.jpg",
+    link: "blog/usl-future",
+  }, 
+  {
     id: 26,
     title: "MLS Round Recap: 13 Matches, 1 Night, Pure Chaos",
     author: "Mio Ristic",
@@ -119,15 +128,7 @@ const blogPosts = [
     imageUrl: 'https://assets.goal.com/images/v3/getty-2216178867/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216178867.jpg?auto=webp&format=pjpg&width=3840&quality=60',
     link: '/blog/lozano-becomes-a-san-diego-legend',
   },
-  {
-    id: 20,
-    title: 'Walker Zimmerman Is Back',
-    author: 'Mio Ristic',
-    date: 'May 25, 2025',
-    excerpt: 'After a period sidelined by injury, Walker Zimmerman returns to strengthen Nashville SC’s defense.',
-    imageUrl: 'https://the18.com/sites/default/files/styles/x-large_square__4_3_/public/feature-images/20220429-The18-Image-Walker-Zimmerman-GettyImages-1316150108.jpeg?itok=dewBb8Ju',
-    link: '/blog/zimmerman-is-back',
-   },
+  
  
  
     
