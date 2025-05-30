@@ -75,6 +75,15 @@ const slides = [
 
 const blogPosts = [
   {
+    id: 26,
+    title: "MLS Round Recap: 13 Matches, 1 Night, Pure Chaos",
+    author: "Mio Ristic",
+    date: "May 2025",
+    excerpt: "From Messi’s magic in Miami to Galaxy’s meltdown in LA — Matchday 16 in MLS was packed with drama, goals, and surprises.",
+    imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1884518040-scaled.jpg",
+    link: "blog/mls-round-recap",
+  },    
+  {
     id: 25,
     title: 'Di María to Inter Miami: The Last Dance or Just Another Flash',
     author: 'Mio Ristic',
@@ -119,15 +128,7 @@ const blogPosts = [
     imageUrl: 'https://the18.com/sites/default/files/styles/x-large_square__4_3_/public/feature-images/20220429-The18-Image-Walker-Zimmerman-GettyImages-1316150108.jpeg?itok=dewBb8Ju',
     link: '/blog/zimmerman-is-back',
    },
-   {
-      id: 19,
-      title: ' Top 10 MLS Jerseys of 2024',
-      author: 'Mio Ristic',
-      date: 'April 23, 2025',
-      excerpt: ' Style, Passion & a Bit of Magic',
-      imageUrl: 'https://images.supersport.com/media/0adn4b1p/lionel-messi-24-12-g-1200.jpg?width=1920&quality=90&format=webp',
-      link: '/blog/top-mls-jersey2024',
-    },
+ 
  
     
     

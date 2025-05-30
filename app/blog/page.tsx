@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 26,
+      title: "MLS Round Recap: 13 Matches, 1 Night, Pure Chaos",
+      author: "Mio Ristic",
+      date: "May 2025",
+      excerpt: "From Messi’s magic in Miami to Galaxy’s meltdown in LA — Matchday 16 in MLS was packed with drama, goals, and surprises.",
+      imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1884518040-scaled.jpg",
+      slug: "mls-round-recap",
+    },    
+    {
       id: 25,
       title: 'Di María to Inter Miami: The Last Dance or Just Another Flash',
       author: 'Mio Ristic',
