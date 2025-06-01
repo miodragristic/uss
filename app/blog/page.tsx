@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 30,
+      title: "Cruz Azul vs Vancouver Whitecaps: Historic Night Awaits Canadian Club in Concacaf Champions Cup Final",
+      author: "Mio Ristic",
+      date: "Jun 1, 2025",
+      excerpt: "Since joining MLS in 2011, Vancouver has steadily grown but never before reached this continental final.",
+      imageUrl: "https://assets.goal.com/images/v3/getty-2202919913/crop/MM5DGMJUGM5DCNZWHA5G433XMU5DAORRGY2A====/GettyImages-2202919913.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      slug: "cruz-azul-vs-vancouver-whitecaps",
+    },
+    {
       id: 29,
       title: "MLS Roundup: Messi Shines, San Diego Surges, and DC United Stuns Cincinnati",
       author: "Mio Ristic",
