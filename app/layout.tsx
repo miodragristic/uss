@@ -1,8 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google"; // ⬅️ Dodato
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+// Font konfiguracija
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,6 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// SEO meta podaci
 export const metadata = {
   title: {
     default: "US11",
@@ -21,12 +24,13 @@ export const metadata = {
   description: "MLS News and Analysis by US11",
   openGraph: {
     title: "US11 - MLS News and Analysis",
-    description: "Stay updated with the latest insights and analysis from Major League Soccer.",
-    url: "https://www.us11fc.com", // zameni sa pravim URL-om sajta
+    description:
+      "Stay updated with the latest insights and analysis from Major League Soccer.",
+    url: "https://www.us11fc.com",
     siteName: "US11",
     images: [
       {
-        url: "/favico.ico", // koristi relativnu putanju ili pun URL
+        url: "/favico.ico",
         width: 1200,
         height: 630,
         alt: "US11 - MLS coverage",
@@ -39,10 +43,11 @@ export const metadata = {
     card: "summary_large_image",
     title: "US11 - MLS News and Analysis",
     description: "Latest MLS coverage, news and expert insights by US11.",
-    images: ["https://www.us11fc.com/og-image.jpg"], // zameni sa stvarnom slikom
+    images: ["https://www.us11fc.com/og-image.jpg"],
   },
 };
 
+// Layout komponenta
 export default function RootLayout({
   children,
 }: {
@@ -54,10 +59,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <main className="flex-grow pt-[150px]">
-          {children}
-        </main>
+        <main className="flex-grow pt-[150px]">{children}</main>
         <Footer />
+        <GoogleAnalytics gaId="G-ZCKQ7R7PSQ" /> {/* ⬅️ Google Analytics */}
       </body>
     </html>
   );
