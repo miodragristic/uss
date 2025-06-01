@@ -128,15 +128,7 @@ const blogPosts = [
     imageUrl: 'https://assets.goal.com/images/v3/getty-2212164120/crop/MM5DIOBWGU5DENZTG45G433XMU5DAORSGUZQ====/GettyImages-2212164120.jpg?auto=webp&format=pjpg&width=3840&quality=60',
     link: '/blog/rivalry-on-the-edge',
   },
-  {
-    id: 22,
-    title: 'Chucky Lozano: San Diego’s Last-Minute Hero',
-    author: 'Mio Ristic',
-    date: 'May 25, 2025',
-    excerpt: 'Hirving "Chucky" Lozano scored a dramatic 95th-minute winner to secure a thrilling victory for San Diego FC against LA Galaxy.',
-    imageUrl: 'https://assets.goal.com/images/v3/getty-2216178867/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216178867.jpg?auto=webp&format=pjpg&width=3840&quality=60',
-    link: '/blog/lozano-becomes-a-san-diego-legend',
-  },
+  
   
  
  
