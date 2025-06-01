@@ -1,10 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google"; // ⬅️ Dodato
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-// Font konfiguracija
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// SEO meta podaci
 export const metadata = {
   title: {
     default: "US11",
@@ -47,7 +46,6 @@ export const metadata = {
   },
 };
 
-// Layout komponenta
 export default function RootLayout({
   children,
 }: {
@@ -61,7 +59,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-grow pt-[150px]">{children}</main>
         <Footer />
-        <GoogleAnalytics gaId="G-ZCKQ7R7PSQ" /> {/* ⬅️ Google Analytics */}
+        <GoogleAnalytics gaId="G-ZCKQ7R7PSQ" />
       </body>
     </html>
   );
