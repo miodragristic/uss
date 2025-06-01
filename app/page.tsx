@@ -75,6 +75,15 @@ const slides = [
 
 const blogPosts = [
   {
+    id: 29,
+    title: "MLS Roundup: Messi Shines, San Diego Surges, and DC United Stuns Cincinnati",
+    author: "Mio Ristic",
+    date: "May 31, 2025",
+    excerpt: "Major League Soccer's latest matchday was packed with drama, brilliance, and shifting momentum across both conferences.",
+    imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1884518040-scaled.jpg",
+    link: "blog/mls-round-recap-2",
+  },
+  {
     id: 28,
     title: "Obed Vargas: The Future of MLS",
     author: "Mio Ristic",
@@ -119,15 +128,7 @@ const blogPosts = [
     imageUrl: 'https://assets.goal.com/images/v3/getty-2193742272/crop/MM5DCOBQHA5DCMBRG45G433XMU5DKOBZHI3DI===/GettyImages-2193742272.jpg?auto=webp&format=pjpg&width=3840&quality=60',
     link: '/blog/why-mauricio-pochettino-is-facing',
   },
-  {
-    id: 23,
-    title: 'Chaos in California: LA Galaxy vs San Diego FC Turns Violent',
-    author: 'Mio Ristic',
-    date: 'May 26, 2025',
-    excerpt: 'After the final whistle blew in a tense showdown between LA Galaxy and new rivals San Diego FC',
-    imageUrl: 'https://assets.goal.com/images/v3/getty-2212164120/crop/MM5DIOBWGU5DENZTG45G433XMU5DAORSGUZQ====/GettyImages-2212164120.jpg?auto=webp&format=pjpg&width=3840&quality=60',
-    link: '/blog/rivalry-on-the-edge',
-  },
+
   
   
  

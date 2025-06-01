@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 29,
+      title: "MLS Roundup: Messi Shines, San Diego Surges, and DC United Stuns Cincinnati",
+      author: "Mio Ristic",
+      date: "May 31, 2025",
+      excerpt: "Major League Soccer's latest matchday was packed with drama, brilliance, and shifting momentum across both conferences.",
+      imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1884518040-scaled.jpg",
+      slug: "mls-round-recap-2",
+    },
+    {
       id: 28,
       title: "Obed Vargas: The Future of MLS",
       author: "Mio Ristic",
