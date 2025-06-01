@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 28,
+      title: "Obed Vargas: The Future of MLS",
+      author: "Mio Ristic",
+      date: "May 31, 2025",
+      excerpt: "From Alaska to the Club World Cup: Obed Vargas Is MLS’s Brightest Young Star.",
+      imageUrl: "https://sports.mynorthwest.com/wp-content/uploads/2024/04/Obed-Vargas-plays-for-the-Seattle-Sounders-ball-on-ground-Getty-900.jpg",
+      slug: "obed-vargas-heart",
+    },  
+    {
       id: 27,
       title: "USL Is Building the Future of American Soccer",
       author: "Mio Ristic",

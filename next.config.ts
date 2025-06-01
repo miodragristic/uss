@@ -25,6 +25,7 @@ const nextConfig = {
       'dynamo.kiev.ua',
       'cdn1.intermiami.news',
       'the18.com',
+      'sports.mynorthwest.com',
     ],
   },
 };
