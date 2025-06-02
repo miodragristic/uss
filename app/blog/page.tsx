@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 32,
+      title: "Rodríguez to Inter Miami – A Move Full of Promise?",
+      author: "Mio Ristic",
+      date: "Jun 2, 2025",
+      excerpt: "Inter Miami continues to dream big.",
+      imageUrl: "https://assets.goal.com/images/v3/getty-2210154915/crop/MM5DGMRQGA5DCOBQGA5G433XMU5DGNRYHIYTEMQ=/GettyImages-2210154915.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      slug: "brian-rodriguez-inter-miam",
+    },
+    {
       id: 31,
       title: "Cruz Azul Crushes Vancouver Whitecaps 5-0 to Win Record-Tying 7th Concacaf Title",
       author: "Mio Ristic",
