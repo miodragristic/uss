@@ -81,7 +81,7 @@ const blogPosts = [
     date: "Jun 2, 2025",
     excerpt: "Inter Miami continues to dream big.",
     imageUrl: "https://assets.goal.com/images/v3/getty-2210154915/crop/MM5DGMRQGA5DCOBQGA5G433XMU5DGNRYHIYTEMQ=/GettyImages-2210154915.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "blog/brian-rodriguez-inter-miam",
+    link: "blog/brian-rodriguez-inter-miami",
   },
   {
     id: 31,
