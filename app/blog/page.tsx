@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 31,
+      title: "Cruz Azul Crushes Vancouver Whitecaps 5-0 to Win Record-Tying 7th Concacaf Title",
+      author: "Mio Ristic",
+      date: "Jun 2, 2025",
+      excerpt: "Cruz Azul delivered one of the most dominant performances in Concacaf history, dismantling Vancouver Whitecaps 5-0 in the 2025 Champions Cup final.",
+      imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7DHMANO6LVHYLD5H4TUGDZTUS4.jpg",
+      slug: "cruz-azul-win",
+    },
+    {
       id: 30,
       title: "Cruz Azul vs Vancouver Whitecaps: Historic Night Awaits Canadian Club in Concacaf Champions Cup Final",
       author: "Mio Ristic",

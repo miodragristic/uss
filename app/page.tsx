@@ -75,6 +75,15 @@ const slides = [
 
 const blogPosts = [
   {
+    id: 31,
+    title: "Cruz Azul Crushes Vancouver Whitecaps 5-0 to Win Record-Tying 7th Concacaf Title",
+    author: "Mio Ristic",
+    date: "Jun 2, 2025",
+    excerpt: "Cruz Azul delivered one of the most dominant performances in Concacaf history, dismantling Vancouver Whitecaps 5-0 in the 2025 Champions Cup final.",
+    imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7DHMANO6LVHYLD5H4TUGDZTUS4.jpg",
+    link: "blog/cruz-azul-win",
+  },
+  {
     id: 30,
     title: "Cruz Azul vs Vancouver Whitecaps: Historic Night Awaits Canadian Club in Concacaf Champions Cup Final",
     author: "Mio Ristic",
@@ -120,15 +129,7 @@ const blogPosts = [
     imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1884518040-scaled.jpg",
     link: "blog/mls-round-recap",
   },    
-  {
-    id: 25,
-    title: 'Di María to Inter Miami: The Last Dance or Just Another Flash',
-    author: 'Mio Ristic',
-    date: 'May 28, 2025',
-    excerpt: 'Rumors link Ángel Di María with Inter Miami, promising excitement and questions. Will this signing last or fizzle out?',
-    imageUrl: 'https://dynamo.kiev.ua/media/posts/2024/03/24/GettyImages-2097724773.jpg',
-    link: 'blog/di-maria-inter-miami',
-  },
+
   
 
   
