@@ -26,7 +26,11 @@ export const metadata = {
       images: [
         'https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7DHMANO6LVHYLD5H4TUGDZTUS4.jpg',
       ],
-      creator: '@mioristic', // zameni svojim Twitter username-om
+      creator: '@mioristic',
     },
   };
+  
+  export default function Layout({ children }) {
+    return <>{children}</>;
+  }
   
