@@ -185,48 +185,47 @@ export default function HomePage() {
         </div>
 
         
-        <div className="hidden md:flex md:flex-col md:items-center md:ml-8 mt-[-290px]">
-          <Link href="https://www.amazon.com/EA-SPORTS-FC-25-PlayStation-5/dp/B0D94PQMTX?_encoding=UTF8&pd_rd_w=fJRXR&content-id=amzn1.sym.c2cf8313-b86b-4327-9de4-9398adaa570b%3Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=c2cf8313-b86b-4327-9de4-9398adaa570b&pf_rd_r=3NBE51DSWDXM3D9NGENZ&pd_rd_wg=kJret&pd_rd_r=bd18fd78-0ca7-4c0f-b9b6-78ce5d2a1724&th=1&linkCode=sl1&tag=us11fc-20&linkId=2301b3814b15a415f8b63db3690103aa&language=en_US&ref_=as_li_ss_tl">
-           
-            <Image
-              src="https://m.media-amazon.com/images/I/81mm+VudgaL._AC_SX522_.jpg"
-              alt="MLS Finals"
-              
-              width={340}
-              height={500}
-              className="mr-20 mt-20 lg:mt-40 xl:mt-48"
-            />
-          </Link>
-          <a
-  href="https://www.amazon.com/EA-SPORTS-FC-25-PlayStation-5/dp/B0D94PQMTX?_encoding=UTF8&pd_rd_w=fJRXR&content-id=amzn1.sym.c2cf8313-b86b-4327-9de4-9398adaa570b%3Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=c2cf8313-b86b-4327-9de4-9398adaa570b&pf_rd_r=3NBE51DSWDXM3D9NGENZ&pd_rd_wg=kJret&pd_rd_r=bd18fd78-0ca7-4c0f-b9b6-78ce5d2a1724&th=1&linkCode=sl1&tag=us11fc-20&linkId=2301b3814b15a415f8b63db3690103aa&language=en_US&ref_=as_li_ss_tl"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-black bg-white group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 flex items-center hover:bg-black hover:border-white hover:text-white rounded-lg transition duration-500 ease-in-out transform hover:scale-105 mr-10 cursor-pointer"
->
-  BUY ON AMAZON
-</a>
-        </div>
-      </div>
+        <div className="hidden md:flex md:flex-col md:items-center mr-20  md:ml-8 mt-[-60px]">
+  <a
+    href="https://mlsstore.i8h2.net/VxV4aj"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      src="https://www.mlsstore.com/content/ws/all/42896c2a-6299-4cdc-9e80-51edc4a4269d__548X893.jpg?w=548"
+      alt="MLS Finals"
+      width={340}
+      height={500}
+      className="rounded-2xl shadow-xl border-4 border-white transition-transform duration-300 hover:scale-105"
+    />
+  </a>
+</div>
+
+  {/* <a
+    href="https://www.amazon.com/EA-SPORTS-FC-25-PlayStation-5/dp/B0D94PQMTX?_encoding=UTF8&pd_rd_w=fJRXR&content-id=amzn1.sym.c2cf8313-b86b-4327-9de4-9398adaa570b%3Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=c2cf8313-b86b-4327-9de4-9398adaa570b&pf_rd_r=3NBE51DSWDXM3D9NGENZ&pd_rd_wg=kJret&pd_rd_r=bd18fd78-0ca7-4c0f-b9b6-78ce5d2a1724&th=1&linkCode=sl1&tag=us11fc-20&linkId=2301b3814b15a415f8b63db3690103aa&language=en_US&ref_=as_li_ss_tl"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white bg-black px-6 py-3 rounded-2xl shadow-md hover:bg-white hover:text-black hover:border-black border-2 border-black transition-all duration-300 ease-in-out transform hover:scale-105"
+  >
+    BUY ON MLS STORE
+  </a> */}
+</div>
+
+       
+      
 
       {/* Mobile version */}
       <div className="flex flex-col items-center ml-8 sm:hidden">
-        <Link href="https://www.amazon.com/EA-SPORTS-FC-25-PlayStation-5/dp/B0D94PQMTX?_encoding=UTF8&pd_rd_w=fJRXR&content-id=amzn1.sym.c2cf8313-b86b-4327-9de4-9398adaa570b%3Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=c2cf8313-b86b-4327-9de4-9398adaa570b&pf_rd_r=3NBE51DSWDXM3D9NGENZ&pd_rd_wg=kJret&pd_rd_r=bd18fd78-0ca7-4c0f-b9b6-78ce5d2a1724&th=1&linkCode=sl1&tag=us11fc-20&linkId=2301b3814b15a415f8b63db3690103aa&language=en_US&ref_=as_li_ss_tl">
+        <Link href="https://mlsstore.i8h2.net/VxV4aj">
           <Image
-            src="https://m.media-amazon.com/images/I/81mm+VudgaL._AC_SX522_.jpg"
+            src="https://www.mlsstore.com/content/ws/all/42896c2a-6299-4cdc-9e80-51edc4a4269d__548X893.jpg?w=548"
             alt="MLS Finals"
             width={340}
             height={500}
             className="mr-20 mt-20"
           />
         </Link>
-        <a 
-  href="https://www.amazon.com/EA-SPORTS-FC-25-PlayStation-5/dp/B0D94PQMTX?_encoding=UTF8&pd_rd_w=fJRXR&content-id=amzn1.sym.c2cf8313-b86b-4327-9de4-9398adaa570b%3Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=c2cf8313-b86b-4327-9de4-9398adaa570b&pf_rd_r=3NBE51DSWDXM3D9NGENZ&pd_rd_wg=kJret&pd_rd_r=bd18fd78-0ca7-4c0f-b9b6-78ce5d2a1724&th=1&linkCode=sl1&tag=us11fc-20&linkId=2301b3814b15a415f8b63db3690103aa&language=en_US&ref_=as_li_ss_tl"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-white bg-black group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 flex items-center hover:bg-black hover:border-white hover:text-white rounded-lg transition duration-500 ease-in-out transform hover:scale-105 ml-2 cursor-pointer"
->
-  BUY ON AMAZON
-</a>
+        
       </div>
 
       {/* New Banner Style Slider */}
