@@ -129,15 +129,7 @@ const blogPosts = [
     imageUrl: "https://sports.mynorthwest.com/wp-content/uploads/2024/04/Obed-Vargas-plays-for-the-Seattle-Sounders-ball-on-ground-Getty-900.jpg",
     link: "blog/obed-vargas-heart",
   },  
-  {
-    id: 27,
-    title: "USL Is Building the Future of American Soccer",
-    author: "Mio Ristic",
-    date: "May 30, 2025",
-    excerpt: "In a world of fleeting hype, USL builds lasting success through vision, community, and sustainable growth in American soccer.",
-    imageUrl: "https://the18.com/sites/default/files/feature-images/GettyImages-1258549217.jpg",
-    link: "blog/usl-future",
-  }, 
+
   
 
   
