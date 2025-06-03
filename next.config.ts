@@ -26,7 +26,10 @@ const nextConfig = {
       'cdn1.intermiami.news',
       'the18.com',
       'sports.mynorthwest.com',
-      'cloudfront-us-east-1.images.arcpublishing.com'
+      'cloudfront-us-east-1.images.arcpublishing.com',
+      'nbcsports.brightspotcdn.com',
+      
+
     ],
   },
 };

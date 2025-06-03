@@ -75,6 +75,15 @@ const slides = [
 
 const blogPosts = [
   {
+    id: 33,
+    title: "Benny Feilhaber Joins Oakland Roots as Head Coach",
+    author: "Mio Ristic",
+    date: "Jun 3, 2025",
+    excerpt: "Oakland Roots appoint Benny Feilhaber as new head coach to turn around their 2025 USL Championship season.",
+    imageUrl: "https://nbcsports.brightspotcdn.com/dims4/default/ffca0a4/2147483647/strip/false/crop/594x334+0+38/resize/1200x675!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff8%2F3a%2Fb5cd3855315c7e9b985262a12b2b%2Fgettyimages-74382598.jpg",
+    link: "blog/benny_feilhaber_joins_oakland_roots",
+  },
+  {
     id: 32,
     title: "Rodríguez to Inter Miami – A Move Full of Promise?",
     author: "Mio Ristic",
