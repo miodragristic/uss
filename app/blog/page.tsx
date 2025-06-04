@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      id: 34,
+      title: "Seattle Sounders vs. the Giants – Mission Impossible?",
+      author: "Mio Ristic",
+      date: "Jun 4, 2025",
+      excerpt: "Seattle Sounders face Botafogo, Atlético Madrid, and PSG in a brutal Club World Cup group. Can the MLS side defy the odds?",
+      imageUrl: "https://assets.goal.com/images/v3/getty-2204038021/crop/MM5DGOJYG45DEMRUGM5G433XMU5DAORSGA4A====/GettyImages-2204038021.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      slug: "seattle-sounders-vs-the-giants"
+    },    
+    {
       id: 33,
       title: "Benny Feilhaber Joins Oakland Roots as Head Coach",
       author: "Mio Ristic",

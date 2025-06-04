@@ -75,6 +75,15 @@ const slides = [
 
 const blogPosts = [
   {
+    id: 34,
+    title: "Seattle Sounders vs. the Giants – Mission Impossible?",
+    author: "Mio Ristic",
+    date: "Jun 4, 2025",
+    excerpt: "Seattle Sounders face Botafogo, Atlético Madrid, and PSG in a brutal Club World Cup group. Can the MLS side defy the odds?",
+    imageUrl: "https://assets.goal.com/images/v3/getty-2204038021/crop/MM5DGOJYG45DEMRUGM5G433XMU5DAORSGA4A====/GettyImages-2204038021.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    link: "blog/seattle-sounders-vs-the-giants"
+  },    
+  {
     id: 33,
     title: "Benny Feilhaber Joins Oakland Roots as Head Coach",
     author: "Mio Ristic",
@@ -120,15 +129,7 @@ const blogPosts = [
     imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1884518040-scaled.jpg",
     link: "blog/mls-round-recap-2",
   },
-  {
-    id: 28,
-    title: "Obed Vargas: The Future of MLS",
-    author: "Mio Ristic",
-    date: "May 31, 2025",
-    excerpt: "From Alaska to the Club World Cup: Obed Vargas Is MLS’s Brightest Young Star.",
-    imageUrl: "https://sports.mynorthwest.com/wp-content/uploads/2024/04/Obed-Vargas-plays-for-the-Seattle-Sounders-ball-on-ground-Getty-900.jpg",
-    link: "blog/obed-vargas-heart",
-  },  
+
 
   
 
