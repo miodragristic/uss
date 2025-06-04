@@ -10,7 +10,7 @@ export const metadata = {
       siteName: 'MLS Fan Store',
       images: [
         {
-          url: 'https://assets.goal.com/images/v3/getty-2204038021/crop/MM5DGOJYG45DEMRUGM5G433XMU5DAORSGA4A====/GettyImages-2204038021.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+          url: 'https://energynews.rs/sites/energynews.rs/files/styles/large/public/content/images/2025-06/shutterstock_2499244741.jpg.webp?itok=djdfZ-lO',
           width: 1200,
           height: 800,
         },
