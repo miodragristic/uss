@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 35,
+      "title": "LA Galaxy End Winless Streak with 2-0 Victory Over Real Salt Lake",
+      "author": "Mio Ristić",
+      "date": "Jun 5, 2025",
+      "excerpt": "After 16 matches without a win, LA Galaxy finally breaks their streak with a 2-0 home win against Real Salt Lake, sparking hope for a comeback.",
+      "imageUrl": "https://energynews.rs/sites/energynews.rs/files/styles/large/public/content/images/2025-06/shutterstock_2499244741.jpg.webp?itok=djdfZ-lO",
+      "slug": "galaxy-first-win"
+    },    
+    {
       id: 34,
       title: "Seattle Sounders vs. the Giants – Mission Impossible?",
       author: "Mio Ristic",
