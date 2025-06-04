@@ -129,15 +129,7 @@ const blogPosts = [
     link: "blog/cruz-azul-vs-vancouver-whitecaps",
   },
   
-  {
-    id: 29,
-    title: "MLS Roundup: Messi Shines, San Diego Surges, and DC United Stuns Cincinnati",
-    author: "Mio Ristic",
-    date: "May 31, 2025",
-    excerpt: "Major League Soccer's latest matchday was packed with drama, brilliance, and shifting momentum across both conferences.",
-    imageUrl: "https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1884518040-scaled.jpg",
-    link: "blog/mls-round-recap-2",
-  },
+
 
 
   
