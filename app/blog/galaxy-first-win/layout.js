@@ -10,7 +10,7 @@ export const metadata = {
       siteName: 'MLS Fan Store',
       images: [
         {
-          url: 'hhttps://energynews.rs/sites/energynews.rs/files/styles/large/public/content/images/2025-06/shutterstock_2499244741.jpg.webp?itok=djdfZ-lO',
+          url: 'https://energynews.rs/sites/energynews.rs/files/styles/large/public/content/images/2025-06/shutterstock_2499244741.jpg.webp?itok=djdfZ-lO',
           width: 1200,
           height: 800,
         },
