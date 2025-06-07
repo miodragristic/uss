@@ -75,6 +75,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 36,
+    "title": "USMNT Scores Early but Falls to Turkey – Friendly Loss Sparks Concern",
+    "author": "Mio Ristic",
+    "date": "Jun 8, 2025",
+    "excerpt": "Despite Jack McGlynn's early strike, the USMNT suffered a 2-1 defeat to Turkey, raising concerns ahead of the Gold Cup.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2193998658/crop/MM5DIMRUG45DEMZYHE5G433XMU5DAORSGIYQ====/GettyImages-2193998658.jpg",
+    "link": "blog/us-vs-tur"
+  },  
+  {
     id: 35,
     title: "LA Galaxy End Winless Streak with 2-0 Victory Over Real Salt Lake",
     author: "Mio Ristić",
@@ -119,15 +128,7 @@ const blogPosts = [
     imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7DHMANO6LVHYLD5H4TUGDZTUS4.jpg",
     link: "blog/cruz-azul-win",
   },
-  {
-    id: 30,
-    title: "Cruz Azul vs Vancouver Whitecaps: Historic Night Awaits Canadian Club in Concacaf Champions Cup Final",
-    author: "Mio Ristic",
-    date: "Jun 1, 2025",
-    excerpt: "Since joining MLS in 2011, Vancouver has steadily grown but never before reached this continental final.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2202919913/crop/MM5DGMJUGM5DCNZWHA5G433XMU5DAORRGY2A====/GettyImages-2202919913.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "blog/cruz-azul-vs-vancouver-whitecaps",
-  },
+
   
 
 

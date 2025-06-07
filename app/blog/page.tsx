@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 36,
+      "title": "USMNT Scores Early but Falls to Turkey – Friendly Loss Sparks Concern",
+      "author": "Mio Ristic",
+      "date": "Jun 8, 2025",
+      "excerpt": "Despite Jack McGlynn's early strike, the USMNT suffered a 2-1 defeat to Turkey, raising concerns ahead of the Gold Cup.",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2193998658/crop/MM5DIMRUG45DEMZYHE5G433XMU5DAORSGIYQ====/GettyImages-2193998658.jpg",
+      "slug": "us-vs-tur"
+    },    
+    {
       "id": 35,
       "title": "LA Galaxy End Winless Streak with 2-0 Victory Over Real Salt Lake",
       "author": "Mio Ristić",
