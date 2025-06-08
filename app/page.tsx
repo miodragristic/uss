@@ -73,7 +73,17 @@ const slides = [
   }
 ];
 
+
 const blogPosts = [
+  {
+    "id": 37,
+    "title": "Jamie Vardy & MLS Rumors: Why a Move Looks Less Likely",
+    "author": "Mio Ristic",
+    "date": "Jun 8, 2025",
+    "excerpt": "Despite interest from Charlotte FC and MLS clubs, Jamie Vardy’s future looks more Europe-bound, with Rangers FC emerging as a top contender.",
+    "imageUrl": "https://assets.goal.com/images/v3/blt441143863bcbc649/2.jpg",
+    "link": "blog/vardy-mls"
+  },  
   {
     "id": 36,
     "title": "USMNT Scores Early but Falls to Turkey – Friendly Loss Sparks Concern",
@@ -119,15 +129,7 @@ const blogPosts = [
     imageUrl: "https://assets.goal.com/images/v3/getty-2210154915/crop/MM5DGMRQGA5DCOBQGA5G433XMU5DGNRYHIYTEMQ=/GettyImages-2210154915.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     link: "blog/brian-rodriguez-inter-miami",
   },
-  {
-    id: 31,
-    title: "Cruz Azul Crushes Vancouver Whitecaps 5-0 to Win Record-Tying 7th Concacaf Title",
-    author: "Mio Ristic",
-    date: "Jun 2, 2025",
-    excerpt: "Cruz Azul delivered one of the most dominant performances in Concacaf history, dismantling Vancouver Whitecaps 5-0 in the 2025 Champions Cup final.",
-    imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7DHMANO6LVHYLD5H4TUGDZTUS4.jpg",
-    link: "blog/cruz-azul-win",
-  },
+
 
   
 

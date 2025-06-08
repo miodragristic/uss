@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 37,
+      "title": "Jamie Vardy & MLS Rumors: Why a Move Looks Less Likely",
+      "author": "Mio Ristic",
+      "date": "Jun 8, 2025",
+      "excerpt": "Despite interest from Charlotte FC and MLS clubs, Jamie Vardy’s future looks more Europe-bound, with Rangers FC emerging as a top contender.",
+      "imageUrl": "https://assets.goal.com/images/v3/blt441143863bcbc649/2.jpg",
+      "slug": "vardy-mls"
+    },  
+    {
       "id": 36,
       "title": "USMNT Scores Early but Falls to Turkey – Friendly Loss Sparks Concern",
       "author": "Mio Ristic",
