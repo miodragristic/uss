@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 38,
+    "title": "Inter Miami: Can Messi's Team Live Up to the Hype? | 2025 FIFA Club World Cup",
+    "author": "Mio Ristic",
+    "date": "Jun 9, 2025",
+    "excerpt": "Messi, Suárez, and Busquets lead Inter Miami into a tough Club World Cup group with Palmeiras, Porto, and Al Ahly. Can they survive and inspire?",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2216908159/crop/MM5DENJSHA5DCNBSGI5G433XMU5DMMZUHIZDMNY=/GettyImages-2216908159.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "link": "blog/inter-miami-wc"
+  },
+  {
     "id": 37,
     "title": "Jamie Vardy & MLS Rumors: Why a Move Looks Less Likely",
     "author": "Mio Ristic",
@@ -120,15 +129,7 @@ const blogPosts = [
     imageUrl: "https://nbcsports.brightspotcdn.com/dims4/default/ffca0a4/2147483647/strip/false/crop/594x334+0+38/resize/1200x675!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff8%2F3a%2Fb5cd3855315c7e9b985262a12b2b%2Fgettyimages-74382598.jpg",
     link: "blog/benny_feilhaber_joins_oakland_roots",
   },
-  {
-    id: 32,
-    title: "Rodríguez to Inter Miami – A Move Full of Promise?",
-    author: "Mio Ristic",
-    date: "Jun 2, 2025",
-    excerpt: "Inter Miami continues to dream big.",
-    imageUrl: "https://assets.goal.com/images/v3/getty-2210154915/crop/MM5DGMRQGA5DCOBQGA5G433XMU5DGNRYHIYTEMQ=/GettyImages-2210154915.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    link: "blog/brian-rodriguez-inter-miami",
-  },
+
 
 
   
