@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 39,
+    "title": "U.S. Men's National Team Humiliated by Switzerland | Friendly Recap",
+    "author": "Mio Ristic",
+    "date": "June 11, 2025",
+    "excerpt": "A disastrous first half saw the U.S. Men's National Team concede four goals to Switzerland in Nashville. Can Pochettino’s men recover in time for the Gold Cup and World Cup?",
+    "imageUrl": "https://images.supersport.com/media/ax4dr1pr/mauricio-pochettino-press-25-01-g-1200.jpg?width=1920&quality=90&format=webp",
+    "link": "blog/us-swi"
+  },
+  {
     "id": 38,
     "title": "Inter Miami: Can Messi's Team Live Up to the Hype? | 2025 FIFA Club World Cup",
     "author": "Mio Ristic",
@@ -120,16 +129,7 @@ const blogPosts = [
     imageUrl: "https://assets.goal.com/images/v3/getty-2204038021/crop/MM5DGOJYG45DEMRUGM5G433XMU5DAORSGA4A====/GettyImages-2204038021.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     link: "blog/seattle-sounders-vs-the-giants"
   },    
-  {
-    id: 33,
-    title: "Benny Feilhaber Joins Oakland Roots as Head Coach",
-    author: "Mio Ristic",
-    date: "Jun 3, 2025",
-    excerpt: "Oakland Roots appoint Benny Feilhaber as new head coach to turn around their 2025 USL Championship season.",
-    imageUrl: "https://nbcsports.brightspotcdn.com/dims4/default/ffca0a4/2147483647/strip/false/crop/594x334+0+38/resize/1200x675!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff8%2F3a%2Fb5cd3855315c7e9b985262a12b2b%2Fgettyimages-74382598.jpg",
-    link: "blog/benny_feilhaber_joins_oakland_roots",
-  },
-
+ 
 
 
   
