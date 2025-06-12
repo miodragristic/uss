@@ -82,7 +82,7 @@ const blogPosts = [
     "date": "June 11, 2025",
     "excerpt": "A disastrous first half saw the U.S. Men's National Team concede four goals to Switzerland in Nashville. Can Pochettino’s men recover in time for the Gold Cup and World Cup?",
     "imageUrl": "https://images.supersport.com/media/ax4dr1pr/mauricio-pochettino-press-25-01-g-1200.jpg?width=1920&quality=90&format=webp",
-    "link": "blog/us-swi"
+    "link": "blog/us-sui"
   },
   {
     "id": 38,

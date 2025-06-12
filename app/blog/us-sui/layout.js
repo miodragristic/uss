@@ -6,7 +6,7 @@ export const metadata = {
       title: 'USMNT Thrashed by Switzerland 4-0 | Friendly Recap 2025',
       description:
         'Mauricio Pochettino’s side collapsed in the first half, conceding four goals in under 30 minutes to a dominant Swiss team.',
-      url: 'https://us11fc.com/blog/us-vs-sui',
+      url: 'https://us11fc.com/blog/us-sui',
       siteName: 'US11',
       images: [
         {
