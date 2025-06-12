@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 40,
+      "title": "Christian Pulisic Breaks Silence: Gold Cup Absence, USMNT Loyalty & Donovan Drama",
+      "author": "Mio Ristic",
+      "date": "June 12, 2025",
+      "excerpt": "Christian Pulisic opens up on Golazo America about his Gold Cup decision, his commitment to the USMNT, and claps back at Landon Donovan’s recent comments.",
+      "imageUrl": "https://nbcsports.brightspotcdn.com/dims4/default/c66b13c/2147483647/strip/false/crop/3998x2665+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fb7%2F18%2F3f8af10e4981bf8fb496e4dd26fd%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2178153810",
+      "slug": "pulisic-usmnt"
+    },    
+    {
       "id": 39,
       "title": "U.S. Men's National Team Humiliated by Switzerland | Friendly Recap",
       "author": "Mio Ristic",
