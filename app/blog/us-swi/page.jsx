@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const USMNTvsSwitzerlandRecap = () => {
     return (
@@ -10,14 +11,19 @@ const USMNTvsSwitzerlandRecap = () => {
 
                 <div className="mb-4">
                     <img
-                        src="https://images.supersport.com/media/ax4dr1pr/mauricio-pochettino-press-25-01-g-1200.jpg?width=1920&quality=90&format=webp" // Zameni sa pravim Getty URL ako imaš
+                        src="https://images.supersport.com/media/ax4dr1pr/mauricio-pochettino-press-25-01-g-1200.jpg?width=1920&quality=90&format=webp"
                         alt="USMNT vs Switzerland"
                         className="w-full h-[400px] object-cover rounded-lg shadow-md"
                     />
                     <div className="mt-2 text-sm text-gray-600">
-                        <span>By: Mio Ristić | US11 | June 11, 2025 | Creator: Omar Vega 
-| 
-Credit: Getty Images</span>
+                        <span>By: Mio Ristić | US11 | June 11, 2025 | Creator: Omar Vega | Credit: Getty Images</span>
+                    </div>
+                    <div className='mt-4 text-center'>
+                        <Link href="/teams/usa-national-team">
+                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer">
+                                Visit USMNT
+                            </button>
+                        </Link>
                     </div>
                 </div>
 

@@ -29,6 +29,7 @@ const nextConfig = {
       'cloudfront-us-east-1.images.arcpublishing.com',
       'nbcsports.brightspotcdn.com',
       'energynews.rs',
+      'images.supersport.com',
       
 
     ],
