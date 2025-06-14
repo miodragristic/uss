@@ -30,6 +30,7 @@ const nextConfig = {
       'nbcsports.brightspotcdn.com',
       'energynews.rs',
       'images.supersport.com',
+      "images.mlssoccer.com",
       
 
     ],

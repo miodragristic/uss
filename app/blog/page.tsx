@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 41,
+      "title": "Inter Miami 2025 \"Riptide\" Jersey – The Wave You Don’t Want to Miss",
+      "author": "Mio Ristić",
+      "date": "June 14, 2025",
+      "excerpt": "Discover the bold new Inter Miami 2025 Riptide Third Kit inspired by Miami Blue waves and Messi’s magic. Official jersey, gear, and where to buy.",
+      "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/cw1sc4jlftyqxpshxuk5.jpg",
+      "slug": "inter-blue-kit"
+    },
+    {
       "id": 40,
       "title": "Christian Pulisic Breaks Silence: Gold Cup Absence, USMNT Loyalty & Donovan Drama",
       "author": "Mio Ristic",

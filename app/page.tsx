@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 41,
+    "title": "Inter Miami 2025 \"Riptide\" Jersey – The Wave You Don’t Want to Miss",
+    "author": "Mio Ristić",
+    "date": "June 14, 2025",
+    "excerpt": "Discover the bold new Inter Miami 2025 Riptide Third Kit inspired by Miami Blue waves and Messi’s magic. Official jersey, gear, and where to buy.",
+    "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/cw1sc4jlftyqxpshxuk5.jpg",
+    "link": "blog/inter-blue-kit"
+  },
+  {
     "id": 40,
     "title": "Christian Pulisic Breaks Silence: Gold Cup Absence, USMNT Loyalty & Donovan Drama",
     "author": "Mio Ristic",
@@ -120,15 +129,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2193998658/crop/MM5DIMRUG45DEMZYHE5G433XMU5DAORSGIYQ====/GettyImages-2193998658.jpg",
     "link": "blog/us-vs-tur"
   },  
-  {
-    id: 35,
-    title: "LA Galaxy End Winless Streak with 2-0 Victory Over Real Salt Lake",
-    author: "Mio Ristić",
-    date: "Jun 5, 2025",
-    excerpt: "After 16 matches without a win, LA Galaxy finally breaks their streak with a 2-0 home win against Real Salt Lake, sparking hope for a comeback.",
-    imageUrl: "https://energynews.rs/sites/energynews.rs/files/styles/large/public/content/images/2025-06/shutterstock_2499244741.jpg.webp?itok=djdfZ-lO",
-    link: "blog/galaxy-first-win"
-  },    
+  
 
 
 
