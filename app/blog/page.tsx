@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 42,
+      "title": "Seattle Sounders vs Botafogo Recap – Heart and Grit in Club World Cup Debut",
+      "author": "Mio Ristić",
+      "date": "June 16, 2025",
+      "excerpt": "Seattle Sounders fought bravely but fell 2-1 to Botafogo in their FIFA Club World Cup opener. De la Vega had an excellent chance to score.",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2220334930/crop/MM5DENZVGU5DCNJVGA5G433XMU5DGMBVHI3DE===/GettyImages-2220334930.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "slug": "seattle-botafogo"
+    },
+    {
       "id": 41,
       "title": "Inter Miami 2025 \"Riptide\" Jersey – The Wave You Don’t Want to Miss",
       "author": "Mio Ristić",

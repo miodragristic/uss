@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 42,
+    "title": "Seattle Sounders vs Botafogo Recap – Heart and Grit in Club World Cup Debut",
+    "author": "Mio Ristić",
+    "date": "June 16, 2025",
+    "excerpt": "Seattle Sounders fought bravely but fell 2-1 to Botafogo in their FIFA Club World Cup opener. De la Vega had an excellent chance to score.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2220334930/crop/MM5DENZVGU5DCNJVGA5G433XMU5DGMBVHI3DE===/GettyImages-2220334930.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "link": "blog/seattle-botafogo"
+  },
+  {
     "id": 41,
     "title": "Inter Miami 2025 \"Riptide\" Jersey – The Wave You Don’t Want to Miss",
     "author": "Mio Ristić",
@@ -120,15 +129,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/blt441143863bcbc649/2.jpg",
     "link": "blog/vardy-mls"
   },  
-  {
-    "id": 36,
-    "title": "USMNT Scores Early but Falls to Turkey – Friendly Loss Sparks Concern",
-    "author": "Mio Ristic",
-    "date": "Jun 8, 2025",
-    "excerpt": "Despite Jack McGlynn's early strike, the USMNT suffered a 2-1 defeat to Turkey, raising concerns ahead of the Gold Cup.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2193998658/crop/MM5DIMRUG45DEMZYHE5G433XMU5DAORSGIYQ====/GettyImages-2193998658.jpg",
-    "link": "blog/us-vs-tur"
-  },  
+
   
 
 
