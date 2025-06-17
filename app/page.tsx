@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 43,
+    "title": "Chelsea vs LAFC Recap – Maresca’s Side Opens Club World Cup with Confidence",
+    "author": "Mio Ristić",
+    "date": "June 17, 2025",
+    "excerpt": "Chelsea defeated LAFC 2-0 in their Club World Cup opener in Atlanta. Despite thousands of empty seats, Delap impressed on debut while LAFC showed grit.",
+    "imageUrl": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/06/ce61bd72-chelsea.jpg",
+    "link": "blog/chelsea-lafc"
+  },
+  {
     "id": 42,
     "title": "Seattle Sounders vs Botafogo Recap – Heart and Grit in Club World Cup Debut",
     "author": "Mio Ristić",
@@ -120,15 +129,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2216908159/crop/MM5DENJSHA5DCNBSGI5G433XMU5DMMZUHIZDMNY=/GettyImages-2216908159.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     "link": "blog/inter-miami-wc"
   },
-  {
-    "id": 37,
-    "title": "Jamie Vardy & MLS Rumors: Why a Move Looks Less Likely",
-    "author": "Mio Ristic",
-    "date": "Jun 8, 2025",
-    "excerpt": "Despite interest from Charlotte FC and MLS clubs, Jamie Vardy’s future looks more Europe-bound, with Rangers FC emerging as a top contender.",
-    "imageUrl": "https://assets.goal.com/images/v3/blt441143863bcbc649/2.jpg",
-    "link": "blog/vardy-mls"
-  },  
+
 
   
 

@@ -31,6 +31,7 @@ const nextConfig = {
       'energynews.rs',
       'images.supersport.com',
       "images.mlssoccer.com",
+      "media.freemalaysiatoday.com",
       
 
     ],

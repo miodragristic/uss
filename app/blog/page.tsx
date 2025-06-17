@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 43,
+      "title": "Chelsea vs LAFC Recap – Maresca’s Side Opens Club World Cup with Confidence",
+      "author": "Mio Ristić",
+      "date": "June 17, 2025",
+      "excerpt": "Chelsea defeated LAFC 2-0 in their Club World Cup opener in Atlanta. Despite thousands of empty seats, Delap impressed on debut while LAFC showed grit.",
+      "imageUrl": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/06/ce61bd72-chelsea.jpg",
+      "slug": "chelsea-lafc"
+    },
+    {
       "id": 42,
       "title": "Seattle Sounders vs Botafogo Recap – Heart and Grit in Club World Cup Debut",
       "author": "Mio Ristić",
