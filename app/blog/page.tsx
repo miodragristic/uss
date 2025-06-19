@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 44,
+      "title": "Inter Miami Silence the Doubters: Messi and Segovia Lift Club Past Porto",
+      "author": "Mio Ristić",
+      "date": "June 19, 2025",
+      "excerpt": "Inter Miami came from behind to beat FC Porto 2-1 in a thrilling FIFA Club World Cup Group A clash, keeping their knockout hopes alive.",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2220981929/crop/MM5DGNBTHE5DCOJTGQ5G433XMU5DAORRG43Q====/GettyImages-2220981929.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "slug": "inter-miami-porto"
+    },
+    {
       "id": 43,
       "title": "Chelsea vs LAFC Recap – Maresca’s Side Opens Club World Cup with Confidence",
       "author": "Mio Ristić",
