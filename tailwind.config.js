@@ -1,11 +1,18 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'], // recimo gde ti je kod
-  darkMode: 'media', // prati OS temu
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+      },
+    },
   },
   plugins: [],
-}
+};
