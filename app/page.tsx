@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 45,
+    "title": "Barrios Brace Boosts Atlético, but Seattle Go Down Fighting",
+    "author": "Mio Ristic",
+    "date": "June 20, 2025",
+    "excerpt": "Atlético Madrid secured a 3–1 victory over Seattle Sounders thanks to Pablo Barrios’ brace and Axel Witsel’s header, but Seattle showed great spirit in the FIFA Club World Cup Group B battle.",
+    "imageUrl": "https://motorcyclesports.net/wp-content/uploads/2025/06/2025-06-19T224853Z_862657799_UP1EL6J1RDGKI_RTRMADP_3_SOCCER-CLUB-SEA-ATM-scaled.jpg",
+    "link": "blog/seattle-atletico"
+  },
+  {
     "id": 44,
     "title": "Inter Miami Silence the Doubters: Messi and Segovia Lift Club Past Porto",
     "author": "Mio Ristić",
@@ -120,15 +129,7 @@ const blogPosts = [
     "imageUrl": "https://nbcsports.brightspotcdn.com/dims4/default/c66b13c/2147483647/strip/false/crop/3998x2665+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fb7%2F18%2F3f8af10e4981bf8fb496e4dd26fd%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2178153810",
     "link": "blog/pulisic-usmnt"
   },    
-  {
-    "id": 39,
-    "title": "U.S. Men's National Team Humiliated by Switzerland | Friendly Recap",
-    "author": "Mio Ristic",
-    "date": "June 11, 2025",
-    "excerpt": "A disastrous first half saw the U.S. Men's National Team concede four goals to Switzerland in Nashville. Can Pochettino’s men recover in time for the Gold Cup and World Cup?",
-    "imageUrl": "https://images.supersport.com/media/ax4dr1pr/mauricio-pochettino-press-25-01-g-1200.jpg?width=1920&quality=90&format=webp",
-    "link": "blog/us-sui"
-  },
+ 
  
 
   

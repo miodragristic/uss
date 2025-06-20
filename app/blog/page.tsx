@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 45,
+      "title": "Barrios Brace Boosts Atlético, but Seattle Go Down Fighting",
+      "author": "Mio Ristic",
+      "date": "June 20, 2025",
+      "excerpt": "Atlético Madrid secured a 3–1 victory over Seattle Sounders thanks to Pablo Barrios’ brace and Axel Witsel’s header, but Seattle showed great spirit in the FIFA Club World Cup Group B battle.",
+      "imageUrl": "https://motorcyclesports.net/wp-content/uploads/2025/06/2025-06-19T224853Z_862657799_UP1EL6J1RDGKI_RTRMADP_3_SOCCER-CLUB-SEA-ATM-scaled.jpg",
+      "slug": "seattle-atletico",
+    },
+    {
       "id": 44,
       "title": "Inter Miami Silence the Doubters: Messi and Segovia Lift Club Past Porto",
       "author": "Mio Ristić",
