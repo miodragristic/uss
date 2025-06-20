@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 46,
+      "title": "Obed Vargas Meets Griezmann: A Dream Fulfilled at the Club World Cup",
+      "author": "Mio Ristic",
+      "date": "June 20, 2025",
+      "excerpt": "Seattle’s rising star Obed Vargas shared a heartfelt post-match moment with Antoine Griezmann after their Club World Cup clash — a dream come true for the young midfielder.",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2207507396/crop/MM5DENZXHA5DCNJWGM5G433XMU5DAORRGQ2Q====/GettyImages-2207507396.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "slug": "vargas-griezmann-moment"
+    },
+    {
       "id": 45,
       "title": "Barrios Brace Boosts Atlético, but Seattle Go Down Fighting",
       "author": "Mio Ristic",

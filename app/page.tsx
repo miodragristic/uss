@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 46,
+    "title": "Obed Vargas Meets Griezmann: A Dream Fulfilled at the Club World Cup",
+    "author": "Mio Ristic",
+    "date": "June 20, 2025",
+    "excerpt": "Seattle’s rising star Obed Vargas shared a heartfelt post-match moment with Antoine Griezmann after their Club World Cup clash — a dream come true for the young midfielder.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2207507396/crop/MM5DENZXHA5DCNJWGM5G433XMU5DAORRGQ2Q====/GettyImages-2207507396.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "link": "blog/vargas-griezmann-moment"
+  },
+  {
     "id": 45,
     "title": "Barrios Brace Boosts Atlético, but Seattle Go Down Fighting",
     "author": "Mio Ristic",
@@ -120,15 +129,7 @@ const blogPosts = [
     "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/cw1sc4jlftyqxpshxuk5.jpg",
     "link": "blog/inter-blue-kit"
   },
-  {
-    "id": 40,
-    "title": "Christian Pulisic Breaks Silence: Gold Cup Absence, USMNT Loyalty & Donovan Drama",
-    "author": "Mio Ristic",
-    "date": "June 12, 2025",
-    "excerpt": "Christian Pulisic opens up on Golazo America about his Gold Cup decision, his commitment to the USMNT, and claps back at Landon Donovan’s recent comments.",
-    "imageUrl": "https://nbcsports.brightspotcdn.com/dims4/default/c66b13c/2147483647/strip/false/crop/3998x2665+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fb7%2F18%2F3f8af10e4981bf8fb496e4dd26fd%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2178153810",
-    "link": "blog/pulisic-usmnt"
-  },    
+    
  
  
 
