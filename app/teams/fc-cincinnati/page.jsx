@@ -4,7 +4,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = ({ teamSlug = 'fc-cincinnati' }) => {
   const players = [
-    { name: 'Luciano Acosta', image: 'https://cdn1.vamofutebol.com/uploads/5/2025/01/GettyImages-2158493614-750x600.jpg', slug: './acosta' },
+    // { name: 'Luciano Acosta', image: 'https://cdn1.vamofutebol.com/uploads/5/2025/01/GettyImages-2158493614-750x600.jpg', slug: './acosta' },
     // { name: 'Yuya Kubo', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-cin/uytbwhct3jfeq9zktz2i.jpg', link: './kubo' },
     // { name: 'Nick Hagglund', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-cin/xge6f8ofdoow2lgndvtm.jpg', link: './hagglund' },
     { name: 'Miles Robinson', image: 'https://cnycentral.com/resources/media/f1b98a83-5413-4c14-9dad-1bbf564db28e-GettyImages21568536601.jpg', slug: './milesrobinson' },
