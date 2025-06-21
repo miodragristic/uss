@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 47,
+    "title": "LAFC’s Club World Cup Dream Ends After Narrow Defeat to Espérance",
+    "author": "Mio Ristic",
+    "date": "June 21, 2025",
+    "excerpt": "Los Angeles FC’s Club World Cup campaign ended with a 1-0 loss to Espérance de Tunis, despite chances created, the MLS side exits Group D without points.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2221219014/crop/MM5DEMZVGU5DCMZSGU5G433XMU5DAORRGI2A====/GettyImages-2221219014.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "link": "blog/lafc-esperance"
+  },    
+  {
     "id": 46,
     "title": "Obed Vargas Meets Griezmann: A Dream Fulfilled at the Club World Cup",
     "author": "Mio Ristic",
@@ -120,16 +129,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2220334930/crop/MM5DENZVGU5DCNJVGA5G433XMU5DGMBVHI3DE===/GettyImages-2220334930.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     "link": "blog/seattle-botafogo"
   },
-  {
-    "id": 41,
-    "title": "Inter Miami 2025 \"Riptide\" Jersey – The Wave You Don’t Want to Miss",
-    "author": "Mio Ristić",
-    "date": "June 14, 2025",
-    "excerpt": "Discover the bold new Inter Miami 2025 Riptide Third Kit inspired by Miami Blue waves and Messi’s magic. Official jersey, gear, and where to buy.",
-    "imageUrl": "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/cw1sc4jlftyqxpshxuk5.jpg",
-    "link": "blog/inter-blue-kit"
-  },
-    
+  
  
  
 

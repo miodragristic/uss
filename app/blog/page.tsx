@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 47,
+      "title": "LAFC’s Club World Cup Dream Ends After Narrow Defeat to Espérance",
+      "author": "Mio Ristic",
+      "date": "June 21, 2025",
+      "excerpt": "Los Angeles FC’s Club World Cup campaign ended with a 1-0 loss to Espérance de Tunis, despite chances created, the MLS side exits Group D without points.",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2221219014/crop/MM5DEMZVGU5DCMZSGU5G433XMU5DAORRGI2A====/GettyImages-2221219014.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "slug": "lafc-esperance"
+    },    
+    {
       "id": 46,
       "title": "Obed Vargas Meets Griezmann: A Dream Fulfilled at the Club World Cup",
       "author": "Mio Ristic",
