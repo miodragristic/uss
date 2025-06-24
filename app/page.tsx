@@ -76,6 +76,24 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 49,
+    "title": "Inter Miami CF Draws With Palmeiras, Secures Group Stage Qualification at FIFA Club World Cup 2025",
+    "author": "Mio Ristic",
+    "date": "June 24, 2025",
+    "excerpt": "Inter Miami drew 2-2 with Palmeiras to secure progression to the knockout stages of the FIFA Club World Cup 2025, marking a milestone moment for MLS.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2221130245/crop/MM5DENBTGQ5DCMZWHE5G433XMU5DMMJYHIYTAMI=/GettyImages-2221130245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "link": "blog/inter-miami-palmeiras"
+  },
+  {
+    "id": 48,
+    "title": "Heart Over Power: Seattle Fall 2–0 to Ruthless PSG",
+    "author": "Mio Ristic",
+    "date": "June 23, 2025",
+    "excerpt": "Seattle Sounders face a crucial match against Paris Saint-Germain with hopes to keep their FIFA Club World Cup dreams alive in a high-stakes Group B battle.",
+    "imageUrl": "https://bad-dawgsports.com/wp-content/uploads/2025/06/2221741605.jpg",
+    "link": "blog/seattle-psg"
+  },
+  {
     "id": 47,
     "title": "LAFC’s Club World Cup Dream Ends After Narrow Defeat to Espérance",
     "author": "Mio Ristic",
@@ -111,25 +129,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2220981929/crop/MM5DGNBTHE5DCOJTGQ5G433XMU5DAORRG43Q====/GettyImages-2220981929.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     "link": "blog/inter-miami-porto"
   },
-  {
-    "id": 43,
-    "title": "Chelsea vs LAFC Recap – Maresca’s Side Opens Club World Cup with Confidence",
-    "author": "Mio Ristić",
-    "date": "June 17, 2025",
-    "excerpt": "Chelsea defeated LAFC 2-0 in their Club World Cup opener in Atlanta. Despite thousands of empty seats, Delap impressed on debut while LAFC showed grit.",
-    "imageUrl": "https://media.freemalaysiatoday.com/wp-content/uploads/2025/06/ce61bd72-chelsea.jpg",
-    "link": "blog/chelsea-lafc"
-  },
-  {
-    "id": 42,
-    "title": "Seattle Sounders vs Botafogo Recap – Heart and Grit in Club World Cup Debut",
-    "author": "Mio Ristić",
-    "date": "June 16, 2025",
-    "excerpt": "Seattle Sounders fought bravely but fell 2-1 to Botafogo in their FIFA Club World Cup opener. De la Vega had an excellent chance to score.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2220334930/crop/MM5DENZVGU5DCNJVGA5G433XMU5DGMBVHI3DE===/GettyImages-2220334930.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    "link": "blog/seattle-botafogo"
-  },
-  
+ 
  
  
 

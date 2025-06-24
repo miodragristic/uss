@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 49,
+      "title": "Inter Miami CF Draws With Palmeiras, Secures Group Stage Qualification at FIFA Club World Cup 2025",
+      "author": "Mio Ristic",
+      "date": "June 24, 2025",
+      "excerpt": "Inter Miami drew 2-2 with Palmeiras to secure progression to the knockout stages of the FIFA Club World Cup 2025, marking a milestone moment for MLS.",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2221130245/crop/MM5DENBTGQ5DCMZWHE5G433XMU5DMMJYHIYTAMI=/GettyImages-2221130245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "slug": "inter-miami-palmeiras"
+    },
+    {
+      "id": 48,
+      "title": "Heart Over Power: Seattle Fall 2–0 to Ruthless PSG",
+      "author": "Mio Ristic",
+      "date": "June 23, 2025",
+      "excerpt": "Seattle Sounders face a crucial match against Paris Saint-Germain with hopes to keep their FIFA Club World Cup dreams alive in a high-stakes Group B battle.",
+      "imageUrl": "https://bad-dawgsports.com/wp-content/uploads/2025/06/2221741605.jpg",
+      "slug": "seattle-psg"
+    },
+    {
       "id": 47,
       "title": "LAFC’s Club World Cup Dream Ends After Narrow Defeat to Espérance",
       "author": "Mio Ristic",

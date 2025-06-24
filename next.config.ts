@@ -33,6 +33,7 @@ const nextConfig = {
       "images.mlssoccer.com",
       "media.freemalaysiatoday.com",
       "motorcyclesports.net",
+      "bad-dawgsports.com",
      
       
 
