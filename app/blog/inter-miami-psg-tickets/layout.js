@@ -6,7 +6,7 @@ export const metadata = {
       title: 'Buy Tickets: Inter Miami CF vs PSG – FIFA Club World Cup 2025 Knockout Match',
       description:
         'Get your tickets now for Inter Miami vs Paris Saint-Germain in the FIFA Club World Cup 2025 Round of 16. Witness Messi face his former club live in Atlanta!',
-      url: 'https://www.us11fc.com/tickets/inter-miami-psg-tickets',
+      url: 'https://www.us11fc.com/blog/inter-miami-psg-tickets',
       siteName: 'US11',
       images: [
         {
