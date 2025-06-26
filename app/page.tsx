@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 50,
+    "title": "Buy Tickets: Inter Miami CF vs Paris Saint-Germain – FIFA Club World Cup 2025 Knockout Clash",
+    "author": "Mio Ristic",
+    "date": "June 24, 2025",
+    "excerpt": "Secure your seats for the high-stakes Round of 16 matchup between Inter Miami and PSG at the FIFA Club World Cup 2025. Watch Messi face his former club live in Atlanta.",
+    "imageUrl": "https://www.observerbd.com/2025/06/25/ob_1750825385.jpg",
+    "link": "blog/inter-miami-psg-tickets"
+  },
+  {
     "id": 49,
     "title": "Inter Miami CF Draws With Palmeiras, Secures Group Stage Qualification at FIFA Club World Cup 2025",
     "author": "Mio Ristic",
@@ -120,15 +129,7 @@ const blogPosts = [
     "imageUrl": "https://motorcyclesports.net/wp-content/uploads/2025/06/2025-06-19T224853Z_862657799_UP1EL6J1RDGKI_RTRMADP_3_SOCCER-CLUB-SEA-ATM-scaled.jpg",
     "link": "blog/seattle-atletico"
   },
-  {
-    "id": 44,
-    "title": "Inter Miami Silence the Doubters: Messi and Segovia Lift Club Past Porto",
-    "author": "Mio Ristić",
-    "date": "June 19, 2025",
-    "excerpt": "Inter Miami came from behind to beat FC Porto 2-1 in a thrilling FIFA Club World Cup Group A clash, keeping their knockout hopes alive.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2220981929/crop/MM5DGNBTHE5DCOJTGQ5G433XMU5DAORRG43Q====/GettyImages-2220981929.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    "link": "blog/inter-miami-porto"
-  },
+
  
  
  

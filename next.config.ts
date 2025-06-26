@@ -34,6 +34,7 @@ const nextConfig = {
       "media.freemalaysiatoday.com",
       "motorcyclesports.net",
       "bad-dawgsports.com",
+      "www.observerbd.com",
      
       
 

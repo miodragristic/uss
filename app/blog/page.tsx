@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 50,
+      "title": "Buy Tickets: Inter Miami CF vs Paris Saint-Germain – FIFA Club World Cup 2025 Knockout Clash",
+      "author": "Mio Ristic",
+      "date": "June 24, 2025",
+      "excerpt": "Secure your seats for the high-stakes Round of 16 matchup between Inter Miami and PSG at the FIFA Club World Cup 2025. Watch Messi face his former club live in Atlanta.",
+      "imageUrl": "https://www.observerbd.com/2025/06/25/ob_1750825385.jpg",
+      "slug": "inter-miami-psg-tickets"
+    },
+    {
       "id": 49,
       "title": "Inter Miami CF Draws With Palmeiras, Secures Group Stage Qualification at FIFA Club World Cup 2025",
       "author": "Mio Ristic",
