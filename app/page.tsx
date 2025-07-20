@@ -14,8 +14,8 @@ const TrendingPlayers = () => {
   const players = [
     { name: 'Lionel Messi', image: 'https://en.nogomania.com/GetFile.ashx?id=271175', link: '/teams/inter-miami/messi' },
     { name: 'Marco Reus', image: 'https://assets.spox.com/images/v3/SPOX_6842816/contentpush.tmp?quality=60&auto=webp&format=pjpg&width=1148', link: '/teams/la-galaxy/reus' },
-    { name: 'Olivier Giroud', image: 'https://www.parismatch.com/lmnr/r/375,250,000000,forcex,center-middle/img/var/pm/public/media/image/2024/09/26/11/resize_gettyimages-2174568974.jpg', link: '/teams/lafc/giroud' },
     { name: 'Luis Suarez', image: 'https://en.nogomania.com/GetFile.ashx?id=259742', link: '/teams/inter-miami/suarez' },
+    { name: 'Jordan Morris', image: 'https://assets.goal.com/images/v3/getty-2090010997/crop/MM5DENBQGA5DCNRQGE5G433XMU5DKNRWHIYTAMA=/GettyImages-2090010997.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: 'teams/seattle-sounders/morris' },
   ];
 
 return (
@@ -47,9 +47,9 @@ return (
 
 const slides = [
   {
-    url: 'https://www.mlsstore.com/content/ws/all/0ed240d5-a432-451e-98f9-e7c0dee0e81a__1600X600.jpg',
+    url: 'https://www.mlsstore.com/content/ws/all/f9472ed3-8599-472f-96a2-6d2a240e179f__2400X1428.jpg?w=2400',
     title: '2024 MLS Cup Champions',
-    link: 'https://mlsstore.i8h2.net/09PxkL'
+    link: 'https://mlsstore.i8h2.net/AP35Y1'
   },
   {
     url: 'https://www.mlsstore.com/content/ws/all/ebab9ab3-8f51-451b-a8c4-457f93f1ecf5__1600X492.png',
@@ -201,17 +201,17 @@ export default function HomePage() {
         
         <div className="hidden md:flex md:flex-col md:items-center mr-20  md:ml-8 mt-[-60px]">
   <a
-    href="https://mlsstore.i8h2.net/VxV4aj"
+    href="https://mlsstore.i8h2.net/AP35Y1"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Image
-      src="https://www.mlsstore.com/content/ws/all/42896c2a-6299-4cdc-9e80-51edc4a4269d__548X893.jpg?w=548"
-      alt="MLS Finals"
-      width={340}
-      height={500}
-      className="rounded-2xl shadow-xl border-4 border-white transition-transform duration-300 hover:scale-105"
-    />
+   <Image
+  src="https://www.mlsstore.com/content/ws/all/66d5ff06-41a4-4a8d-b71c-455326bde4f9__548X893.jpg?w=548"
+  alt="MLS Finals"
+  width={340}
+  height={500}
+  className="rounded-2xl shadow-xl border-4 border-white transition-transform duration-300 hover:scale-105 object-cover object-center"
+/>
   </a>
 </div>
 
@@ -230,9 +230,9 @@ export default function HomePage() {
 
       {/* Mobile version */}
       <div className="flex flex-col items-center ml-8 sm:hidden">
-        <Link href="https://mlsstore.i8h2.net/VxV4aj">
+        <Link href="https://mlsstore.i8h2.net/AP35Y1">
           <Image
-            src="https://www.mlsstore.com/content/ws/all/42896c2a-6299-4cdc-9e80-51edc4a4269d__548X893.jpg?w=548"
+            src="https://www.mlsstore.com/content/ws/all/f9472ed3-8599-472f-96a2-6d2a240e179f__2400X1428.jpg?w=2400"
             alt="MLS Finals"
             width={340}
             height={500}

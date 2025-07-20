@@ -35,6 +35,7 @@ const nextConfig = {
       "motorcyclesports.net",
       "bad-dawgsports.com",
       "www.observerbd.com",
+      "media.bleacherreport.com",
      
       
 

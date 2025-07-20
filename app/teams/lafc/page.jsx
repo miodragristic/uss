@@ -6,7 +6,6 @@ import Image from 'next/image';
 const TrendingPlayers = () => {
   const players = [
     { name: 'Denis Bouanga', image: 'https://cdn1.rangersnews.uk/uploads/24/2023/03/GettyImages-1246857078-1140x760.jpg', slug: './bouanga' },
-    { name: 'Olivier Giroud', image: 'https://www.parismatch.com/lmnr/r/375,250,000000,forcex,center-middle/img/var/pm/public/media/image/2024/09/26/11/resize_gettyimages-2174568974.jpg?VersionId=.zVbe1A5VQJ_HQsT0MUZseBycBDhlb1p', slug: './giroud' },
     { name: 'Hugo Lloris', image: 'https://cdn1.thespurs.news/uploads/36/2024/02/GettyImages-2003725135-1140x760.jpg', slug: './lloris' },
     { name: 'Cristian Olivera', image: 'https://cdn1.vamofutebol.com/uploads/5/2025/01/GettyImages-2153266577-1140x760.jpg', slug: './olivera' },
   ];
