@@ -60,8 +60,7 @@ const Teams = () => {
             {items.map((item) => (
               <div
                 key={item.id}
-                className="group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300"
-              >
+                className="font-bold text-black-900 dark:black-white group-hover:text-blue-600 transition duration-300">
                 <div className="relative overflow-hidden bg-gray-200 h-48">
                   <Image
                     src={item.imageUrl}
