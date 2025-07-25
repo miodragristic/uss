@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: false, // <-- dodaj ovu liniju
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -16,3 +17,4 @@ module.exports = {
   },
   plugins: [],
 };
+
