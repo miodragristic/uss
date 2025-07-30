@@ -201,7 +201,7 @@ export default function HomePage() {
         
         <div className="hidden md:flex md:flex-col md:items-center mr-20  md:ml-8 mt-[-60px]">
   <a
-    href="https://mlsstore.i8h2.net/AP35Y1"
+    href="https://mlsstore.i8h2.net/aOzQ2o"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -230,7 +230,7 @@ export default function HomePage() {
 
       {/* Mobile version */}
       <div className="flex flex-col items-center ml-8 sm:hidden">
-        <Link href="https://mlsstore.i8h2.net/AP35Y1">
+        <Link href="https://mlsstore.i8h2.net/aOzQ2o">
           <Image
             src="https://www.mlsstore.com/content/ws/all/46d82f1b-9a12-4135-bf5d-5eec640f61ab__548X893.jpg?w=548"
             alt="MLS Finals"
