@@ -206,7 +206,7 @@ export default function HomePage() {
     rel="noopener noreferrer"
   >
    <Image
-  src="https://www.mlsstore.com/content/ws/all/66d5ff06-41a4-4a8d-b71c-455326bde4f9__548X893.jpg?w=548"
+  src="https://www.mlsstore.com/content/ws/all/46d82f1b-9a12-4135-bf5d-5eec640f61ab__548X893.jpg?w=548"
   alt="MLS Finals"
   width={340}
   height={500}
@@ -232,7 +232,7 @@ export default function HomePage() {
       <div className="flex flex-col items-center ml-8 sm:hidden">
         <Link href="https://mlsstore.i8h2.net/AP35Y1">
           <Image
-            src="https://www.mlsstore.com/content/ws/all/f9472ed3-8599-472f-96a2-6d2a240e179f__2400X1428.jpg?w=2400"
+            src="https://www.mlsstore.com/content/ws/all/46d82f1b-9a12-4135-bf5d-5eec640f61ab__548X893.jpg?w=548"
             alt="MLS Finals"
             width={340}
             height={500}
