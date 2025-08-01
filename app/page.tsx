@@ -76,6 +76,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 51,
+    "title": "Get 25% Off MLS Gear with This Promo Code",
+    "author": "Mio Ristic",
+    "date": "July 25, 2025",
+    "excerpt": "Limited time offer: Save 25% on select MLS gear using promo code 25MLS at checkout. Don’t miss out!",
+    "imageUrl": "https://www.mlsstore.com/content/ws/all/1f418ebe-8a12-4321-b98f-b96446a0b0cd__1200X890.jpg?w=1200",
+    "link": "blog/mls-promo-blog"
+  },
+  {
     "id": 50,
     "title": "Buy Tickets: Inter Miami CF vs Paris Saint-Germain – FIFA Club World Cup 2025 Knockout Clash",
     "author": "Mio Ristic",
@@ -120,16 +129,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2207507396/crop/MM5DENZXHA5DCNJWGM5G433XMU5DAORRGQ2Q====/GettyImages-2207507396.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     "link": "blog/vargas-griezmann-moment"
   },
-  {
-    "id": 45,
-    "title": "Barrios Brace Boosts Atlético, but Seattle Go Down Fighting",
-    "author": "Mio Ristic",
-    "date": "June 20, 2025",
-    "excerpt": "Atlético Madrid secured a 3–1 victory over Seattle Sounders thanks to Pablo Barrios’ brace and Axel Witsel’s header, but Seattle showed great spirit in the FIFA Club World Cup Group B battle.",
-    "imageUrl": "https://motorcyclesports.net/wp-content/uploads/2025/06/2025-06-19T224853Z_862657799_UP1EL6J1RDGKI_RTRMADP_3_SOCCER-CLUB-SEA-ATM-scaled.jpg",
-    "link": "blog/seattle-atletico"
-  },
-
+  
  
  
  

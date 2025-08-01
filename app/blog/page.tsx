@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 51,
+      "title": "Get 25% Off MLS Gear with This Promo Code",
+      "author": "Mio Ristic",
+      "date": "July 25, 2025",
+      "excerpt": "Limited time offer: Save 25% on select MLS gear using promo code 25MLS at checkout. Don’t miss out!",
+      "imageUrl": "https://www.mlsstore.com/content/ws/all/1f418ebe-8a12-4321-b98f-b96446a0b0cd__1200X890.jpg?w=1200",
+      "slug": "mls-promo-blog"
+    },    
+    {
       "id": 50,
       "title": "Buy Tickets: Inter Miami CF vs Paris Saint-Germain – FIFA Club World Cup 2025 Knockout Clash",
       "author": "Mio Ristic",

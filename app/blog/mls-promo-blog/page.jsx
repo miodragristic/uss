@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 const MLS25OffPromoBlog = () => {
@@ -9,13 +11,12 @@ const MLS25OffPromoBlog = () => {
         </h1>
 
         <div className="w-full h-[400px] rounded-lg shadow-md overflow-hidden relative">
-  <img
-    src="https://www.mlsstore.com/content/ws/all/1f418ebe-8a12-4321-b98f-b96446a0b0cd__1200X890.jpg?w=1200"
-    alt="MLS Discount"
-    className="w-full h-full object-cover object-center transform scale-130"
-  />
-
-</div>
+          <img
+            src="https://www.mlsstore.com/content/ws/all/1f418ebe-8a12-4321-b98f-b96446a0b0cd__1200X890.jpg?w=1200"
+            alt="MLS Discount"
+            className="w-full h-full object-cover object-center transform scale-130"
+          />
+        </div>
 
         <div className='mb-4 text-sm text-gray-600'>
           <p>By: Mio Ristić | July 25, 2025</p>
@@ -29,6 +30,15 @@ const MLS25OffPromoBlog = () => {
           </p>
 
           <h2 className='text-xl font-semibold mt-6'>✅ How it works</h2>
+
+          {/* 👇 Dugme za kopiranje koda */}
+          <button 
+            onClick={() => navigator.clipboard.writeText('25MLS')}
+            className="mt-2 mb-4 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition cursor-pointer"
+          >
+            Copy Code: 25MLS
+          </button>
+
           <ul className='list-disc list-inside ml-4'>
             <li>Promo code is required on some products during checkout.</li>
             <li>Discount may appear on the product page or in your cart once the code is applied.</li>
