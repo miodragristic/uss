@@ -76,6 +76,24 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 53,
+    "title": "Thomas Müller to Vancouver Whitecaps? A Bold MLS Move on the Horizon",
+    "author": "Mio Ristic",
+    "date": "August 3, 2025",
+    "excerpt": "Bayern Munich legend Thomas Müller is rumored to join the Vancouver Whitecaps. Could this move shake up MLS and boost Canadian soccer?",
+    "imageUrl": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/25539754/2160081112.jpg",
+    "link": "blog/muller-blog"
+  },
+  {
+    "id": 52,
+    "title": "Rodrigo De Paul Joins Inter Miami: MLS Dream Team Incoming?",
+    "author": "Mio Ristic",
+    "date": "August 3, 2025",
+    "excerpt": "Rodrigo De Paul signs with Inter Miami, joining Messi, Busquets, and Alba. Is this the most star-packed team in MLS history? Find out what this move means for the league.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2227792192/crop/MM5DCOBUGA5DCMBTGU5G433XMU5DCMRRGU5DENBX/GettyImages-2227792192.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "link": "blog/de-paul-inter-blog"
+  },
+  {
     "id": 51,
     "title": "Get 25% Off MLS Gear with This Promo Code",
     "author": "Mio Ristic",
@@ -111,24 +129,8 @@ const blogPosts = [
     "imageUrl": "https://bad-dawgsports.com/wp-content/uploads/2025/06/2221741605.jpg",
     "link": "blog/seattle-psg"
   },
-  {
-    "id": 47,
-    "title": "LAFC’s Club World Cup Dream Ends After Narrow Defeat to Espérance",
-    "author": "Mio Ristic",
-    "date": "June 21, 2025",
-    "excerpt": "Los Angeles FC’s Club World Cup campaign ended with a 1-0 loss to Espérance de Tunis, despite chances created, the MLS side exits Group D without points.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2221219014/crop/MM5DEMZVGU5DCMZSGU5G433XMU5DAORRGI2A====/GettyImages-2221219014.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    "link": "blog/lafc-esperance"
-  },    
-  {
-    "id": 46,
-    "title": "Obed Vargas Meets Griezmann: A Dream Fulfilled at the Club World Cup",
-    "author": "Mio Ristic",
-    "date": "June 20, 2025",
-    "excerpt": "Seattle’s rising star Obed Vargas shared a heartfelt post-match moment with Antoine Griezmann after their Club World Cup clash — a dream come true for the young midfielder.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2207507396/crop/MM5DENZXHA5DCNJWGM5G433XMU5DAORRGQ2Q====/GettyImages-2207507396.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    "link": "blog/vargas-griezmann-moment"
-  },
+ 
+  
   
  
  

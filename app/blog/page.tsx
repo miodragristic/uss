@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 53,
+      "title": "Thomas Müller to Vancouver Whitecaps? A Bold MLS Move on the Horizon",
+      "author": "Mio Ristic",
+      "date": "August 3, 2025",
+      "excerpt": "Bayern Munich legend Thomas Müller is rumored to join the Vancouver Whitecaps. Could this move shake up MLS and boost Canadian soccer?",
+      "imageUrl": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/25539754/2160081112.jpg",
+      "slug": "muller-blog"
+    },
+    {
+      "id": 52,
+      "title": "Rodrigo De Paul Joins Inter Miami: MLS Dream Team Incoming?",
+      "author": "Mio Ristic",
+      "date": "August 3, 2025",
+      "excerpt": "Rodrigo De Paul signs with Inter Miami, joining Messi, Busquets, and Alba. Is this the most star-packed team in MLS history? Find out what this move means for the league.",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2227792192/crop/MM5DCOBUGA5DCMBTGU5G433XMU5DCMRRGU5DENBX/GettyImages-2227792192.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "slug": "de-paul-inter-blog"
+    },
+    {
       "id": 51,
       "title": "Get 25% Off MLS Gear with This Promo Code",
       "author": "Mio Ristic",

@@ -36,6 +36,7 @@ const nextConfig = {
       "bad-dawgsports.com",
       "www.observerbd.com",
       "media.bleacherreport.com",
+      "cdn.vox-cdn.com",
      
       
 
