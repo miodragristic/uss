@@ -7,7 +7,7 @@ const DePaulInterMiamiBlog = () => {
   const items = [
     {
       id: 1,
-      title: "Men's Inter Miami CF Lionel Messi adidas Light Pink 2025 Euforia Authentic Player Jersey",
+      title: "Men's Inter Miami CF De Paul adidas Light Pink 2025 Euforia Authentic Player Jersey",
       imageUrl:
         'https://images.footballfanatics.com/inter-miami-cf/mens-adidas-originals-rodrigo-de-paul-blue-inter-miami-cf-2025-third-authentic-player-jersey_ss5_p-203341920+u-hz6whmwcoouxfaitjwqa+v-rjggk5zbdhk8ux5xbzgq.jpg?_hv=2&w=400',
       link: 'https://mlsstore.i8h2.net/aOzQ2o',

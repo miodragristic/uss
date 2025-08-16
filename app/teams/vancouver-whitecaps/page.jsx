@@ -6,6 +6,7 @@ import Link from 'next/link';
 const TrendingPlayers = ({ teamSlug = 'vancouver-whitecaps' }) => {
   const players = [
     // { name: 'Stuart Armstrong', image: 'https://cdn.apollo.audio/one/media/66cd/e06b/1378/6a05/a100/31d9/2X9CRE7.jpg', link: './armstrong' },
+    { name: 'Thomas Muller', image: 'https://assets.goal.com/images/v3/getty-2230148654/crop/MM5DIMRWGY5DENBQGA5G433XMU5DAORSGIZA====/GettyImages-2230148654.jpg?auto=webp&format=pjpg&width=1920&quality=60', slug: './muller' },
     { name: 'Andrés Cubas', image: 'https://images.squarespace-cdn.com/content/v1/5262da93e4b068320e3e3494/1656311673001-MA3KT4Y0MCW73OO1XEM1/2022-06-26+Andres+Cubas.jpg', slug: './cubas' },
     { name: 'Ryan Gauld', image: 'https://cdn1.rangersnews.uk/uploads/24/2024/03/GettyImages-1717990663-1140x760.jpg', slug: './gauld' },
     { name: 'Ranko Veselinović', image: 'https://images.squarespace-cdn.com/content/v1/5262da93e4b068320e3e3494/1632715707355-3BU3N34LO87LMCPZSM95/2021-09-10+Ranko+Veselinovi%C4%87.jpg?format=750w', slug: './veselinovic' },

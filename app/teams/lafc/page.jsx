@@ -8,6 +8,7 @@ const TrendingPlayers = () => {
     { name: 'Denis Bouanga', image: 'https://cdn1.rangersnews.uk/uploads/24/2023/03/GettyImages-1246857078-1140x760.jpg', slug: './bouanga' },
     { name: 'Hugo Lloris', image: 'https://cdn1.thespurs.news/uploads/36/2024/02/GettyImages-2003725135-1140x760.jpg', slug: './lloris' },
     { name: 'Cristian Olivera', image: 'https://cdn1.vamofutebol.com/uploads/5/2025/01/GettyImages-2153266577-1140x760.jpg', slug: './olivera' },
+    { name: 'Heung-Min Son', image: 'https://assets.goal.com/images/v3/getty-2229316055/crop/MM5DGNBTHA5DCOJTGQ5G433XMU5DAORRG44Q====/GettyImages-2229316055.jpg?auto=webp&format=pjpg&width=1920&quality=60', slug: './son' },
   ];
 
 
