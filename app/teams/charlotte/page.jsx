@@ -5,7 +5,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 const TrendingPlayers = ({ teamSlug = 'charlotte' }) => {
   const players = [
     { name: 'Ashley Westwoods', image: 'https://www.qcnews.com/wp-content/uploads/sites/109/2024/05/GettyImages-2152987244.jpg', slug: './westwoods' },
-    { name: 'Karol Świderski', image: 'https://www.goal.pl/wp-content/uploads/2024/10/karol-swiderski-1.jpg', slug: './swiderski' },
+    // { name: 'Karol Świderski', image: 'https://www.goal.pl/wp-content/uploads/2024/10/karol-swiderski-1.jpg', slug: './swiderski' },
     { name: 'Tim Ream', image: 'https://cdn1.intermiami.news/uploads/52/2024/10/GettyImages-2175381685-1024x721.jpg', slug: './ream' },
     { name: 'Liel Abada', image: 'https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_900/v1/media/gmg/XYANLDQB2NDYPCMTNDRVN75J64.jpg?_a=DAJAUVWIZAAA', slug: './abada' },
   ];

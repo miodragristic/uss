@@ -5,9 +5,9 @@ import { FaShoppingCart } from 'react-icons/fa';
 const TrendingPlayers = () => {
     const players = [
       // { name: 'Sebastián Driussi', image: 'https://cdn1.primerafutbol.com/uploads/18/2025/01/GettyImages-1258342953-1140x760.jpg', link: '/driussi' },
-      { name: 'Alex Ring', image: 'https://wallpapers.com/images/hd/austin-fc-midfielder-alexander-ring-ujchcirnu7ajtdke.jpg', slug: 'ring' },
-      { name: 'Ethan Finlay', image: 'https://s.hdnux.com/photos/01/37/10/55/24939376/3/rawImage.jpg', slug: 'finlay' },
-      { name: 'Gyasi Zardes', image: 'https://austinmonthly.wppcdn.com/wp-content/uploads/2023/02/ATXFC_20221120_ZardesPortraits_JG108141-1246x700.jpg', slug: 'zardes' },
+      // { name: 'Alex Ring', image: 'https://wallpapers.com/images/hd/austin-fc-midfielder-alexander-ring-ujchcirnu7ajtdke.jpg', slug: 'ring' },
+      // { name: 'Ethan Finlay', image: 'https://s.hdnux.com/photos/01/37/10/55/24939376/3/rawImage.jpg', slug: 'finlay' },
+      // { name: 'Gyasi Zardes', image: 'https://austinmonthly.wppcdn.com/wp-content/uploads/2023/02/ATXFC_20221120_ZardesPortraits_JG108141-1246x700.jpg', slug: 'zardes' },
     ];
 
     return (

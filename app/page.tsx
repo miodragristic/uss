@@ -1,47 +1,86 @@
 'use client';
 
-import React, { useState } from 'react';
-import Link from 'next/link';
+import React, { useState, useEffect, useRef} from 'react';
 import Image from 'next/image';
- 
+import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import Link from 'next/link';
 
-
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-// import Book from './../public/book.png';
- 
-
+// Ako koristiš TypeScript — obavezno tipiziraj ref:
 const TrendingPlayers = () => {
   const players = [
     { name: 'Lionel Messi', image: 'https://en.nogomania.com/GetFile.ashx?id=271175', link: '/teams/inter-miami/messi' },
     { name: 'Marco Reus', image: 'https://assets.spox.com/images/v3/SPOX_6842816/contentpush.tmp?quality=60&auto=webp&format=pjpg&width=1148', link: '/teams/la-galaxy/reus' },
+    { name: 'Thomas Muller', image: 'https://assets.goal.com/images/v3/getty-2230148654/crop/MM5DIMRWGY5DENBQGA5G433XMU5DAORSGIZA====/GettyImages-2230148654.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/vancouver-whitecaps/muller' },
     { name: 'Luis Suarez', image: 'https://en.nogomania.com/GetFile.ashx?id=259742', link: '/teams/inter-miami/suarez' },
-    { name: 'Jordan Morris', image: 'https://assets.goal.com/images/v3/getty-2090010997/crop/MM5DENBQGA5DCNRQGE5G433XMU5DKNRWHIYTAMA=/GettyImages-2090010997.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: 'teams/seattle-sounders/morris' },
+    { name: 'Christian Pulisic', image: 'https://media.bleacherreport.com/image/upload/v1642803493/c6tcjkzmqnb1iphp4dik.jpg', link: '/teams/usa-national-team/pulisic' },
+    { name: 'Heung-Min Son', image: 'https://assets.goal.com/images/v3/getty-2229316055/crop/MM5DGNBTHA5DCOJTGQ5G433XMU5DAORRG44Q====/GettyImages-2229316055.jpg?auto=webp&format=pjpg&width=1920&quality=60', link: '/teams/lafc/son' },
+    { name: 'Jordan Morris', image: 'https://assets.goal.com/images/v3/getty-2090010997/crop/MM5DENBQGA5DCNRQGE5G433XMU5DKNRWHIYTAMA=/GettyImages-2090010997.jpg?auto=webp&format=pjpg&width=3840&quality=60', link: '/teams/seattle-sounders/morris' },
   ];
 
-return (
-    <div className='max-w-4xl mx-auto py-8'>
-      <h2 className='text-6xl font-bold text-[#020617] mb-8 text-center'>Trending Players</h2>
-      <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+  const scrollRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    const onWheel = (e: WheelEvent) => {
+      if (e.deltaY !== 0) {
+        e.preventDefault();
+        el.scrollLeft += e.deltaY;
+      }
+    };
+
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+  }, []);
+
+  return (
+    <div className="max-w-4xl mx-auto py-8">
+      <h2 className="text-6xl font-bold text-[#020617] mb-8 text-center">Trending Players</h2>
+      {/* GRID za mobile i tablet */}
+    <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:hidden">
+      {players.map((player) => (
+        <Link
+          key={player.name}
+          href={player.link}
+          className="group flex flex-col items-center bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl"
+        >
+          <img
+            src={player.image}
+            alt={player.name}
+            className="h-64 w-full object-cover mb-4 rounded-lg"
+            style={{ objectPosition: 'center 2%' }}
+          />
+          <h3 className="text-lg font-semibold text-center text-[#020617]">
+            {player.name}
+          </h3>
+        </Link>
+      ))}
+    </div>
+
+      <div
+        ref={scrollRef}
+        className="flex overflow-x-auto space-x-6 pb-4" 
+      >
         {players.map((player) => (
           <Link
             key={player.name}
             href={player.link}
-            className='group flex flex-col items-center bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl'
+            className="flex-shrink-0 w-1/4 group flex flex-col items-center bg-white rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 hover:shadow-xl"
           >
             <img
               src={player.image}
               alt={player.name}
-              className='h-64 w-full object-cover mb-4 rounded-lg'
+              className="h-64 w-full object-cover mb-4 rounded-lg"
               style={{ objectPosition: 'center 2%' }}
             />
-            <h3 className='text-lg font-semibold text-center text-[#020617]'>{player.name}</h3>
+            <h3 className="text-lg font-semibold text-center text-[#020617]'">{player.name}</h3>
           </Link>
-        ))}  
+        ))}
       </div>
     </div>
   );
 };
-
  
  
 
@@ -75,6 +114,24 @@ const slides = [
 
 
 const blogPosts = [
+  {
+    "id": 55,
+    "title": "Paxten Aaronson: Great Move or Risky Step?",
+    "author": "Mio Ristic",
+    "date": "August 26, 2025",
+    "excerpt": "Paxten Aaronson, one of MLS’s brightest young talents, returns from Europe to join Colorado Rapids. Is this a smart career reset or a risky step back?",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2164041397/crop/MM5DGNRUHA5DEMBVGI5G433XMU5DCOJQHIYA====/GettyImages-2164041397.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "link": "blog/paxten-aaronson-blog"
+  },
+  {
+    "id": 54,
+    "title": "Athletic Club Boise Set to Debut in USL League One",
+    "author": "Mio Ristic",
+    "date": "August 26, 2025",
+    "excerpt": "Idaho’s first professional men’s soccer team, Athletic Club Boise, is preparing to make its debut in USL League One, representing the city and state with pride.",
+    "imageUrl": "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
+    "link": "blog/athletic-boise"
+  },
   {
     "id": 53,
     "title": "Thomas Müller to Vancouver Whitecaps? A Bold MLS Move on the Horizon",
@@ -110,27 +167,7 @@ const blogPosts = [
     "excerpt": "Secure your seats for the high-stakes Round of 16 matchup between Inter Miami and PSG at the FIFA Club World Cup 2025. Watch Messi face his former club live in Atlanta.",
     "imageUrl": "https://www.observerbd.com/2025/06/25/ob_1750825385.jpg",
     "link": "blog/inter-miami-psg-tickets"
-  },
-  {
-    "id": 49,
-    "title": "Inter Miami CF Draws With Palmeiras, Secures Group Stage Qualification at FIFA Club World Cup 2025",
-    "author": "Mio Ristic",
-    "date": "June 24, 2025",
-    "excerpt": "Inter Miami drew 2-2 with Palmeiras to secure progression to the knockout stages of the FIFA Club World Cup 2025, marking a milestone moment for MLS.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2221130245/crop/MM5DENBTGQ5DCMZWHE5G433XMU5DMMJYHIYTAMI=/GettyImages-2221130245.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    "link": "blog/inter-miami-palmeiras"
-  },
-  {
-    "id": 48,
-    "title": "Heart Over Power: Seattle Fall 2–0 to Ruthless PSG",
-    "author": "Mio Ristic",
-    "date": "June 23, 2025",
-    "excerpt": "Seattle Sounders face a crucial match against Paris Saint-Germain with hopes to keep their FIFA Club World Cup dreams alive in a high-stakes Group B battle.",
-    "imageUrl": "https://bad-dawgsports.com/wp-content/uploads/2025/06/2221741605.jpg",
-    "link": "blog/seattle-psg"
-  },
- 
-  
+  }
   
  
  

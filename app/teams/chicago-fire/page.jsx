@@ -5,7 +5,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 const TrendingPlayers = () => {
   const players = [
     // { name: 'Arnaud Souquet', image: 'https://northlandsoccer.com/wp-content/uploads/2023/07/20230727_194734_MNUFC_v_ChicagoFire_LeaguesCup_0022_LAKE0653.jpg', link: './souquet' },
-    { name: 'Carlos Terán', image: 'https://caracoltv.brightspotcdn.com/dims4/default/0358532/2147483647/strip/false/crop/1024x681+0+0/resize/1200x798!/format/webp/quality/75/?url=http%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2F2c%2F44%2F5de36e4749e094e38acb5ff81555%2Fgettyimages-1359085143.jpg', slug: './teran' },
+    // { name: 'Carlos Terán', image: 'https://caracoltv.brightspotcdn.com/dims4/default/0358532/2147483647/strip/false/crop/1024x681+0+0/resize/1200x798!/format/webp/quality/75/?url=http%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2F2c%2F44%2F5de36e4749e094e38acb5ff81555%2Fgettyimages-1359085143.jpg', slug: './teran' },
     { name: 'Chris Mueller', image: 'https://wgntv.com/wp-content/uploads/sites/5/2023/02/gettyimages-1416710153-594x594-1.jpg', slug: './mueller' },
     { name: 'Brian Gutiérrez', image: 'https://cdn1.unitedinfocus.com/uploads/14/2023/06/GettyImages-1493904261-scaled.jpg', slug: './gutierrez' },
   ];

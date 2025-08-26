@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 55,
+      "title": "Paxten Aaronson: Great Move or Risky Step?",
+      "author": "Mio Ristic",
+      "date": "August 26, 2025",
+      "excerpt": "Paxten Aaronson, one of MLS’s brightest young talents, returns from Europe to join Colorado Rapids. Is this a smart career reset or a risky step back?",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2164041397/crop/MM5DGNRUHA5DEMBVGI5G433XMU5DCOJQHIYA====/GettyImages-2164041397.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "slug": "paxten-aaronson-blog"
+    },
+    {
+      "id": 54,
+      "title": "Athletic Club Boise Set to Debut in USL League One",
+      "author": "Mio Ristic",
+      "date": "August 26, 2025",
+      "excerpt": "Idaho’s first professional men’s soccer team, Athletic Club Boise, is preparing to make its debut in USL League One, representing the city and state with pride.",
+      "imageUrl": "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
+      "slug": "athletic-boise"
+    },
+    {
       "id": 53,
       "title": "Thomas Müller to Vancouver Whitecaps? A Bold MLS Move on the Horizon",
       "author": "Mio Ristic",

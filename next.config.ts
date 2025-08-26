@@ -2,6 +2,8 @@
 const nextConfig = {
   images: {
     domains: [
+      'assets.goal.com',
+      'cdn1.sportngin.com',
       'images.supersport.com',
       'assets.goal.com',
       'nb1.hu',

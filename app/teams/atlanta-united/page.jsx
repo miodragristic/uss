@@ -5,8 +5,8 @@ import { FaShoppingCart } from 'react-icons/fa';
 const TrendingPlayers = () => {
   const players = [
     { name: 'Alexey Miranchuk', image: 'https://gray-wgcl-prod.gtv-cdn.com/resizer/v2/2WGWYC52NZAUTKQLETZRJDSRGU.jpg?auth=70a049cd83c40d2b50f4dd4a91edf89a30633b4a5093f1c100380a48b6a9ae13&width=1600&height=900&smart=true', slug: 'miranchuk' },
-    { name: 'Derrick Williams', image: 'https://thepeachreview.com/wp-content/uploads/2024/11/Derrick-Williams_2-ATLUTD.jpg', slug: 'williams' },
-    { name: 'Edwin Mosquera', image: 'https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a88ffa2-c8ac-415e-814a-4a11dfde286d_2837x1897.jpeg', slug: 'mosquera' },
+    // { name: 'Derrick Williams', image: 'https://thepeachreview.com/wp-content/uploads/2024/11/Derrick-Williams_2-ATLUTD.jpg', slug: 'williams' },
+    // { name: 'Edwin Mosquera', image: 'https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a88ffa2-c8ac-415e-814a-4a11dfde286d_2837x1897.jpeg', slug: 'mosquera' },
     { name: 'Jamal Thiaré', image: 'https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c480357-382f-40b7-8355-34ac16169374_4092x2728.jpeg', slug: 'thiare' },
   ];
 
