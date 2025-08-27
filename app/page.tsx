@@ -60,7 +60,7 @@ const TrendingPlayers = () => {
 
       <div
         ref={scrollRef}
-        className="flex overflow-x-auto space-x-6 pb-4" 
+        className="hidden lg:flex overflow-x-auto space-x-6 pb-4"
       >
         {players.map((player) => (
           <Link

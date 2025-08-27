@@ -10,9 +10,10 @@ export const metadata = {
       siteName: 'US11 Fan Hub',
       images: [
         {
-          url: 'https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png',
+          url: 'https://upload.wikimedia.org/wikipedia/en/5/55/Athletic_Club_Boise_logo.png',
           width: 1200,
-          height: 800,
+          height: 630, // OG standard
+          alt: 'Athletic Club Boise Logo',
         },
       ],
       locale: 'en_US',
@@ -23,9 +24,7 @@ export const metadata = {
       title: 'Athletic Club Boise Prepares to Debut in USL League One',
       description:
         'Preview of Idaho’s first professional men’s soccer team as they prepare for their USL League One debut, highlighting the club’s vision and community impact.',
-      images: [
-        'https://upload.wikimedia.org/wikipedia/en/5/55/Athletic_Club_Boise_logo.png',
-      ],
+      images: ['https://upload.wikimedia.org/wikipedia/en/5/55/Athletic_Club_Boise_logo.png'],
       creator: '@mioristic',
     },
   };

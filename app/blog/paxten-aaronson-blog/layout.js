@@ -10,9 +10,10 @@ export const metadata = {
       siteName: 'US11 Fan Hub',
       images: [
         {
-          url: 'https://assets.goal.com/images/v3/getty-2164041397/crop/MM5DGNRUHA5DEMBVGI5G433XMU5DCOJQHIYA====/GettyImages-2164041397.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+          url: 'https://assets.goal.com/images/v3/getty-2164041397/crop/MM5DGNRUHA5DEMBVGI5G433XMU5DCOJQHIYA====/GettyImages-2164041397.jpg',
           width: 1200,
-          height: 800,
+          height: 630, // standard za OG preview
+          alt: 'Paxten Aaronson Colorado Rapids transfer',
         },
       ],
       locale: 'en_US',
@@ -24,7 +25,7 @@ export const metadata = {
       description:
         'Paxten Aaronson joins Colorado Rapids after a challenging European stint. Read about his career, opportunities in MLS, and what this move could mean.',
       images: [
-        'https://assets.goal.com/images/v3/getty-2164041397/crop/MM5DGNRUHA5DEMBVGI5G433XMU5DCOJQHIYA====/GettyImages-2164041397.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+        'https://assets.goal.com/images/v3/getty-2164041397/crop/MM5DGNRUHA5DEMBVGI5G433XMU5DCOJQHIYA====/GettyImages-2164041397.jpg',
       ],
       creator: '@mioristic',
     },
