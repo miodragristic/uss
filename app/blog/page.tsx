@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 56,
+      "title": "Inter Miami vs Seattle Sounders: Leagues Cup Final 2025 Preview & Tickets",
+      "author": "Mio Ristic",
+      "date": "August 30, 2025",
+      "excerpt": "Lionel Messi leads Inter Miami against Seattle Sounders in the 2025 Leagues Cup Final at Lumen Field. Preview, key details, and ticket info inside.",
+      "imageUrl": "https://brila.net/wp-content/uploads/2025/08/Lionel-Messi.jpg",
+      "slug": "inter-miami-seattle-blog"
+    },    
+    {
       "id": 55,
       "title": "Paxten Aaronson: Great Move or Risky Step?",
       "author": "Mio Ristic",

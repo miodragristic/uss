@@ -39,6 +39,7 @@ const nextConfig = {
       "www.observerbd.com",
       "media.bleacherreport.com",
       "cdn.vox-cdn.com",
+      "brila.net",
      
       
 

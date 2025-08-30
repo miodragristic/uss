@@ -18,6 +18,7 @@ export async function middleware(request) {
     "embedly",
     "redditbot",
     "applebot",
+  
   ];
 
   const IGNORE_EXTENSIONS = [

@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 56,
+    "title": "Inter Miami vs Seattle Sounders: Leagues Cup Final 2025 Preview & Tickets",
+    "author": "Mio Ristic",
+    "date": "August 30, 2025",
+    "excerpt": "Lionel Messi leads Inter Miami against Seattle Sounders in the 2025 Leagues Cup Final at Lumen Field. Preview, key details, and ticket info inside.",
+    "imageUrl": "https://brila.net/wp-content/uploads/2025/08/Lionel-Messi.jpg",
+    "link": "blog/inter-miami-seattle-blog"
+  },    
+  {
     "id": 55,
     "title": "Paxten Aaronson: Great Move or Risky Step?",
     "author": "Mio Ristic",
@@ -159,15 +168,7 @@ const blogPosts = [
     "imageUrl": "https://www.mlsstore.com/content/ws/all/1f418ebe-8a12-4321-b98f-b96446a0b0cd__1200X890.jpg?w=1200",
     "link": "blog/mls-promo-blog"
   },
-  {
-    "id": 50,
-    "title": "Buy Tickets: Inter Miami CF vs Paris Saint-Germain – FIFA Club World Cup 2025 Knockout Clash",
-    "author": "Mio Ristic",
-    "date": "June 24, 2025",
-    "excerpt": "Secure your seats for the high-stakes Round of 16 matchup between Inter Miami and PSG at the FIFA Club World Cup 2025. Watch Messi face his former club live in Atlanta.",
-    "imageUrl": "https://www.observerbd.com/2025/06/25/ob_1750825385.jpg",
-    "link": "blog/inter-miami-psg-tickets"
-  }
+
   
  
  
