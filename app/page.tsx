@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 57,
+    "title": "Seattle Runs Over Inter Miami: A Leagues Cup Night to Remember",
+    "author": "Mio Ristic",
+    "date": "August 31, 2025",
+    "excerpt": "Seattle Sounders dominate Inter Miami 3-0 in the 2025 Leagues Cup final, showcasing teamwork over star power. Full recap, goals, and awards inside.",
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/leadersgroup/UNPIXKTAEVBB3HJWDGSPYQFOMA.jpg",
+    "link": "blog/seattle-inter-miami-recap"
+  },    
+  {
     "id": 56,
     "title": "Inter Miami vs Seattle Sounders: Leagues Cup Final 2025 Preview & Tickets",
     "author": "Mio Ristic",
@@ -159,15 +168,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2227792192/crop/MM5DCOBUGA5DCMBTGU5G433XMU5DCMRRGU5DENBX/GettyImages-2227792192.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     "link": "blog/de-paul-inter-blog"
   },
-  {
-    "id": 51,
-    "title": "Get 25% Off MLS Gear with This Promo Code",
-    "author": "Mio Ristic",
-    "date": "July 25, 2025",
-    "excerpt": "Limited time offer: Save 25% on select MLS gear using promo code 25MLS at checkout. Don’t miss out!",
-    "imageUrl": "https://www.mlsstore.com/content/ws/all/1f418ebe-8a12-4321-b98f-b96446a0b0cd__1200X890.jpg?w=1200",
-    "link": "blog/mls-promo-blog"
-  },
+ 
 
   
  

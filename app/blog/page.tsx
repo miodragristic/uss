@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 57,
+      "title": "Seattle Runs Over Inter Miami: A Leagues Cup Night to Remember",
+      "author": "Mio Ristic",
+      "date": "August 31, 2025",
+      "excerpt": "Seattle Sounders dominate Inter Miami 3-0 in the 2025 Leagues Cup final, showcasing teamwork over star power. Full recap, goals, and awards inside.",
+      "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/leadersgroup/UNPIXKTAEVBB3HJWDGSPYQFOMA.jpg",
+      "slug": "seattle-inter-miami-recap"
+    },    
+    {
       "id": 56,
       "title": "Inter Miami vs Seattle Sounders: Leagues Cup Final 2025 Preview & Tickets",
       "author": "Mio Ristic",

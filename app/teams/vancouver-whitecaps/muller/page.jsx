@@ -2,11 +2,46 @@ import React from 'react';
 
 const ThomasMuller = () => {
   const items = [
-    // { id: 1, title: "Thomas Müller Vancouver Whitecaps Jersey", imageUrl: 'https://example.com/muller-jersey.jpg', link: 'https://www.example.com/product/1', price: '$139.99' },
-    // { id: 2, title: "Signed Thomas Müller Soccer Ball", imageUrl: 'https://example.com/muller-ball.jpg', link: 'https://www.example.com/product/2', price: '$299.99' },
-    // { id: 3, title: "Thomas Müller Poster", imageUrl: 'https://example.com/muller-poster.jpg', link: 'https://www.example.com/product/3', price: '$24.99' },
-    // { id: 4, title: "Vancouver Whitecaps Scarf", imageUrl: 'https://example.com/scarf.jpg', link: 'https://www.example.com/product/4', price: '$29.99' },
-    // { id: 5, title: "Thomas Müller Autographed Photo", imageUrl: 'https://example.com/muller-photo.jpg', link: 'https://www.example.com/product/5', price: '$149.99' },
+    {
+      "id": 1,
+      "title": "Men's Vancouver Whitecaps FC Thomas Müller Fanatics Navy Name & Number T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Men's T-Shirts",
+      "availability": "Most Popular in Vancouver Whitecaps FC",
+      "imageUrl": "https://images.footballfanatics.com/vancouver-whitecaps-fc/mens-fanatics-thomas-m%C3%BCller-navy-vancouver-whitecaps-fc-name-and-number-t-shirt_ss5_p-2001769313+u-25kouxonboravpaupxqe+v-zrcxtpk7bwf5xjtyrahx.jpg?_hv=2&w=600",
+      "link": "https://mlsstore.i8h2.net/kO3KN3"
+    },
+    {
+      "id": 2,
+      "title": "Youth Vancouver Whitecaps FC Thomas Müller Navy Name & Number T-Shirt",
+      "price": "$29.99",
+      "originalPrice": "$29.99",
+      "category": "Kids T-Shirts",
+      "availability": "Most Popular in Kids T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/vancouver-whitecaps-fc/youth-thomas-m%C3%BCller-navy-vancouver-whitecaps-fc-name-and-number-t-shirt_ss5_p-203405503+u-bah6vm7cqojyc2fnhw11+v-t2rjivqlwsuv1yej8j6k.jpg?_hv=2&w=600",
+      "link": "https://mlsstore.i8h2.net/je37Bv"
+    },
+    {
+      "id": 3,
+      "title": "Vancouver Whitecaps FC Thomas Müller Light Blue Scarf",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Accessories",
+      "availability": "Most Popular in Accessories",
+      "imageUrl": "https://images.footballfanatics.com/vancouver-whitecaps-fc/thomas-m%C3%BCller-light-blue-vancouver-whitecaps-fc-scarf_ss5_p-203396483+u-no3sfu7hikanctiawiop+v-nhlfdbsgs02a5qhddemc.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/6y96zV"
+    },
+    {
+      "id": 4,
+      "title": "Women's Vancouver Whitecaps FC Thomas Müller Fanatics Navy Name & Number V-Neck T-Shirt",
+      "price": "$39.99",
+      "originalPrice": "$39.99",
+      "category": "Women's T-Shirts",
+      "availability": "Most Popular in Women T-Shirts",
+      "imageUrl": "https://images.footballfanatics.com/vancouver-whitecaps-fc/womens-fanatics-thomas-m%C3%BCller-navy-vancouver-whitecaps-fc-name-and-number-v-neck-t-shirt_ss5_p-2001769314+pv-1+u-id7bjxcgdj1pb1rbnwnf+v-2ua0rfaxng5apsltp09v.jpg?_hv=2&w=900",
+      "link": "https://mlsstore.i8h2.net/LKqLEL"
+    }
   ];
 
   return (

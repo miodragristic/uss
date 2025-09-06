@@ -4,31 +4,76 @@ import { FaShoppingCart } from 'react-icons/fa';
 const HeungMinSon = () => {
   const items = [
     {
-      "title": "Men's LAFC Heung-Min Son adidas Black 2025 Primary Authentic Player Jersey",
-      "price": "$194.99",
-      "originalPrice": "$194.99",
-      "category": "Men Jerseys",
-      "shipping": "Ships Free",
-      "imageUrl": "https://images.footballfanatics.com/lafc/mens-adidas-custom-black-lafc-2024-primary-authentic-player-jersey_ss5_p-201853234+pv-1+u-123abc.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/LAFC-Son"
+      title: "Men's LAFC Son Heung-Min Fanatics Black Name & Number T-Shirt",
+      price: "$39.99",
+      originalPrice: "$39.99",
+      category: "Men T-Shirts",
+      shipping: "Most Popular in T-Shirts",
+      imageUrl: "https://images.footballfanatics.com/lafc/mens-fanatics-son-heung-min-black-lafc-name-and-number-t-shirt_ss5_p-2001773819+pv-1+u-fzvortcjbmvtcyotmisw+v-ei59irp3lbl3u4c6uwcj.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/3JxKqK"
     },
     {
-      "title": "Youth LAFC Heung-Min Son adidas White 2025 Secondary Replica Player Jersey",
-      "price": "$114.99",
-      "originalPrice": "$114.99",
-      "category": "Youth Jerseys",
-      "shipping": "Ships Free",
-      "imageUrl": "https://images.footballfanatics.com/lafc/youth-adidas-custom-white-lafc-2025-secondary-replica-player-jersey_ss5_p-202891362.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/LAFC-Son-Youth"
+      title: "Men's LAFC Son Heung-Min adidas White 2025 Secondary Authentic Player Jersey",
+      price: "$194.99",
+      originalPrice: "$194.99",
+      category: "Men Jerseys",
+      shipping: "Most Popular in LAFC",
+      imageUrl: "https://images.footballfanatics.com/lafc/mens-adidas-son-heung-min-white-lafc-2025-secondary-authentic-player-jersey_ss5_p-203367505+pv-1+u-cftjtgjfwnc0zrfvpxc1+v-pbvuhcfffp7vicgyt4o8.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/N9Dxv7"
     },
     {
-      "title": "Women's LAFC Heung-Min Son adidas Black 2025 Primary Replica Jersey",
-      "price": "$134.99",
-      "originalPrice": "$134.99",
-      "category": "Women Jerseys",
-      "shipping": "Ships Free",
-      "imageUrl": "https://images.footballfanatics.com/lafc/womens-adidas-custom-black-lafc-2025-primary-replica-jersey_ss5_p-202853330.jpg?_hv=2&w=900",
-      "link": "https://mlsstore.i8h2.net/LAFC-Son-Women"
+      title: "Men's LAFC Son Heung-Min adidas White 2025 Secondary Replica Player Jersey",
+      price: "$134.99",
+      originalPrice: "$134.99",
+      category: "Men Jerseys",
+      shipping: "Most Popular in LAFC",
+      imageUrl: "https://images.footballfanatics.com/lafc/mens-adidas-son-heung-min-white-lafc-2025-secondary-replica-player-jersey_ss5_p-203367506+pv-1+u-5g8hdmn6psesv2pdnqhj+v-aiktngzmtzptdkfkbume.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/YRGAvJ"
+    },
+    {
+      title: "Women's LAFC Son Heung-Min Fanatics Black Name & Number T-Shirt",
+      price: "$39.99",
+      originalPrice: "$39.99",
+      category: "Women T-Shirts",
+      shipping: "Most Popular in Women T-Shirts",
+      imageUrl: "https://images.footballfanatics.com/lafc/womens-fanatics-son-heung-min-black-lafc-name-and-number-t-shirt_ss5_p-2001773820+pv-1+u-ysigqp62ohifb5l75aqx+v-nkdva4evk1uc0ha9l1px.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/7ar69A"
+    },
+    {
+      title: "LAFC Son Heung-Min Black Scarf",
+      price: "$39.99",
+      originalPrice: "$39.99",
+      category: "Accessories",
+      shipping: "Most Popular in Accessories",
+      imageUrl: "https://images.footballfanatics.com/lafc/son-heung-min-black-lafc-scarf_ss5_p-203396446+u-ko3hl5zxdu96sljdjw3e+v-dnfztahsylw0wqryiosr.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/xL3KjA"
+    },
+    {
+      title: "Youth LAFC Son Heung-Min adidas White 2025 Secondary Replica Player Jersey",
+      price: "$114.99",
+      originalPrice: "$114.99",
+      category: "Kids Jerseys",
+      shipping: "Most Popular in Kids Jerseys",
+      imageUrl: "https://images.footballfanatics.com/lafc/youth-adidas-son-heung-min-white-lafc-2025-secondary-replica-player-jersey_ss5_p-203367508+pv-1+u-eq679hqljqx6cpzidh8l+v-0hbi0pa2xgpcbdrjal08.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/PO9Qgz"
+    },
+    {
+      title: "Son Heung-Min LAFC Fanatics Authentic 10.5\" x 13\" Jersey Style Number 7 Sublimated Plaque",
+      price: "$29.99",
+      originalPrice: "$29.99",
+      category: "Home & Office",
+      shipping: "Most Popular in Home & Office",
+      imageUrl: "https://images.footballfanatics.com/lafc/son-heung-min-lafc-105-x-13-jersey-style-number-7-sublimated-plaque_ss5_p-203377103+u-me2yxdqt1qdypvpicwwh+v-sspnu8gkveam68jjgcu5.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/6y961K"
+    },
+    {
+      title: "Women's LAFC Son Heung-Min adidas White 2025 Secondary Replica Player Jersey",
+      price: "$134.99",
+      originalPrice: "$134.99",
+      category: "Women Jerseys",
+      shipping: "Most Popular in LAFC",
+      imageUrl: "https://images.footballfanatics.com/lafc/womens-adidas-son-heung-min-white-lafc-2025-secondary-replica-player-jersey_ss5_p-203367507+pv-1+u-45wvyvkchmft7rybbzqe+v-liicbhartqrelqxksmg1.jpg?_hv=2&w=900",
+      link: "https://mlsstore.i8h2.net/4GD7A9"
     }
   ];
 
