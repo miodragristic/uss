@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 58,
+    "title": "USMNT Warning: Defeat to South Korea Exposes Serious Problems Ahead of 2026 World Cup",
+    "author": "Mio Ristic",
+    "date": "September 7, 2025",
+    "excerpt": "Son Heung-Min led South Korea to a 2-0 victory over the USMNT in New Jersey, raising fresh concerns about Mauricio Pochettino’s squad ahead of the 2026 World Cup.",
+    "imageUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-09/976007e0-8b6b-11f0-bfbb-b88058d464f7",
+    "link": "blog/us-korea"
+  },
+  {
     "id": 57,
     "title": "Seattle Runs Over Inter Miami: A Leagues Cup Night to Remember",
     "author": "Mio Ristic",
@@ -159,16 +168,7 @@ const blogPosts = [
     "imageUrl": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/25539754/2160081112.jpg",
     "link": "blog/muller-blog"
   },
-  {
-    "id": 52,
-    "title": "Rodrigo De Paul Joins Inter Miami: MLS Dream Team Incoming?",
-    "author": "Mio Ristic",
-    "date": "August 3, 2025",
-    "excerpt": "Rodrigo De Paul signs with Inter Miami, joining Messi, Busquets, and Alba. Is this the most star-packed team in MLS history? Find out what this move means for the league.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2227792192/crop/MM5DCOBUGA5DCMBTGU5G433XMU5DCMRRGU5DENBX/GettyImages-2227792192.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    "link": "blog/de-paul-inter-blog"
-  },
- 
+
 
   
  

@@ -40,6 +40,7 @@ const nextConfig = {
       "media.bleacherreport.com",
       "cdn.vox-cdn.com",
       "brila.net",
+      "s.yimg.com",
      
       
 
