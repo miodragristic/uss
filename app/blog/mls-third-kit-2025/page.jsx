@@ -78,7 +78,7 @@ const MLSThirdKitBlog = () => {
         <img
           src="https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548"
           alt='MLS Retro Third Kits'
-          className='w-full h-[400px] object-cover rounded-lg shadow-md'
+          className='w-full h-[400px] object-cover rounded-lg shadow-md object-[center_30%]'
         />
 
         <div className='mb-4 text-sm text-gray-600'>
