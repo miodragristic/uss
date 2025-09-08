@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 59,
+      "title": "MLS Third Kit 2025: Retro Jerseys You Need in Your Collection",
+      "author": "Mio Ristić",
+      "date": "September 9, 2025",
+      "excerpt": "Discover the best MLS third kits of 2025 – retro-inspired jerseys from Inter Miami, Seattle Sounders, LAFC, Columbus Crew, and more. Perfect for fans and collectors.",
+      "imageUrl": "https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548",
+      "slug": "mls-third-kit-2025"
+    },
+    {
       "id": 58,
       "title": "USMNT Warning: Defeat to South Korea Exposes Serious Problems Ahead of 2026 World Cup",
       "author": "Mio Ristic",

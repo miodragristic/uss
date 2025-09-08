@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 59,
+    "title": "MLS Third Kit 2025: Retro Jerseys You Need in Your Collection",
+    "author": "Mio Ristić",
+    "date": "September 9, 2025",
+    "excerpt": "Discover the best MLS third kits of 2025 – retro-inspired jerseys from Inter Miami, Seattle Sounders, LAFC, Columbus Crew, and more. Perfect for fans and collectors.",
+    "imageUrl": "https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548",
+    "link": "blog/mls-third-kit-2025"
+  },
+  {
     "id": 58,
     "title": "USMNT Warning: Defeat to South Korea Exposes Serious Problems Ahead of 2026 World Cup",
     "author": "Mio Ristic",
@@ -159,15 +168,7 @@ const blogPosts = [
     "imageUrl": "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
     "link": "blog/athletic-boise"
   },
-  {
-    "id": 53,
-    "title": "Thomas Müller to Vancouver Whitecaps? A Bold MLS Move on the Horizon",
-    "author": "Mio Ristic",
-    "date": "August 3, 2025",
-    "excerpt": "Bayern Munich legend Thomas Müller is rumored to join the Vancouver Whitecaps. Could this move shake up MLS and boost Canadian soccer?",
-    "imageUrl": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/25539754/2160081112.jpg",
-    "link": "blog/muller-blog"
-  },
+ 
 
 
   
