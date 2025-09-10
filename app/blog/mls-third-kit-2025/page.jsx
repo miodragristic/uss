@@ -3,13 +3,13 @@ import React from 'react';
 const MLSThirdKitBlog = () => {
   const products = [
     {
-      title: "Men's Seattle Sounders 2025 Retro Sky Blue Third Jersey",
-      price: "$159.99",
-      imageUrl: "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-blue-seattle-sounders-fc-2025-third-authentic-jersey_ss5_p-203139646+pv-1+u-fstyerasqku4yi2jcxvg+v-xk93ztridacqnopdg5om.jpg?_hv=2&w=900",
-      link: "https://mlsstore.i8h2.net/AP35Y1",
-      text: `Seattle Sounders’ 2025 third kit pays homage to their roots even before MLS was founded.
+        title: "Men's Seattle Sounders 2025 Retro Sky Blue Third Jersey",
+        price: "$159.99",
+        imageUrl: "https://images.footballfanatics.com/seattle-sounders-fc/mens-adidas-blue-seattle-sounders-fc-2025-third-authentic-jersey_ss5_p-203139646+pv-1+u-fstyerasqku4yi2jcxvg+v-xk93ztridacqnopdg5om.jpg?_hv=2&w=900",
+        link: "https://mlsstore.i8h2.net/QjLjAP",
+        text: `Seattle Sounders’ 2025 third kit pays homage to their roots even before MLS was founded.
       The iconic sky-blue design and nod to the early dolphin crest bring back the spirit of those days.`
-    },
+      },
     {
       title: "Men's New England Revolution 2025 Retro Third Jersey",
       price: "$159.99",
