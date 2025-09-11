@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 60,
+    "title": "USMNT 2–0 Japan: Pochettino’s First Step Toward Stability?",
+    "author": "Mio Ristić",
+    "date": "September 10, 2025",
+    "excerpt": "USMNT ended their seven-game winless streak with a 2-0 victory over Japan in Columbus. Zendejas and Balogun scored, Pulisic shined, and Freese impressed in goal. Could this be Pochettino’s springboard for consistency?",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2234598796/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2234598796.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    "link": "blog/usmnt-japan"
+  },    
+  {
     "id": 59,
     "title": "MLS Third Kit 2025: Retro Jerseys You Need in Your Collection",
     "author": "Mio Ristić",
@@ -159,17 +168,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2164041397/crop/MM5DGNRUHA5DEMBVGI5G433XMU5DCOJQHIYA====/GettyImages-2164041397.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     "link": "blog/paxten-aaronson-blog"
   },
-  {
-    "id": 54,
-    "title": "Athletic Club Boise Set to Debut in USL League One",
-    "author": "Mio Ristic",
-    "date": "August 26, 2025",
-    "excerpt": "Idaho’s first professional men’s soccer team, Athletic Club Boise, is preparing to make its debut in USL League One, representing the city and state with pride.",
-    "imageUrl": "https://cdn1.sportngin.com/attachments/photo/6128-211830812/Crest-Reveal-Video-Thumbnail_large.png",
-    "link": "blog/athletic-boise"
-  },
  
-
 
   
  

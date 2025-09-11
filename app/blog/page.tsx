@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 60,
+      "title": "USMNT 2–0 Japan: Pochettino’s First Step Toward Stability?",
+      "author": "Mio Ristić",
+      "date": "September 10, 2025",
+      "excerpt": "USMNT ended their seven-game winless streak with a 2-0 victory over Japan in Columbus. Zendejas and Balogun scored, Pulisic shined, and Freese impressed in goal. Could this be Pochettino’s springboard for consistency?",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2234598796/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2234598796.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+      "slug": "usmnt-japan"
+    },    
+    {
       "id": 59,
       "title": "MLS Third Kit 2025: Retro Jerseys You Need in Your Collection",
       "author": "Mio Ristić",
