@@ -10,7 +10,7 @@ export const metadata = {
       siteName: 'US11 FC',
       images: [
         {
-          url: 'https://assets.goal.com/images/v3/getty-2234598796/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2234598796.jpg?auto=webp&format=pjpg&width=1920&quality=60',
+          url: 'hhttps://assets.goal.com/images/v3/getty-2234598796/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2234598796.jpg?auto=webp&format=pjpg&width=1920&quality=60',
           width: 1200,
           height: 800,
         },

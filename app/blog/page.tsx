@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 62,
+      "title": "Sounders FC Back in MLS Action: Ferreira Breaks Records in 2-2 Draw with LA Galaxy",
+      "author": "US11 FC",
+      "date": "September 14, 2025",
+      "excerpt": "Seattle Sounders FC returned to MLS play with a 2-2 draw against LA Galaxy. Jesús Ferreira breaks MLS records, Danny Musovski shines, and returning stars Rusnák and Morris impact the game.",
+      "imageUrl": "https://assets.goal.com/images/v3/getty-2202323865/crop/MM5DGOBZHE5DEMJZGM5G433XMU5DAORSGAZQ====/GettyImages-2202323865.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "slug": "sounders-galaxy"
+    },    
+    {
+      "id": 61,
+      "title": "Müller Brings Munich Mentality to Vancouver: Birthday Hat Trick Seals 7-0 Rout",
+      "author": "Mio Ristić",
+      "date": "September 14, 2025",
+      "excerpt": "On his 36th birthday, Thomas Müller dominated Philadelphia Union, scoring two penalties, a header, and providing a brilliant assist in Vancouver Whitecaps’ 7-0 MLS rout.",
+      "imageUrl": "https://assets.goal.com/images/v3/blt61efb9f3489abfbe/crop/MM5DENBZGY5DCNBQGQ5G433XMU5DCMJRHI3TG===/GettyImages-2235288255.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+      "slug": "muller-vancouver"
+    },
+    {
       "id": 60,
       "title": "USMNT 2–0 Japan: Pochettino’s First Step Toward Stability?",
       "author": "Mio Ristić",

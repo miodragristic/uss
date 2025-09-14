@@ -115,6 +115,24 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 62,
+    "title": "Sounders FC Back in MLS Action: Ferreira Breaks Records in 2-2 Draw with LA Galaxy",
+    "author": "US11 FC",
+    "date": "September 14, 2025",
+    "excerpt": "Seattle Sounders FC returned to MLS play with a 2-2 draw against LA Galaxy. Jesús Ferreira breaks MLS records, Danny Musovski shines, and returning stars Rusnák and Morris impact the game.",
+    "imageUrl": "https://assets.goal.com/images/v3/getty-2202323865/crop/MM5DGOBZHE5DEMJZGM5G433XMU5DAORSGAZQ====/GettyImages-2202323865.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+    "link": "blog/sounders-galaxy"
+  },    
+  {
+    "id": 61,
+    "title": "Müller Brings Munich Mentality to Vancouver: Birthday Hat Trick Seals 7-0 Rout",
+    "author": "Mio Ristić",
+    "date": "September 14, 2025",
+    "excerpt": "On his 36th birthday, Thomas Müller dominated Philadelphia Union, scoring two penalties, a header, and providing a brilliant assist in Vancouver Whitecaps’ 7-0 MLS rout.",
+    "imageUrl": "https://assets.goal.com/images/v3/blt61efb9f3489abfbe/crop/MM5DENBZGY5DCNBQGQ5G433XMU5DCMJRHI3TG===/GettyImages-2235288255.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+    "link": "blog/muller-vancouver"
+  },
+  {
     "id": 60,
     "title": "USMNT 2–0 Japan: Pochettino’s First Step Toward Stability?",
     "author": "Mio Ristić",
@@ -150,24 +168,7 @@ const blogPosts = [
     "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/leadersgroup/UNPIXKTAEVBB3HJWDGSPYQFOMA.jpg",
     "link": "blog/seattle-inter-miami-recap"
   },    
-  {
-    "id": 56,
-    "title": "Inter Miami vs Seattle Sounders: Leagues Cup Final 2025 Preview & Tickets",
-    "author": "Mio Ristic",
-    "date": "August 30, 2025",
-    "excerpt": "Lionel Messi leads Inter Miami against Seattle Sounders in the 2025 Leagues Cup Final at Lumen Field. Preview, key details, and ticket info inside.",
-    "imageUrl": "https://brila.net/wp-content/uploads/2025/08/Lionel-Messi.jpg",
-    "link": "blog/inter-miami-seattle-blog"
-  },    
-  {
-    "id": 55,
-    "title": "Paxten Aaronson: Great Move or Risky Step?",
-    "author": "Mio Ristic",
-    "date": "August 26, 2025",
-    "excerpt": "Paxten Aaronson, one of MLS’s brightest young talents, returns from Europe to join Colorado Rapids. Is this a smart career reset or a risky step back?",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2164041397/crop/MM5DGNRUHA5DEMBVGI5G433XMU5DCOJQHIYA====/GettyImages-2164041397.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    "link": "blog/paxten-aaronson-blog"
-  },
+
  
 
   
