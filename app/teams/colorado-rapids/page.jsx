@@ -5,7 +5,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 const TrendingPlayers = ({ teamSlug = 'colorado-rapids' }) => {
   const players = [
     { name: 'Keegan Rosenberry', image: 'https://burgundywave.com/wp-content/uploads/2023/09/EDP30279.jpg', slug: './rosenberry' },
-    { name: 'Djordje Mihailovic', image: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/6057277724001/81fbb3c7-8451-4448-94bc-6b9fefe1fd24/fcb23ad0-8a30-46c2-8c37-6406f1dc0142/1280x720/match/image.jpg', slug: './mihailovic' },
+    // { name: 'Djordje Mihailovic', image: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/6057277724001/81fbb3c7-8451-4448-94bc-6b9fefe1fd24/fcb23ad0-8a30-46c2-8c37-6406f1dc0142/1280x720/match/image.jpg', slug: './mihailovic' },
     { name: 'Andreas Maxsø', image: 'https://www.tipsbladet.dk/wp-content/uploads/1970/01/2XDKEGR-scaled.jpg', slug: './maxso' },
     // { name: 'Kévin Cabral', image: 'https://images.mlssoccer.com/image/private/t_editorial_squared_6_desktop/f_auto/mls-col/wfv1nkbvlqg9xqglkfzq.jpg', link: './cabral' },
   ];

@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+    "id": 63,
+    "title": "US Players in the Champions League 2025/26: Rising Stars to Watch",
+    "author": "US11 FC",
+    "date": "September 19, 2025",
+    "excerpt": "Discover the top American players competing in the Champions League 2025/26 – from Weston McKennie to Cole Campbell. Profiles, clubs, positions, and key stats.",
+    "imageUrl": 'https://assets.goal.com/images/v3/getty-2217021422/crop/MM5DGOJSGA5DEMRQGU5G433XMU5DIMJUHI4DG===/GettyImages-2217021422.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+    "link": "blog/us-champions-league-2025"
+  },    
+  {
     "id": 62,
     "title": "Sounders FC Back in MLS Action: Ferreira Breaks Records in 2-2 Draw with LA Galaxy",
     "author": "US11 FC",
@@ -159,15 +168,6 @@ const blogPosts = [
     "imageUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-09/976007e0-8b6b-11f0-bfbb-b88058d464f7",
     "link": "blog/us-korea"
   },
-  {
-    "id": 57,
-    "title": "Seattle Runs Over Inter Miami: A Leagues Cup Night to Remember",
-    "author": "Mio Ristic",
-    "date": "August 31, 2025",
-    "excerpt": "Seattle Sounders dominate Inter Miami 3-0 in the 2025 Leagues Cup final, showcasing teamwork over star power. Full recap, goals, and awards inside.",
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/leadersgroup/UNPIXKTAEVBB3HJWDGSPYQFOMA.jpg",
-    "link": "blog/seattle-inter-miami-recap"
-  },    
 
  
 

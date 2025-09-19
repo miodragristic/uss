@@ -5,7 +5,8 @@ import Image from 'next/image';
 
 const TrendingPlayers = ({ teamSlug = 'toronto-fc' }) => {
   const players = [
-    { name: 'Federico Bernadeski', image: 'https://milanreports.com/wp-content/uploads/2023/08/Downloader.la-64ce27c1e1eb7.jpg', slug: './bernardeski' },
+    // { name: 'Federico Bernadeski', image: 'https://milanreports.com/wp-content/uploads/2023/08/Downloader.la-64ce27c1e1eb7.jpg', slug: './bernardeski' },
+    { name: 'Djordje Mihailovic', image: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/6057277724001/81fbb3c7-8451-4448-94bc-6b9fefe1fd24/fcb23ad0-8a30-46c2-8c37-6406f1dc0142/1280x720/match/image.jpg', slug: './mihailovic' },
     { name: 'Lorenzo Insigne', image: 'https://dynamo.kiev.ua/media/posts/2023/01/11/charlotte-fc-v-toronto-fc.jpg', slug: './insigne' },
     { name: 'Kevin Long', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fQLbiFBhOvoE0UYSOPxxi_VERQ0zX3o9MA&s', slug: './kevinlong' },
     { name: 'Jonathan Osorio', image: 'https://cdn1.deepdaledigest.com/uploads/10/2022/11/GettyImages-1411935788-750x500.jpg', slug: './osorio' },

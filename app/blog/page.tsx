@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+      "id": 63,
+      "title": "US Players in the Champions League 2025/26: Rising Stars to Watch",
+      "author": "US11 FC",
+      "date": "September 19, 2025",
+      "excerpt": "Discover the top American players competing in the Champions League 2025/26 – from Weston McKennie to Cole Campbell. Profiles, clubs, positions, and key stats.",
+      "imageUrl": 'https://assets.goal.com/images/v3/getty-2217021422/crop/MM5DGOJSGA5DEMRQGU5G433XMU5DIMJUHI4DG===/GettyImages-2217021422.jpg?auto=webp&format=pjpg&width=3840&quality=60',
+      "slug": "us-champions-league-2025"
+    },    
+    {
       "id": 62,
       "title": "Sounders FC Back in MLS Action: Ferreira Breaks Records in 2-2 Draw with LA Galaxy",
       "author": "US11 FC",
