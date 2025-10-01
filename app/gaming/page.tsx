@@ -12,14 +12,23 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
-      id: 1,
-      title: 'MLS in FC25',
-      author: 'Mio Ristic',
-      date: 'July 1, 2024',
-      excerpt: 'FC25 – Overview, MLS Clubs, and U.S. National Team.',
-      imageUrl: 'https://drop-assets.ea.com/images/1BY2V24NDqyjYKlDV8mJrx/ff63d00bb5bf24ad0c1b87adcd0e2771/EA_FC25_Standard_KeyArt_16-9_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5384114583333334,yPosition=0.538425925925926&q=85&w=1280',
-      slug: 'fc25',
-    },
+        id: 2,
+        title: "Top MLS Players in EA SPORTS FC 26",
+        author: "Mio Ristic",
+        date: "September 30, 2025",
+        excerpt: "Discover the best MLS players in EA SPORTS FC 26 – from Lionel Messi at Inter Miami to Heung Min Son at LAFC. Ratings, stats, and club overviews.",
+        imageUrl: "https://www.donanimhaber.com/cache-v2/?t=20250721183450&width=-1&text=0&path=https://www.donanimhaber.com/images/images/haber/194076/fc-26-icin-turkce-dublajli-fragmani-paylasildi-iste-video194076_0.jpg",
+        slug: "fc26"  // add this
+      },
+      {
+        id: 1,
+        title: 'MLS in FC25',
+        author: 'Mio Ristic',
+        date: 'July 1, 2024',
+        excerpt: 'FC25 – Overview, MLS Clubs, and U.S. National Team.',
+        imageUrl: 'https://drop-assets.ea.com/images/1BY2V24NDqyjYKlDV8mJrx/ff63d00bb5bf24ad0c1b87adcd0e2771/EA_FC25_Standard_KeyArt_16-9_3840x2160.jpg?im=AspectCrop=(16,9),xPosition=0.5384114583333334,yPosition=0.538425925925926&q=85&w=1280',
+        slug: 'fc25',
+      },
   
     
   ];
@@ -43,7 +52,7 @@ const Blog = () => {
             {visiblePosts.map((post) => (
               <Link
                 key={post.id}
-                href={`/blog/${post.slug}`}
+                href={`/gaming/${post.slug}`}
                 className="group rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300"
               >
                 <div className="relative w-full h-48">

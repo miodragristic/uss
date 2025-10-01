@@ -22,7 +22,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden md:flex">
         <ul className="flex">
-          {['/blog', '/teams', '/supplements', '/games', '/contact'].map((path, index) => (
+          {['/blog', '/teams', '/supplements', '/gaming', '/contact'].map((path, index) => (
             <li key={index} className="relative text-white font-sans text-lg px-4 group">
               <Link href={path} className="relative">
                 {path.replace('/', '').toUpperCase()}
@@ -45,7 +45,7 @@ const Navbar = () => {
           { path: '/blog', label: 'BLOG' },
           { path: '/teams', label: 'TEAMS' },
           { path: '/supplements', label: 'SUPPLEMENTS' },
-          { path: '/games', label: 'GAMING' },
+          { path: '/gaming', label: 'GAMING' },
           { path: '/contact', label: 'CONTACT' },
         ].map(({ path, label }, index) => (
           <li key={index} className="py-6 text-4xl">
