@@ -5,8 +5,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import SanDiegoLogo from '../../public/logos/San_Diego_FC_logo.svg.png';
-import Us11 from '../../public/11.png';
+ 
  
 
 const Blog = () => {
