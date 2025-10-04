@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 64,
+  "title": "MLS 2025: Teams Eliminated from Audi MLS Cup Playoffs",
+  "author": "Mio Ristic",
+  "date": "October 4, 2025",
+  "excerpt": "Check out which MLS teams have been eliminated from the Audi 2025 MLS Cup Playoffs before Decision Day — full breakdown by conference and playoff implications.",
+  "imageUrl": "https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1752735435/los-angeles-fc-vs-la-galaxy-2025-07-19.jpg",
+  "link": "blog/mls-2025-playoff-eliminations"
+},
+  {
     "id": 63,
     "title": "US Players in the Champions League 2025/26: Rising Stars to Watch",
     "author": "US11 FC",
@@ -159,16 +168,7 @@ const blogPosts = [
     "imageUrl": "https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548",
     "link": "blog/mls-third-kit-2025"
   },
-  {
-    "id": 58,
-    "title": "USMNT Warning: Defeat to South Korea Exposes Serious Problems Ahead of 2026 World Cup",
-    "author": "Mio Ristic",
-    "date": "September 7, 2025",
-    "excerpt": "Son Heung-Min led South Korea to a 2-0 victory over the USMNT in New Jersey, raising fresh concerns about Mauricio Pochettino’s squad ahead of the 2026 World Cup.",
-    "imageUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-09/976007e0-8b6b-11f0-bfbb-b88058d464f7",
-    "link": "blog/us-korea"
-  },
-
+  
  
 
   

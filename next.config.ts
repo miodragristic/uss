@@ -41,6 +41,7 @@ const nextConfig = {
       "cdn.vox-cdn.com",
       "brila.net",
       "s.yimg.com",
+      "cdn.wsn.com",
      
       
 
