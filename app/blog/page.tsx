@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 65,
+  "title": "MLS 2025: Qualified Teams for the Audi MLS Cup Playoffs",
+  "author": "Mio Ristic",
+  "date": "October 6, 2025",
+  "excerpt": "Discover all teams qualified for the 2025 Audi MLS Cup Playoffs — including the full list by conference, playoff format, key dates, and Decision Day schedule.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2227050537/crop/MM5DGMZSHA5DCOBXGI5G433XMU5DEMJYHIZDEMY=/GettyImages-2227050537.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-2025-playoffs-blog"
+},
+    {
   "id": 64,
   "title": "MLS 2025: Teams Eliminated from Audi MLS Cup Playoffs",
   "author": "Mio Ristic",

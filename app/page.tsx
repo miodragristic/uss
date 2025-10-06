@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 65,
+  "title": "MLS 2025: Qualified Teams for the Audi MLS Cup Playoffs",
+  "author": "Mio Ristic",
+  "date": "October 6, 2025",
+  "excerpt": "Discover all teams qualified for the 2025 Audi MLS Cup Playoffs — including the full list by conference, playoff format, key dates, and Decision Day schedule.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2227050537/crop/MM5DGMZSHA5DCOBXGI5G433XMU5DEMJYHIZDEMY=/GettyImages-2227050537.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/mls-2025-playoffs-blog"
+},
+  {
   "id": 64,
   "title": "MLS 2025: Teams Eliminated from Audi MLS Cup Playoffs",
   "author": "Mio Ristic",
@@ -158,17 +167,7 @@ const blogPosts = [
     "excerpt": "USMNT ended their seven-game winless streak with a 2-0 victory over Japan in Columbus. Zendejas and Balogun scored, Pulisic shined, and Freese impressed in goal. Could this be Pochettino’s springboard for consistency?",
     "imageUrl": "https://assets.goal.com/images/v3/getty-2234598796/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2234598796.jpg?auto=webp&format=pjpg&width=1920&quality=60",
     "link": "blog/usmnt-japan"
-  },    
-  {
-    "id": 59,
-    "title": "MLS Third Kit 2025: Retro Jerseys You Need in Your Collection",
-    "author": "Mio Ristić",
-    "date": "September 9, 2025",
-    "excerpt": "Discover the best MLS third kits of 2025 – retro-inspired jerseys from Inter Miami, Seattle Sounders, LAFC, Columbus Crew, and more. Perfect for fans and collectors.",
-    "imageUrl": "https://www.mlsstore.com/content/ws/all/0c171420-bd12-42f9-9806-1480b7ee4367__548X893.jpg?w=548",
-    "link": "blog/mls-third-kit-2025"
-  },
-  
+  }
  
 
   
@@ -313,6 +312,7 @@ export default function HomePage() {
 </div>
   </div>
   
+  
 
   {/* Navigation Arrows */}
   <div className="absolute top-1/2 left-4 -translate-y-1/2 text-white cursor-pointer z-10">
@@ -349,6 +349,8 @@ export default function HomePage() {
               />
             </div>
 
+            
+
             {/* Tekst */}
             <div className="p-4 flex flex-col flex-grow">
               <h3 className="text-xl font-bold mb-1 group-hover:text-blue-600 transition duration-300">
@@ -364,6 +366,19 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+
+      {/* Subscribe Section */}
+<div className="bg-gradient-to-r from-blue-800 to-blue-500 text-white py-16 text-center mt-16">
+  <h2 className="text-4xl font-bold mb-4">Stay Updated with US11</h2>
+  <p className="text-lg mb-8">Subscribe to our newsletter and never miss an MLS update</p>
+  <Link
+    href="/newsletter"
+    className="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-blue-100 hover:scale-105 transition duration-300 ease-in-out inline-block"
+  >
+    Subscribe to Newsletter
+  </Link>
+</div>
+
 
      
       
