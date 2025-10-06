@@ -121,7 +121,7 @@ const blogPosts = [
   "date": "October 4, 2025",
   "excerpt": "Check out which MLS teams have been eliminated from the Audi 2025 MLS Cup Playoffs before Decision Day — full breakdown by conference and playoff implications.",
   "imageUrl": "https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1752735435/los-angeles-fc-vs-la-galaxy-2025-07-19.jpg",
-  "link": "blog/mls-2025-playoff-eliminations"
+  "link": "blog/mls-eliminated-2025"
 },
   {
     "id": 63,
