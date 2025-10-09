@@ -43,7 +43,7 @@ const nextConfig = {
       "s.yimg.com",
       "cdn.wsn.com",
       "www.japantimes.co.jp",
-     
+     "fanatics.frgimages.com",
       
 
     ],
