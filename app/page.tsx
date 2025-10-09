@@ -115,6 +115,16 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 66,
+  "title": "LaLiga 2025: Barcelona vs Villarreal Historic Match in Miami",
+  "author": "Mio Ristic",
+  "date": "October 9, 2025",
+  "excerpt": "Barcelona will face Villarreal in a historic LaLiga fixture in Miami — the first regular-season match from a top European league played in the U.S. Discover why Miami was chosen and reactions from clubs, players, and fans.",
+  "imageUrl": "https://www.japantimes.co.jp/japantimes/uploads/images/2025/05/28/471879.JPG",
+  "link": "blog/la-liga-miami-blog"
+}
+,
+  {
   "id": 65,
   "title": "MLS 2025: Qualified Teams for the Audi MLS Cup Playoffs",
   "author": "Mio Ristic",
@@ -158,18 +168,7 @@ const blogPosts = [
     "excerpt": "On his 36th birthday, Thomas Müller dominated Philadelphia Union, scoring two penalties, a header, and providing a brilliant assist in Vancouver Whitecaps’ 7-0 MLS rout.",
     "imageUrl": "https://assets.goal.com/images/v3/blt61efb9f3489abfbe/crop/MM5DENBZGY5DCNBQGQ5G433XMU5DCMJRHI3TG===/GettyImages-2235288255.jpg?auto=webp&format=pjpg&width=1920&quality=60",
     "link": "blog/muller-vancouver"
-  },
-  {
-    "id": 60,
-    "title": "USMNT 2–0 Japan: Pochettino’s First Step Toward Stability?",
-    "author": "Mio Ristić",
-    "date": "September 10, 2025",
-    "excerpt": "USMNT ended their seven-game winless streak with a 2-0 victory over Japan in Columbus. Zendejas and Balogun scored, Pulisic shined, and Freese impressed in goal. Could this be Pochettino’s springboard for consistency?",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2234598796/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2234598796.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    "link": "blog/usmnt-japan"
   }
- 
-
   
  
  

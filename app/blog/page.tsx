@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 66,
+  "title": "LaLiga 2025: Barcelona vs Villarreal Historic Match in Miami",
+  "author": "Mio Ristic",
+  "date": "October 8, 2025",
+  "excerpt": "Barcelona will face Villarreal in a historic LaLiga fixture in Miami — the first regular-season match from a top European league played in the U.S. Discover why Miami was chosen and reactions from clubs, players, and fans.",
+  "imageUrl": "https://www.japantimes.co.jp/japantimes/uploads/images/2025/05/28/471879.JPG",
+  "slug": "la-liga-miami-blog"
+}
+,
+    {
   "id": 65,
   "title": "MLS 2025: Qualified Teams for the Audi MLS Cup Playoffs",
   "author": "Mio Ristic",
