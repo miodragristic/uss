@@ -1,11 +1,18 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { Facebook, Twitter, Copy, MessageCircle } from 'lucide-react';
+import { FaFacebookF, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FiCopy } from 'react-icons/fi';
 
 export default function LaLigaMiamiBlog() {
-  const currentUrl = typeof window !== 'undefined' ? window.location.href : '';
+  const [currentUrl, setCurrentUrl] = useState('');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCurrentUrl(window.location.href);
+    }
+  }, []);
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(currentUrl);
@@ -19,7 +26,7 @@ export default function LaLigaMiamiBlog() {
   return (
     <article className="w-full min-h-screen bg-white text-[#020617]">
       <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
-        
+
         {/* HEADER */}
         <header className="mb-8">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
@@ -41,7 +48,7 @@ export default function LaLigaMiamiBlog() {
               className="p-2 rounded-full bg-[#1877F2] text-white hover:opacity-80 transition"
               aria-label="Share on Facebook"
             >
-              <Facebook size={20} />
+              <FaFacebookF size={20} />
             </a>
 
             <a
@@ -49,9 +56,9 @@ export default function LaLigaMiamiBlog() {
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-black text-white hover:opacity-80 transition"
-              aria-label="Share on X"
+              aria-label="Share on Twitter"
             >
-              <Twitter size={20} />
+              <FaTwitter size={20} />
             </a>
 
             <a
@@ -61,7 +68,7 @@ export default function LaLigaMiamiBlog() {
               className="p-2 rounded-full bg-[#25D366] text-white hover:opacity-80 transition"
               aria-label="Share on WhatsApp"
             >
-              <MessageCircle size={20} />
+              <FaWhatsapp size={20} />
             </a>
 
             <button
@@ -69,7 +76,7 @@ export default function LaLigaMiamiBlog() {
               className="p-2 rounded-full bg-gray-200 text-[#020617] hover:bg-gray-300 transition"
               aria-label="Copy Link"
             >
-              <Copy size={20} />
+              <FiCopy size={20} />
             </button>
           </div>
         </header>
