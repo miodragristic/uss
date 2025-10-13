@@ -12,6 +12,17 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 67,
+  "title": "A New Era for the USMNT Under Pochettino: Bold Tactics, New Faces, and a Clear Direction",
+  "author": "Mio Ristić",
+  "date": "October 8, 2025",
+  "excerpt": "The USMNT is entering a new chapter under Mauricio Pochettino with bold tactics, young players, and a clear vision for the future.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt024caa907a00f79e/balogun3.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-ecuador"
+},
+
+
+    {
   "id": 66,
   "title": "LaLiga 2025: Barcelona vs Villarreal Historic Match in Miami",
   "author": "Mio Ristic",

@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 67,
+  "title": "A New Era for the USMNT Under Pochettino: Bold Tactics, New Faces, and a Clear Direction",
+  "author": "Mio Ristić",
+  "date": "October 8, 2025",
+  "excerpt": "The USMNT is entering a new chapter under Mauricio Pochettino with bold tactics, young players, and a clear vision for the future.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt024caa907a00f79e/balogun3.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/usmnt-ecuador"
+  },
+  {
   "id": 66,
   "title": "LaLiga 2025: Barcelona vs Villarreal Historic Match in Miami",
   "author": "Mio Ristic",
@@ -160,16 +169,7 @@ const blogPosts = [
     "imageUrl": "https://assets.goal.com/images/v3/getty-2202323865/crop/MM5DGOBZHE5DEMJZGM5G433XMU5DAORSGAZQ====/GettyImages-2202323865.jpg?auto=webp&format=pjpg&width=3840&quality=60",
     "link": "blog/sounders-galaxy"
   },    
-  {
-    "id": 61,
-    "title": "Müller Brings Munich Mentality to Vancouver: Birthday Hat Trick Seals 7-0 Rout",
-    "author": "Mio Ristić",
-    "date": "September 14, 2025",
-    "excerpt": "On his 36th birthday, Thomas Müller dominated Philadelphia Union, scoring two penalties, a header, and providing a brilliant assist in Vancouver Whitecaps’ 7-0 MLS rout.",
-    "imageUrl": "https://assets.goal.com/images/v3/blt61efb9f3489abfbe/crop/MM5DENBZGY5DCNBQGQ5G433XMU5DCMJRHI3TG===/GettyImages-2235288255.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-    "link": "blog/muller-vancouver"
-  }
-  
+
  
  
  
