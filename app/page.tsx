@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 68,
+  "title": "USMNT 2–1 Australia: Wright’s Brace, Pulisic’s Return, and a Fiery Colorado Atmosphere",
+  "author": "Mio Ristić",
+  "date": "October 15, 2025",
+  "excerpt": "Haji Wright scored twice as the USMNT defeated Australia 2–1 in Colorado. Christian Pulisic returned to the pitch, and the packed stadium brought an unforgettable atmosphere.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt580bb7c6f26a8ef1/weah.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/usmnt-aus"
+},
+  {
   "id": 67,
   "title": "A New Era for the USMNT Under Pochettino: Bold Tactics, New Faces, and a Clear Direction",
   "author": "Mio Ristić",
@@ -160,18 +169,7 @@ const blogPosts = [
     "imageUrl": 'https://assets.goal.com/images/v3/getty-2217021422/crop/MM5DGOJSGA5DEMRQGU5G433XMU5DIMJUHI4DG===/GettyImages-2217021422.jpg?auto=webp&format=pjpg&width=3840&quality=60',
     "link": "blog/us-champions-league-2025"
   },    
-  {
-    "id": 62,
-    "title": "Sounders FC Back in MLS Action: Ferreira Breaks Records in 2-2 Draw with LA Galaxy",
-    "author": "US11 FC",
-    "date": "September 14, 2025",
-    "excerpt": "Seattle Sounders FC returned to MLS play with a 2-2 draw against LA Galaxy. Jesús Ferreira breaks MLS records, Danny Musovski shines, and returning stars Rusnák and Morris impact the game.",
-    "imageUrl": "https://assets.goal.com/images/v3/getty-2202323865/crop/MM5DGOBZHE5DEMJZGM5G433XMU5DAORSGAZQ====/GettyImages-2202323865.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-    "link": "blog/sounders-galaxy"
-  },    
 
- 
- 
  
 
   

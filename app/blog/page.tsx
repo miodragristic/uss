@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 68,
+  "title": "USMNT 2–1 Australia: Wright’s Brace, Pulisic’s Return, and a Fiery Colorado Atmosphere",
+  "author": "Mio Ristić",
+  "date": "October 15, 2025",
+  "excerpt": "Haji Wright scored twice as the USMNT defeated Australia 2–1 in Colorado. Christian Pulisic returned to the pitch, and the packed stadium brought an unforgettable atmosphere.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt580bb7c6f26a8ef1/weah.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "usmnt-aus"
+},
+
+    {
   "id": 67,
   "title": "A New Era for the USMNT Under Pochettino: Bold Tactics, New Faces, and a Clear Direction",
   "author": "Mio Ristić",
