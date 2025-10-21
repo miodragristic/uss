@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import Head from 'next/head';
 
-export default function NewsletterPage() {
+export default function GiveawayFC25() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
     email: '',
     city: '',
     country: '',
+    instagramHandle: '',
     favoriteClub: '',
   });
 
@@ -25,17 +26,10 @@ export default function NewsletterPage() {
     setLoading(true);
 
     try {
-      const form = new FormData();
-      Object.keys(formData).forEach((key) => {
-        form.append(key, formData[key]);
-      });
-
-      const response = await fetch('https://formspree.io/f/xeorwale', {
+      const response = await fetch('https://formspree.io/f/myzeqejb', {
         method: 'POST',
-        body: form,
-        headers: {
-          Accept: 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
       });
 
       if (response.ok) {
@@ -54,10 +48,10 @@ export default function NewsletterPage() {
   return (
     <>
       <Head>
-        <title>Subscribe to US11 Newsletter | MLS News & Updates</title>
+        <title>⚽ FC25 Giveaway | Win the Game | US11</title>
         <meta
           name="description"
-          content="Join the US11 newsletter for exclusive MLS news, match previews, transfer updates, and player insights. Subscribe today and stay connected with U.S. soccer!"
+          content="Enter the US11 FC25 Giveaway! Fill out the form and complete Instagram steps to enter the draw. Winner announced on November 10."
         />
       </Head>
 
@@ -66,11 +60,25 @@ export default function NewsletterPage() {
           {!submitted ? (
             <>
               <h1 className="text-4xl font-bold text-blue-800 mb-4">
-                Subscribe to US11 Newsletter
+                ⚽ FC25 GIVEAWAY
               </h1>
-              <p className="text-gray-700 mb-6">
-                Stay ahead with the latest MLS news, player stats, and exclusive stories — straight to your inbox.
+              <p className="text-gray-700 mb-4">
+                Win a free copy of <strong>EA SPORTS FC 25</strong>!
               </p>
+              <p className="text-gray-700 mb-6">
+                📅 <strong>Winner announced: November 10</strong> <br />
+                ✅ To participate, you must:
+              </p>
+
+              <ul className="text-left text-gray-700 mb-6 list-disc pl-5 space-y-2">
+                <li>Fill out the entire form below</li>
+                <li>
+                  Follow <strong>@us11fc</strong> & <strong>@galaxyrunsla</strong> on Instagram
+                </li>
+                <li>Like the giveaway post</li>
+                <li>Tag 2 friends in the comments</li>
+                <li>Share on your story</li>
+              </ul>
 
               <form onSubmit={handleSubmit} className="space-y-4 text-left">
                 <div>
@@ -117,6 +125,20 @@ export default function NewsletterPage() {
 
                 <div>
                   <label className="block text-gray-700 mb-1 font-medium">
+                    Favorite MLS Club
+                  </label>
+                  <input
+                    type="text"
+                    name="favoriteClub"
+                    value={formData.favoriteClub}
+                    onChange={handleChange}
+                    placeholder="e.g. LAFC, Inter Miami, Seattle Sounders..."
+                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-gray-700 mb-1 font-medium">
                     City
                   </label>
                   <input
@@ -124,6 +146,7 @@ export default function NewsletterPage() {
                     name="city"
                     value={formData.city}
                     onChange={handleChange}
+                    required
                     className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
                   />
                 </div>
@@ -137,20 +160,22 @@ export default function NewsletterPage() {
                     name="country"
                     value={formData.country}
                     onChange={handleChange}
+                    required
                     className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
                   />
                 </div>
 
                 <div>
                   <label className="block text-gray-700 mb-1 font-medium">
-                    Favorite MLS Club
+                    Instagram Handle
                   </label>
                   <input
                     type="text"
-                    name="favoriteClub"
-                    value={formData.favoriteClub}
+                    name="instagramHandle"
+                    value={formData.instagramHandle}
                     onChange={handleChange}
-                    placeholder="e.g. LAFC, Inter Miami, Seattle Sounders..."
+                    placeholder="@yourusername"
+                    required
                     className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
                   />
                 </div>
@@ -162,17 +187,18 @@ export default function NewsletterPage() {
                     loading ? 'opacity-70 cursor-not-allowed' : 'hover:bg-blue-800'
                   }`}
                 >
-                  {loading ? 'Submitting...' : 'Subscribe Now'}
+                  {loading ? 'Submitting...' : 'Enter Giveaway'}
                 </button>
               </form>
             </>
           ) : (
             <div className="text-center">
               <h2 className="text-3xl font-bold text-blue-800 mb-3">
-                Thank You for Subscribing!
+                🎉 You're In!
               </h2>
-              <p className="text-gray-700">
-                Welcome to the US11 community. Check your inbox for confirmation and start receiving MLS insights soon!
+              <p className="text-gray-700 mb-4">
+                Thank you for entering the FC25 Giveaway.
+                Make sure you’ve followed all Instagram steps to be eligible.
               </p>
               <a
                 href="/"

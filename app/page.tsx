@@ -115,6 +115,25 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 70,
+  "title": "Audi 2025 MLS Cup Playoffs: Wild Card & Round One Matchups Preview",
+  "author": "Mio Ristić",
+  "date": "October 20, 2025",
+  "excerpt": "The Audi 2025 MLS Cup Playoffs are underway, featuring 18 teams, thrilling matchups, and top-tier talent. Explore the Wild Card showdowns, Round One series, and key players to watch.",
+  "imageUrl": "https://www.365scores.com/news/wp-content/uploads/2024/10/GettyImages-2148556804-780x470.jpg",
+  "link": "blog/mls-playoff-2025"
+},
+  {
+  "id": 69,
+  "title": "Capo FC and Los Angeles Force Secure Spots in NISA Pro Cup Final",
+  "author": "Mio Ristić",
+  "date": "October 19, 2025",
+  "excerpt": "Capo FC and Los Angeles Force advanced to the 2025 NISA Pro Cup Championship Final after dominant semifinal performances, showcasing tactical discipline and key goals.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NISA_logo_black_2022.png",
+  "link": "blog/nisa"
+},
+ 
+  {
   "id": 68,
   "title": "USMNT 2–1 Australia: Wright’s Brace, Pulisic’s Return, and a Fiery Colorado Atmosphere",
   "author": "Mio Ristić",
@@ -151,30 +170,6 @@ const blogPosts = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2227050537/crop/MM5DGMZSHA5DCOBXGI5G433XMU5DEMJYHIZDEMY=/GettyImages-2227050537.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "blog/mls-2025-playoffs-blog"
 },
-  {
-  "id": 64,
-  "title": "MLS 2025: Teams Eliminated from Audi MLS Cup Playoffs",
-  "author": "Mio Ristic",
-  "date": "October 4, 2025",
-  "excerpt": "Check out which MLS teams have been eliminated from the Audi 2025 MLS Cup Playoffs before Decision Day — full breakdown by conference and playoff implications.",
-  "imageUrl": "https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1752735435/los-angeles-fc-vs-la-galaxy-2025-07-19.jpg",
-  "link": "blog/mls-eliminated-2025"
-},
-  {
-    "id": 63,
-    "title": "US Players in the Champions League 2025/26: Rising Stars to Watch",
-    "author": "US11 FC",
-    "date": "September 19, 2025",
-    "excerpt": "Discover the top American players competing in the Champions League 2025/26 – from Weston McKennie to Cole Campbell. Profiles, clubs, positions, and key stats.",
-    "imageUrl": 'https://assets.goal.com/images/v3/getty-2217021422/crop/MM5DGOJSGA5DEMRQGU5G433XMU5DIMJUHI4DG===/GettyImages-2217021422.jpg?auto=webp&format=pjpg&width=3840&quality=60',
-    "link": "blog/us-champions-league-2025"
-  },    
-
- 
-
-  
-
-
 
   
 
@@ -239,13 +234,13 @@ export default function HomePage() {
         
         <div className="hidden md:flex md:flex-col md:items-center mr-20  md:ml-8 mt-[-60px]">
   <a
-    href="https://mlsstore.i8h2.net/aOzQ2o"
+    href="/giveaway"
     target="_blank"
     rel="noopener noreferrer"
   >
    <Image
-  src="https://www.mlsstore.com/content/ws/all/46d82f1b-9a12-4135-bf5d-5eec640f61ab__548X893.jpg?w=548"
-  alt="MLS Finals"
+  src="https://i.postimg.cc/Z5J9BRBT/www-us11fc-com.png"
+  alt="FC 26"
   width={340}
   height={500}
   className="rounded-2xl shadow-xl border-4 border-white transition-transform duration-300 hover:scale-105 object-cover object-center"
@@ -268,9 +263,9 @@ export default function HomePage() {
 
       {/* Mobile version */}
       <div className="flex flex-col items-center ml-8 sm:hidden">
-        <Link href="https://mlsstore.i8h2.net/aOzQ2o">
+        <Link href="/giveaway">
           <Image
-            src="https://www.mlsstore.com/content/ws/all/46d82f1b-9a12-4135-bf5d-5eec640f61ab__548X893.jpg?w=548"
+            src="https://i.postimg.cc/Z5J9BRBT/www-us11fc-com.png"
             alt="MLS Finals"
             width={340}
             height={500}

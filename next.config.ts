@@ -44,6 +44,9 @@ const nextConfig = {
       "cdn.wsn.com",
       "www.japantimes.co.jp",
      "fanatics.frgimages.com",
+     "i.postimg.cc",
+     "upload.wikimedia.org",
+     "www.365scores.com",
       
 
     ],

@@ -12,6 +12,24 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 70,
+  "title": "Audi 2025 MLS Cup Playoffs: Wild Card & Round One Matchups Preview",
+  "author": "Mio Ristić",
+  "date": "October 20, 2025",
+  "excerpt": "The Audi 2025 MLS Cup Playoffs are underway, featuring 18 teams, thrilling matchups, and top-tier talent. Explore the Wild Card showdowns, Round One series, and key players to watch.",
+  "imageUrl": "https://www.365scores.com/news/wp-content/uploads/2024/10/GettyImages-2148556804-780x470.jpg",
+  "slug": "mls-playoff-2025"
+},
+    {
+  "id": 69,
+  "title": "Capo FC and Los Angeles Force Secure Spots in NISA Pro Cup Final",
+  "author": "Mio Ristić",
+  "date": "October 19, 2025",
+  "excerpt": "Capo FC and Los Angeles Force advanced to the 2025 NISA Pro Cup Championship Final after dominant semifinal performances, showcasing tactical discipline and key goals.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NISA_logo_black_2022.png",
+  "slug": "nisa"
+},
+    {
   "id": 68,
   "title": "USMNT 2–1 Australia: Wright’s Brace, Pulisic’s Return, and a Fiery Colorado Atmosphere",
   "author": "Mio Ristić",
