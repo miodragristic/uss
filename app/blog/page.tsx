@@ -11,6 +11,27 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    
+{
+  "id": 72,
+  "title": "Canceled: La Liga’s Barcelona vs Villarreal Match",
+  "author": "Mio Ristić",
+  "date": "October 22, 2025",
+  "excerpt": "La Liga officially canceled the Barcelona vs Villarreal match in Miami, originally set for December 2025. The decision raised questions — was the problem the idea itself or its execution?",
+  "imageUrl": "https://getfootballnewsspain.com/wp-content/uploads/2024/11/fc-barcelona-v-rcd-espanyol-de-barcelona-la-liga-ea-sports-8.jpg",
+  "slug": "la-liga-miami-cancel"
+}
+,
+    {
+  "id": 71,
+  "title": "LA Force Crowned NISA Pro Cup Champions 2025",
+  "author": "Mio Ristić",
+  "date": "October 21, 2025",
+  "excerpt": "LA Force defeated Capo FC 4–1 after extra time to win the 2025 NISA Pro Cup. Joel Quist starred with two goals, and Bryan Ortega sealed the victory in the 120th minute.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NISA_logo_black_2022.png",
+  "slug": "nisa-champions"
+},
+
     {
   "id": 70,
   "title": "Audi 2025 MLS Cup Playoffs: Wild Card & Round One Matchups Preview",

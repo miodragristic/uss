@@ -115,6 +115,25 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 72,
+  "title": "Canceled: La Liga’s Barcelona vs Villarreal Match",
+  "author": "Mio Ristić",
+  "date": "October 22, 2025",
+  "excerpt": "La Liga officially canceled the Barcelona vs Villarreal match in Miami, originally set for December 2025. The decision raised questions — was the problem the idea itself or its execution?",
+  "imageUrl": "https://getfootballnewsspain.com/wp-content/uploads/2024/11/fc-barcelona-v-rcd-espanyol-de-barcelona-la-liga-ea-sports-8.jpg",
+  "link": "blog/la-liga-miami-cancel"
+}
+,
+  {
+  "id": 71,
+  "title": "LA Force Crowned NISA Pro Cup Champions 2025",
+  "author": "Mio Ristić",
+  "date": "October 21, 2025",
+  "excerpt": "LA Force defeated Capo FC 4–1 after extra time to win the 2025 NISA Pro Cup. Joel Quist starred with two goals, and Bryan Ortega sealed the victory in the 120th minute.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NISA_logo_black_2022.png",
+  "link": "blog/nisa-champions"
+},
+  {
   "id": 70,
   "title": "Audi 2025 MLS Cup Playoffs: Wild Card & Round One Matchups Preview",
   "author": "Mio Ristić",
@@ -151,27 +170,6 @@ const blogPosts = [
   "imageUrl": "https://assets.goal.com/images/v3/blt024caa907a00f79e/balogun3.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "blog/usmnt-ecuador"
   },
-  {
-  "id": 66,
-  "title": "LaLiga 2025: Barcelona vs Villarreal Historic Match in Miami",
-  "author": "Mio Ristic",
-  "date": "October 9, 2025",
-  "excerpt": "Barcelona will face Villarreal in a historic LaLiga fixture in Miami — the first regular-season match from a top European league played in the U.S. Discover why Miami was chosen and reactions from clubs, players, and fans.",
-  "imageUrl": "https://www.japantimes.co.jp/japantimes/uploads/images/2025/05/28/471879.JPG",
-  "link": "blog/la-liga-miami-blog"
-}
-,
-  {
-  "id": 65,
-  "title": "MLS 2025: Qualified Teams for the Audi MLS Cup Playoffs",
-  "author": "Mio Ristic",
-  "date": "October 6, 2025",
-  "excerpt": "Discover all teams qualified for the 2025 Audi MLS Cup Playoffs — including the full list by conference, playoff format, key dates, and Decision Day schedule.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2227050537/crop/MM5DGMZSHA5DCOBXGI5G433XMU5DEMJYHIZDEMY=/GettyImages-2227050537.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/mls-2025-playoffs-blog"
-},
-
-  
 
 
 

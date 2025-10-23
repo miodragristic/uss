@@ -47,6 +47,8 @@ const nextConfig = {
      "i.postimg.cc",
      "upload.wikimedia.org",
      "www.365scores.com",
+     "getfootballnewsspain.com",
+     "getfootballnewsspain.com",
       
 
     ],
