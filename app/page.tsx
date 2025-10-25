@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef} from 'react';
 import Image from 'next/image';
-import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import Link from 'next/link';
 
 // Ako koristiš TypeScript — obavezno tipiziraj ref:
@@ -187,8 +186,7 @@ export default function HomePage() {
   const [currentIndex, setCurrentIndex] = useState(0);
  
 
-  const prevSlide = () => setCurrentIndex((currentIndex - 1 + slides.length) % slides.length);
-  const nextSlide = () => setCurrentIndex((currentIndex + 1) % slides.length);
+
 
   return (
     
