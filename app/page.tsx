@@ -270,45 +270,91 @@ export default function HomePage() {
         
       </div>
 
-      {/* New Banner Style Slider */}
-<div className="relative bg-gradient-to-r from-blue-700 to-blue-400 overflow-hidden py-8 px-4 md:px-16">
-  <div className="grid md:grid-cols-3 gap-6 items-center min-h-[300px]">
-    <div className="md:col-span-2 text-white">
-      <h1 className="text-3xl md:text-4xl font-bold">{slides[currentIndex].title}</h1>
-      <p className="text-base text-gray-200 mt-4">Discover the latest drop from MLS Store.</p>
-      <a 
-  href={slides[currentIndex].link} 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="py-3 px-6 text-sm font-semibold bg-white text-blue-600 hover:bg-slate-100 rounded-md mt-8 cursor-pointer inline-block"
->
-  Shop Now
-</a>
+      {/* Football Shirts Section */}
+<div className="bg-white py-16">
+  <div className="max-w-6xl mx-auto px-6">
+    <h2 className="text-5xl font-bold text-[#020617] mb-12 text-center">
+      Staff Picks
+    </h2>
+
+    <div className="overflow-x-auto pb-4 flex space-x-6">
+      {[
+        {
+          name: "Lionel Messi Inter Miami CF adidas Youth 2025 The Fortitude Kit Replica Player Jersey - Black",
+          price: "$109.99",
+          image: "https://fanatics.frgimages.com/inter-miami-cf/youth-adidas-lionel-messi-black-inter-miami-cf-2025-the-fortitude-kit-replica-player-jersey_ss5_p-201604870+pv-1+u-mgihjk9ywffxfwjtkbrl+v-5p4ohbnddixdv7gyxn48.jpg?_hv=2&w=1018",
+          link: "https://fanatics.93n6tx.net/Qj7Dya",
+        },
+        {
+          name: "Lionel Messi Inter Miami CF adidas Originals Youth 2025 Third Replica Player Jersey - Blue",
+          price: "$109.99",
+          image: "https://fanatics.frgimages.com/inter-miami-cf/youth-adidas-originals-lionel-messi-blue-inter-miami-cf-2025-third-replica-player-jersey_ss5_p-202462095+pv-1+u-ynteuvrrspb5ek9qkbrx+v-klfcxvmjcrzrekd0j9ue.jpg?_hv=2&w=1018",
+          link: "https://www.fanatics.com/mls/inter-miami-cf/lionel-messi-inter-miami-cf-adidas-originals-youth-2025-third-replica-player-jersey-blue/o-3555+t-21474441+p-2422463797239+z-9-3173708973?_ref=p-XLP:m-LD:pi-SOCCER_XLP_CAROUSEL:i-r0c2:po-2",
+        },
+        {
+          name: "Lamine Yamal Barcelona Nike 2025/26 Replica Player Jersey - Blue",
+          price: "$129.99",
+          image: "https://fanatics.frgimages.com/barcelona/mens-nike-lamine-yamal-blue-barcelona-2025/26-replica-player-jersey_ss5_p-203284529+pv-1+u-egcn4pkk9yugwdxafypr+v-9yopybyijyh7ysmfxoob.jpg?_hv=2&w=1018",
+          link: "https://fanatics.93n6tx.net/4GX9G0",
+        },
+        {
+          name: "Lamine Yamal Barcelona Nike Youth 2025/26 Away Stadium Replica Jersey - Gold",
+          price: "114.99",
+          image: "https://fanatics.frgimages.com/barcelona/youth-nike-lamine-yamal-gold-barcelona-2025/26-away-stadium-replica-jersey_ss5_p-203336005+pv-1+u-5ha2rhncky9c4bvfgydm+v-umguisys7a3vzdlecyg8.jpg?_hv=2&w=1018",
+          link: "https://fanatics.93n6tx.net/K07b07",
+        },
+        {
+          name: "adidas 2026 FIFA World Cup Pro Soccer Ball",
+          price: "$169.99",
+          image: "https://fanatics.frgimages.com/fifa-world-cup-gear/adidas-2026-fifa-world-cup-pro-soccer-ball_ss5_p-202753932+pv-1+u-uioraphtnaputjyep8cm+v-5vubzbfxseqln05alds1.jpg?_hv=2&w=1018",
+          link: "https://fanatics.93n6tx.net/qzYMzb",
+        },
+        {
+          name: "USMNT Nike 2025 Away Replica Jersey - Navy",
+          price: "$104.99",
+          image: "https://fanatics.frgimages.com/usmnt/mens-nike-navy-usmnt-2025-away-replica-jersey_ss5_p-202297013+pv-1+u-f9wal9lduvhdzyrsu8xw+v-p6kn5elckajdhcsojmpr.jpg?_hv=2&w=1018",
+          link: "https://fanatics.93n6tx.net/9L0kL4",
+        },
+      ].map((shirt) => (
+        <a
+          key={shirt.name}
+          href={shirt.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex-shrink-0 w-72 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-transform transform hover:scale-105"
+        >
+          <img
+            src={shirt.image}
+            alt={shirt.name}
+            className="rounded-t-2xl h-72 w-full object-cover"
+          />
+          <div className="p-4 text-center">
+            <h3 className="text-lg font-semibold text-[#020617] mb-2">
+              {shirt.name}
+            </h3>
+            <p className="text-blue-600 font-bold text-xl">{shirt.price}</p>
+          </div>
+        </a>
+      ))}
     </div>
 
-    {/* Image Section */}
-    {/* Image Section */}
-    <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-lg">
-  {/* Background Image */}
-  <img
-    src={slides[currentIndex].url}
-    alt={slides[currentIndex].title}
-    className="absolute inset-0 w-full h-full object-cover z-0"
-  />
-
-</div>
-  </div>
-  
-  
-
-  {/* Navigation Arrows */}
-  <div className="absolute top-1/2 left-4 -translate-y-1/2 text-white cursor-pointer z-10">
-    <BsChevronCompactLeft onClick={prevSlide} size={30} />
-  </div>
-  <div className="absolute top-1/2 right-4 -translate-y-1/2 text-white cursor-pointer z-10">
-    <BsChevronCompactRight onClick={nextSlide} size={30} />
+    <div className="flex justify-center mt-10">
+      <a
+        href="https://fanatics.93n6tx.net/Vx7PO6"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-[#020617] text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#020617] hover:border-[#020617] border-2 transition-all duration-300 ease-in-out transform hover:scale-105"
+      >
+        View All Shirts
+      </a>
+    </div>
   </div>
 </div>
+
+      
+
+      
+   
     
   
 
