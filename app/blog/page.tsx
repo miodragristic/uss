@@ -12,6 +12,16 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 76,
+  "title": "Inter Miami Cruise Past Nashville in Dominant Playoff Victory",
+  "author": "Mio Ristić",
+  "date": "October 25, 2025",
+  "excerpt": "Lionel Messi led Inter Miami CF to a commanding 3–1 playoff win over Nashville SC in the Audi 2025 MLS Cup Playoffs. Read the full recap, goals, and highlights on US11.",
+  "imageUrl": "https://brobible.com/wp-content/uploads/2023/08/lionel-messi-taking-a-corner-kick-for-inter-miami.jpg",
+  "slug": "inter-miami-nashville"
+},
+
+    {
   "id": 75,
   "title": "Lionel Messi Extends Inter Miami Contract Through 2028",
   "author": "Mio Ristić",

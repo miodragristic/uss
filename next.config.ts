@@ -51,6 +51,7 @@ const nextConfig = {
       "www.750thegame.com",
       "cloudfront-us-east-1.images.arcpublishing.com",
       "cyprus-mail.com",
+      "brobible.com",
     ],
   },
 };

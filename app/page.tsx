@@ -115,6 +115,15 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 76,
+  "title": "Inter Miami Cruise Past Nashville in Dominant Playoff Victory",
+  "author": "Mio Ristić",
+  "date": "October 25, 2025",
+  "excerpt": "Lionel Messi led Inter Miami CF to a commanding 3–1 playoff win over Nashville SC in the Audi 2025 MLS Cup Playoffs. Read the full recap, goals, and highlights on US11.",
+  "imageUrl": "https://brobible.com/wp-content/uploads/2023/08/lionel-messi-taking-a-corner-kick-for-inter-miami.jpg",
+  "link": "blog/inter-miami-nashville"
+},
+  {
   "id": 75,
   "title": "Lionel Messi Extends Inter Miami Contract Through 2028",
   "author": "Mio Ristić",
@@ -161,15 +170,7 @@ const blogPosts = [
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NISA_logo_black_2022.png",
   "link": "blog/nisa-champions"
 },
-  {
-  "id": 70,
-  "title": "Audi 2025 MLS Cup Playoffs: Wild Card & Round One Matchups Preview",
-  "author": "Mio Ristić",
-  "date": "October 20, 2025",
-  "excerpt": "The Audi 2025 MLS Cup Playoffs are underway, featuring 18 teams, thrilling matchups, and top-tier talent. Explore the Wild Card showdowns, Round One series, and key players to watch.",
-  "imageUrl": "https://www.365scores.com/news/wp-content/uploads/2024/10/GettyImages-2148556804-780x470.jpg",
-  "link": "blog/mls-playoff-2025"
-},
+   
 
 
 
