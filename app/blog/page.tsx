@@ -11,15 +11,33 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+    {
+  "id": 75,
+  "title": "Lionel Messi Extends Inter Miami Contract Through 2028",
+  "author": "Mio Ristić",
+  "date": "October 25, 2025",
+  "excerpt": "Lionel Messi stays with Inter Miami CF until 2028, continuing his legendary MLS career. Read the full story and what to expect in Miami.",
+  "imageUrl": "https://cyprus-mail.com/image/s1100x733/fill/webp/path/wp-content/uploads/2023/07/messi.jpg",
+  "slug": "messi-inter-miami-extension"
+},
+    {
+  "id": 74,
+  "title": "Portland Timbers & Felipe Mora Get Groove Back in Wild Card Win",
+  "author": "Mio Ristić",
+  "date": "October 23, 2025",
+  "excerpt": "Felipe Mora’s brace powered Portland Timbers past Real Salt Lake 3–1 in the 2025 MLS Wild Card match. Read the full playoff recap on US11.",
+  "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/prisachile/IDRGQPSWNJAULE3CHLPZVD3FGM.jpg",
+  "slug": "portland-real-playoffs"
+},
     
 {
-  "id": 72,
-  "title": "Canceled: La Liga’s Barcelona vs Villarreal Match",
+  "id": 73,
+  "title": "Chicago Fire Blaze Past Orlando in Wild Card Clash",
   "author": "Mio Ristić",
-  "date": "October 22, 2025",
-  "excerpt": "La Liga officially canceled the Barcelona vs Villarreal match in Miami, originally set for December 2025. The decision raised questions — was the problem the idea itself or its execution?",
-  "imageUrl": "https://getfootballnewsspain.com/wp-content/uploads/2024/11/fc-barcelona-v-rcd-espanyol-de-barcelona-la-liga-ea-sports-8.jpg",
-  "slug": "la-liga-miami-cancel"
+  "date": "October 23, 2025",
+  "excerpt": "Chicago Fire defeated Orlando City 3–1 in the 2025 MLS Wild Card match, with Brian Gutiérrez and Hugo Cuypers leading the charge. Read the full match report on US11.",
+  "imageUrl": "https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1745997572/chicago-fire-fc-vs-orlando-city-sc-2025-05-03.jpg",
+  "slug": "chicago-orlando-playoffs"
 }
 ,
     {

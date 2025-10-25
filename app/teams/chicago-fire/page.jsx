@@ -1,13 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaShoppingCart } from 'react-icons/fa';
 
 const TrendingPlayers = () => {
   const players = [
-    // { name: 'Arnaud Souquet', image: 'https://northlandsoccer.com/wp-content/uploads/2023/07/20230727_194734_MNUFC_v_ChicagoFire_LeaguesCup_0022_LAKE0653.jpg', link: './souquet' },
-    // { name: 'Carlos Terán', image: 'https://caracoltv.brightspotcdn.com/dims4/default/0358532/2147483647/strip/false/crop/1024x681+0+0/resize/1200x798!/format/webp/quality/75/?url=http%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2F2c%2F44%2F5de36e4749e094e38acb5ff81555%2Fgettyimages-1359085143.jpg', slug: './teran' },
-    { name: 'Chris Mueller', image: 'https://wgntv.com/wp-content/uploads/sites/5/2023/02/gettyimages-1416710153-594x594-1.jpg', slug: './mueller' },
-    { name: 'Brian Gutiérrez', image: 'https://cdn1.unitedinfocus.com/uploads/14/2023/06/GettyImages-1493904261-scaled.jpg', slug: './gutierrez' },
+    { name: 'Chris Mueller', image: 'https://wgntv.com/wp-content/uploads/sites/5/2023/02/gettyimages-1416710153-594x594-1.jpg', slug: 'mueller' },
+    { name: 'Brian Gutiérrez', image: 'https://cdn1.unitedinfocus.com/uploads/14/2023/06/GettyImages-1493904261-scaled.jpg', slug: 'gutierrez' },
   ];
 
   return (
@@ -34,6 +33,19 @@ const TrendingPlayers = () => {
   );
 };
 
+const blogPosts = [
+  {
+    id: 73,
+    title: "Chicago Fire Blaze Past Orlando in Wild Card Clash",
+    author: "Mio Ristić",
+    date: "October 23, 2025",
+    excerpt: "Chicago Fire defeated Orlando City 3–1 in the 2025 MLS Wild Card match, with Brian Gutiérrez and Hugo Cuypers leading the charge. Read the full match report on US11.",
+    imageUrl: "https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1745997572/chicago-fire-fc-vs-orlando-city-sc-2025-05-03.jpg",
+    slug: "chicago-orlando-playoffs"
+  },
+];
+
+
 const ChicagoFire = () => {
   const items = [
     { id: 1, title: 'Men\'s Chicago Fire adidas White 2024 A Kit For All Authentic Jersey', imageUrl: 'https://images.footballfanatics.com/chicago-fire/mens-adidas-white-chicago-fire-2024-a-kit-for-all-authentic-jersey_ss5_p-201176885+u-gwgmhdijt3sgz33lnugg+v-lclsfgv1nhawxjk9nq4m.jpg?_hv=2&w=400', link: 'https://www.mlsstore.com/en/chicago-fire/mens-chicago-fire-adidas-white-2024-a-kit-for-all-authentic-jersey/t-14129042+p-915589285270+z-6-2422741748?_ref=p-SRP:m-GRID:i-r0c0:po-0', price: '$74.99' },
@@ -58,31 +70,19 @@ const ChicagoFire = () => {
     // { id: 20, title: 'Chicago Fire Primary Scarf', imageUrl: 'https://images.footballfanatics.com/chicago-fire/mens-cream-chicago-fire-90s-heavyweight-relaxed-t-shirt_ss5_p-200860251+u-eyw4ldwly4odkclofzep+v-jjrw912b1meb9ixzvoqc.jpg?_hv=2&w=400', link: 'https://www.amazon.com/chicago-fire-primary-scarf', price: '$34.99' },
   ];
 
-  return (
+ return (
     <div className='w-full min-h-screen bg-white pt-[1px]'>
       <div className='max-w-4xl mx-auto py-8 px-4 md:px-0'>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#020617] mb-4'>Chicago Fire</h1>
         <div className='mb-6'>
-          <img
-            src='/Chicago.png'
-            alt='Chicago Fire FC' 
-            className='w-full h-[400px] object-cover rounded-lg shadow-md' 
-          />
+          <img src='/Chicago.png' alt='Chicago Fire FC' className='w-full h-[400px] object-cover rounded-lg shadow-md' />
         </div>
 
         <div className='flex gap-4 mb-8 justify-center'>
-              <a
-            href="https://ticketnetwork.lusg.net/yqj7Zy"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
+          <a href="https://ticketnetwork.lusg.net/yqj7Zy" target="_blank" rel="noopener noreferrer" className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'>
             BUY TICKETS
           </a>
-          <a 
-            href="https://example.com/find-hotel" 
-            className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'
-          >
+          <a href="https://example.com/find-hotel" className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition duration-300'>
             HOTELS NEAR THE STADIUM
           </a>
         </div>
@@ -101,22 +101,48 @@ const ChicagoFire = () => {
           </ul>
         </div>
 
-        {/* Additional Text */}
         <div className='text-[#020617] mb-8'>
           <h2 className='text-2xl font-semibold mb-2'>A Legacy of Passion</h2>
-          <p>
-            Chicago Fire FC is a proud member of Major League Soccer, known for its passionate fan base and rich history. Founded in 1997, the club has a strong connection to the city of Chicago, and it strives to uphold the values of teamwork and community.
-          </p>
-          <p>
-            Over the years, the Fire have been home to many talented players and have achieved significant success, including winning the MLS Cup and multiple U.S. Open Cups. The club continues to build its legacy with exciting matches and community involvement.
-          </p>
-          <p>
-            The Fire aims to captivate both local fans and the broader soccer community by showcasing high-quality soccer and engaging activities throughout the season.
-          </p>
+          <p>Chicago Fire FC is a proud member of Major League Soccer, known for its passionate fan base and rich history...</p>
+          <p>Over the years, the Fire have been home to many talented players...</p>
+          <p>The Fire aims to captivate both local fans and the broader soccer community...</p>
         </div>
 
+        {/* Trending Players */}
         <TrendingPlayers />
 
+       <div className="bg-white py-16">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-5xl font-bold text-[#020617] mb-8 text-center">Blog</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {blogPosts.map((post) => (
+        <Link
+          key={post.id}
+          href={`/blog/${post.slug}`} // <--- vodi na blog
+          className="group bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition flex flex-col h-full"
+        >
+          <div className="relative w-full h-48">
+            <Image
+              src={post.imageUrl}
+              alt={post.title}
+              fill
+              style={{ objectFit: 'cover' }}
+              className="group-hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div className="p-4 flex flex-col flex-grow">
+            <h3 className="text-xl font-bold mb-1 group-hover:text-blue-600 transition duration-300">{post.title}</h3>
+            <p className="text-sm text-gray-600">{post.author} | {post.date}</p>
+            <p className="text-gray-700 mt-2 flex-grow">{post.excerpt}</p>
+          </div>
+        </Link>
+      ))}
+    </div>
+  </div>
+</div>
+
+
+        {/* Shop Section */}
         <h2 className='text-4xl sm:text-6xl font-bold text-[#020617] mt-16 mb-4'>Shop</h2>
         <div className='grid gap-6 grid-cols-1 md:grid-cols-3'>
           {items.map((item) => (
@@ -125,18 +151,14 @@ const ChicagoFire = () => {
               <div className='p-4'>
                 <h3 className='font-semibold text-lg text-[#020617]'>{item.title}</h3>
                 <p className='text-gray-600'>{item.price}</p>
-                <a
-                  href={item.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'
-                >
+                <a href={item.link} target='_blank' rel='noopener noreferrer' className='mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'>
                   Buy Now <FaShoppingCart className='inline ml-2' />
                 </a>
               </div>
             </div>
           ))}
         </div>
+
       </div>
     </div>
   );

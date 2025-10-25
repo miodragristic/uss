@@ -115,6 +115,34 @@ const slides = [
 
 const blogPosts = [
   {
+  "id": 75,
+  "title": "Lionel Messi Extends Inter Miami Contract Through 2028",
+  "author": "Mio Ristić",
+  "date": "October 25, 2025",
+  "excerpt": "Lionel Messi stays with Inter Miami CF until 2028, continuing his legendary MLS career. Read the full story and what to expect in Miami.",
+  "imageUrl": "https://cyprus-mail.com/image/s1100x733/fill/webp/path/wp-content/uploads/2023/07/messi.jpg",
+  "link": "blog/messi-inter-miami-extension"
+},
+  {
+  "id": 74,
+  "title": "Portland Timbers & Felipe Mora Get Groove Back in Wild Card Win",
+  "author": "Mio Ristić",
+  "date": "October 23, 2025",
+  "excerpt": "Felipe Mora’s brace powered Portland Timbers past Real Salt Lake 3–1 in the 2025 MLS Wild Card match. Read the full playoff recap on US11.",
+  "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/prisachile/IDRGQPSWNJAULE3CHLPZVD3FGM.jpg",
+  "link": "blog/portland-real-playoffs"
+},
+  {
+  "id": 73,
+  "title": "Chicago Fire Blaze Past Orlando in Wild Card Clash",
+  "author": "Mio Ristić",
+  "date": "October 23, 2025",
+  "excerpt": "Chicago Fire defeated Orlando City 3–1 in the 2025 MLS Wild Card match, with Brian Gutiérrez and Hugo Cuypers leading the charge. Read the full match report on US11.",
+  "imageUrl": "https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1745997572/chicago-fire-fc-vs-orlando-city-sc-2025-05-03.jpg",
+  "link": "blog/chicago-orlando-playoffs"
+},
+
+  {
   "id": 72,
   "title": "Canceled: La Liga’s Barcelona vs Villarreal Match",
   "author": "Mio Ristić",
@@ -142,40 +170,8 @@ const blogPosts = [
   "imageUrl": "https://www.365scores.com/news/wp-content/uploads/2024/10/GettyImages-2148556804-780x470.jpg",
   "link": "blog/mls-playoff-2025"
 },
-  {
-  "id": 69,
-  "title": "Capo FC and Los Angeles Force Secure Spots in NISA Pro Cup Final",
-  "author": "Mio Ristić",
-  "date": "October 19, 2025",
-  "excerpt": "Capo FC and Los Angeles Force advanced to the 2025 NISA Pro Cup Championship Final after dominant semifinal performances, showcasing tactical discipline and key goals.",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NISA_logo_black_2022.png",
-  "link": "blog/nisa"
-},
- 
-  {
-  "id": 68,
-  "title": "USMNT 2–1 Australia: Wright’s Brace, Pulisic’s Return, and a Fiery Colorado Atmosphere",
-  "author": "Mio Ristić",
-  "date": "October 15, 2025",
-  "excerpt": "Haji Wright scored twice as the USMNT defeated Australia 2–1 in Colorado. Christian Pulisic returned to the pitch, and the packed stadium brought an unforgettable atmosphere.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt580bb7c6f26a8ef1/weah.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/usmnt-aus"
-},
-  {
-  "id": 67,
-  "title": "A New Era for the USMNT Under Pochettino: Bold Tactics, New Faces, and a Clear Direction",
-  "author": "Mio Ristić",
-  "date": "October 8, 2025",
-  "excerpt": "The USMNT is entering a new chapter under Mauricio Pochettino with bold tactics, young players, and a clear vision for the future.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt024caa907a00f79e/balogun3.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/usmnt-ecuador"
-  },
 
 
-
-  
-
-  
 
   
   
