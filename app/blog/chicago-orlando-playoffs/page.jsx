@@ -83,7 +83,7 @@ export default function ChicagoFireOrlandoBlog() {
         {/* FEATURE IMAGE */}
         <figure className="w-full rounded-2xl overflow-hidden shadow-md mb-10">
           <Image
-            src="https://www.adnradio.cl/resizer/v2/IDRGQPSWNJAULE3CHLPZVD3FGM.jpg?auth=68603e3124d0b885058d24640d4205cab09d21efdbf057c30fb856a68600788c&width=768&height=576&quality=70&smart=true"
+            src="https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1745997572/chicago-fire-fc-vs-orlando-city-sc-2025-05-03.jpg"
             alt="Chicago Fire celebrate playoff win"
             width={1018}
             height={420}
