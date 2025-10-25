@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef} from 'react';
+import React, { useEffect, useRef} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -83,33 +83,7 @@ const TrendingPlayers = () => {
  
  
 
-const slides = [
-  {
-    url: 'https://www.mlsstore.com/content/ws/all/f9472ed3-8599-472f-96a2-6d2a240e179f__2400X1428.jpg?w=2400',
-    title: '2024 MLS Cup Champions',
-    link: 'https://mlsstore.i8h2.net/AP35Y1'
-  },
-  {
-    url: 'https://www.mlsstore.com/content/ws/all/ebab9ab3-8f51-451b-a8c4-457f93f1ecf5__1600X492.png',
-    title: 'All Jerseyes',
-    link: 'http://mlsstore.i8h2.net/raX24B'
-  },
-  {
-    url: 'https://images.topps.com/v3/assets/bltc7206971cb4b2bfc/blt55f6c57a80f8365d/660704c7e838c81f0a60c9e4/24-TOPPS.COM-ARCHIVE-GRAPHICS-NEW_-03.png',
-    title: 'Topps Now',
-    link: 'https://mlsstore.i8h2.net/197WeB'
-  },
-  {
-    url: 'https://www.mlsstore.com/content/ws/all/2273fed5-bd79-4e51-aa30-645f9706e5b9__800X593.png',
-    title: 'Looks For Her',
-    link: 'https://mlsstore.i8h2.net/XmNXyM'
-  },
-  {
-    url: 'https://i.pinimg.com/736x/96/04/9d/96049d79294a3eb76078b3a21a5d3ea6.jpg',
-    title: 'MLS in FC25',
-    link: '/blog/FC25'
-  }
-];
+
 
 
 const blogPosts = [
