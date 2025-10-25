@@ -183,7 +183,7 @@ const blogPosts = [
 ];
 
 export default function HomePage() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+   
  
 
 
