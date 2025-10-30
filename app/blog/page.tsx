@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 77,
+  "title": "MLS Playoffs 2025 Recap: Inter Miami, Philadelphia, San Diego & More",
+  "author": "Mio Ristić",
+  "date": "October 30, 2025",
+  "excerpt": "Full recap of the first round of the 2025 MLS Playoffs, including highlights, scores, and standout performances from Inter Miami, Philadelphia Union, San Diego FC, and more.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2243553938/crop/MM5DGMBWGQ5DCNZSGQ5G433XMU5DAORRGU4Q====/GettyImages-2243553938.jpg",
+  "slug": "playoffs-2025-recap"
+},
+    {
   "id": 76,
   "title": "Inter Miami Cruise Past Nashville in Dominant Playoff Victory",
   "author": "Mio Ristić",

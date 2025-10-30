@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 77,
+  "title": "MLS Playoffs 2025 Recap: Inter Miami, Philadelphia, San Diego & More",
+  "author": "Mio Ristić",
+  "date": "October 30, 2025",
+  "excerpt": "Full recap of the first round of the 2025 MLS Playoffs, including highlights, scores, and standout performances from Inter Miami, Philadelphia Union, San Diego FC, and more.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2243553938/crop/MM5DGMBWGQ5DCNZSGQ5G433XMU5DAORRGU4Q====/GettyImages-2243553938.jpg",
+  "link": "blog/playoffs-2025-recap"
+},
+  {
   "id": 76,
   "title": "Inter Miami Cruise Past Nashville in Dominant Playoff Victory",
   "author": "Mio Ristić",
@@ -133,19 +142,6 @@ const blogPosts = [
   "imageUrl": "https://getfootballnewsspain.com/wp-content/uploads/2024/11/fc-barcelona-v-rcd-espanyol-de-barcelona-la-liga-ea-sports-8.jpg",
   "link": "blog/la-liga-miami-cancel"
 }
-,
-  {
-  "id": 71,
-  "title": "LA Force Crowned NISA Pro Cup Champions 2025",
-  "author": "Mio Ristić",
-  "date": "October 21, 2025",
-  "excerpt": "LA Force defeated Capo FC 4–1 after extra time to win the 2025 NISA Pro Cup. Joel Quist starred with two goals, and Bryan Ortega sealed the victory in the 120th minute.",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NISA_logo_black_2022.png",
-  "link": "blog/nisa-champions"
-},
-   
-
-
 
   
   
@@ -264,6 +260,12 @@ export default function HomePage() {
           link: "https://www.fanatics.com/mls/inter-miami-cf/lionel-messi-inter-miami-cf-adidas-originals-youth-2025-third-replica-player-jersey-blue/o-3555+t-21474441+p-2422463797239+z-9-3173708973?_ref=p-XLP:m-LD:pi-SOCCER_XLP_CAROUSEL:i-r0c2:po-2",
         },
         {
+          name: "Christian Pulisic AC Milan Puma 2025/26 Home Replica Player Jersey - Red",
+          price: "$134.99",
+          image: "https://fanatics.frgimages.com/ac-milan/mens-puma-christian-pulisic-red-ac-milan-2025/26-home-replica-player-jersey_ss5_p-203151178+pv-1+u-er1btbt7mp3rzbnzbc8c+v-roiui1cm4q80cwatqrz9.jpg?_hv=2&w=1018",
+          link: "https://fanatics.93n6tx.net/4G4WLZ",
+        },
+        {
           name: "Lamine Yamal Barcelona Nike 2025/26 Replica Player Jersey - Blue",
           price: "$129.99",
           image: "https://fanatics.frgimages.com/barcelona/mens-nike-lamine-yamal-blue-barcelona-2025/26-replica-player-jersey_ss5_p-203284529+pv-1+u-egcn4pkk9yugwdxafypr+v-9yopybyijyh7ysmfxoob.jpg?_hv=2&w=1018",
@@ -271,9 +273,15 @@ export default function HomePage() {
         },
         {
           name: "Lamine Yamal Barcelona Nike Youth 2025/26 Away Stadium Replica Jersey - Gold",
-          price: "114.99",
+          price: "$114.99",
           image: "https://fanatics.frgimages.com/barcelona/youth-nike-lamine-yamal-gold-barcelona-2025/26-away-stadium-replica-jersey_ss5_p-203336005+pv-1+u-5ha2rhncky9c4bvfgydm+v-umguisys7a3vzdlecyg8.jpg?_hv=2&w=1018",
           link: "https://fanatics.93n6tx.net/K07b07",
+        },
+        {
+          name: "Jude Bellingham Real Madrid adidas 2025/26 Home Replica Jersey - White",
+          price: "$134.99",
+          image: "https://fanatics.frgimages.com/real-madrid/mens-adidas-jude-bellingham-white-real-madrid-2025/26-home-replica-jersey_ss5_p-203133325+pv-1+u-8y839qsuhqg7lfvmfaes+v-lnvrnkzo9datsjzfrvja.jpg?_hv=2&w=1018",
+          link: "https://fanatics.93n6tx.net/EE4ZG4",
         },
         {
           name: "adidas 2026 FIFA World Cup Pro Soccer Ball",
