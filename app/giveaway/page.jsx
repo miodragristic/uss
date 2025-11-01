@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 
-export default function GiveawayFC25() {
+export default function GiveawayFC26() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -48,7 +48,7 @@ export default function GiveawayFC25() {
   return (
     <>
       <Head>
-        <title>⚽ FC25 Giveaway | Win the Game | US11</title>
+        <title>⚽ FC26 Giveaway | Win the Game | US11</title>
         <meta
           name="description"
           content="Enter the US11 FC25 Giveaway! Fill out the form and complete Instagram steps to enter the draw. Winner announced on November 10."
@@ -60,10 +60,10 @@ export default function GiveawayFC25() {
           {!submitted ? (
             <>
               <h1 className="text-4xl font-bold text-blue-800 mb-4">
-                ⚽ FC25 GIVEAWAY
+                ⚽ FC26 GIVEAWAY
               </h1>
               <p className="text-gray-700 mb-4">
-                Win a free copy of <strong>EA SPORTS FC 25</strong>!
+                Win a free copy of <strong>EA SPORTS FC 26</strong>!
               </p>
               <p className="text-gray-700 mb-6">
                 📅 <strong>Winner announced: November 10</strong> <br />
@@ -77,7 +77,7 @@ export default function GiveawayFC25() {
                 </li>
                 <li>Like the giveaway post</li>
                 <li>Tag 2 friends in the comments</li>
-                <li>Share on your story</li>
+                
               </ul>
 
               <form onSubmit={handleSubmit} className="space-y-4 text-left">
