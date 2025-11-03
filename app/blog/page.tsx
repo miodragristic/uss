@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 78,
+  "title": "MLS Cup Playoffs 2025 – Second Leg Recap: Inter Miami, Philadelphia, San Diego & More",
+  "author": "Mio Ristić",
+  "date": "November 2, 2025",
+  "excerpt": "Full recap of the second leg of the 2025 MLS Cup Playoffs, including highlights, scores, and standout performances from Inter Miami, Philadelphia Union, San Diego FC, and others.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1469812350/crop/MM5DIMBUHA5DEMRXG45G433XMU5DENJQHIZDKNY=/GettyImages-1469812350.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-cup-playoffs-2025-second-leg"
+},
+    {
   "id": 77,
   "title": "MLS Playoffs 2025 Recap: Inter Miami, Philadelphia, San Diego & More",
   "author": "Mio Ristić",

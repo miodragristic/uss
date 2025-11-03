@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 78,
+  "title": "MLS Cup Playoffs 2025 – Second Leg Recap: Inter Miami, Philadelphia, San Diego & More",
+  "author": "Mio Ristić",
+  "date": "November 2, 2025",
+  "excerpt": "Full recap of the second leg of the 2025 MLS Cup Playoffs, including highlights, scores, and standout performances from Inter Miami, Philadelphia Union, San Diego FC, and others.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1469812350/crop/MM5DIMBUHA5DEMRXG45G433XMU5DENJQHIZDKNY=/GettyImages-1469812350.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/mls-cup-playoffs-2025-second-leg"
+},
+  {
   "id": 77,
   "title": "MLS Playoffs 2025 Recap: Inter Miami, Philadelphia, San Diego & More",
   "author": "Mio Ristić",
@@ -132,16 +141,6 @@ const blogPosts = [
   "imageUrl": "https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1745997572/chicago-fire-fc-vs-orlando-city-sc-2025-05-03.jpg",
   "link": "blog/chicago-orlando-playoffs"
 },
-
-  {
-  "id": 72,
-  "title": "Canceled: La Liga’s Barcelona vs Villarreal Match",
-  "author": "Mio Ristić",
-  "date": "October 22, 2025",
-  "excerpt": "La Liga officially canceled the Barcelona vs Villarreal match in Miami, originally set for December 2025. The decision raised questions — was the problem the idea itself or its execution?",
-  "imageUrl": "https://getfootballnewsspain.com/wp-content/uploads/2024/11/fc-barcelona-v-rcd-espanyol-de-barcelona-la-liga-ea-sports-8.jpg",
-  "link": "blog/la-liga-miami-cancel"
-}
 
   
   
