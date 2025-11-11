@@ -88,6 +88,24 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 80,
+  "title": "MLS Playoffs Format: Is It Time for a Change?",
+  "author": "Mio Ristić",
+  "date": "November 10, 2025",
+  "excerpt": "A critical analysis of the MLS Playoffs format, exploring current issues, main criticisms, and possible solutions for a more competitive postseason.",
+  "imageUrl": "https://images.squarespace-cdn.com/content/v1/5c9a73454d87117017c01508/1686249453251-OXCODUQ3QUF79G4L38GW/525050.jpg",
+  "link": "blog/mls-playoffs-format"
+},
+  {
+  "id": 79,
+  "title": "MLS Playoffs 2025: The Final Eight — Drama, Stars, and Glory Await",
+  "author": "Mio Ristić",
+  "date": "November 10, 2025",
+  "excerpt": "Full preview of the 2025 MLS Cup Playoffs — key matchups, players, and predictions for Inter Miami, Philadelphia Union, LAFC, and others.",
+  "imageUrl": "https://www.365scores.com/es/news/wp-content/uploads/2025/07/GettyImages-1892797976-1024x694.jpg",
+  "link": "blog/mls-playoffs-2025-preview"
+},
+  {
   "id": 78,
   "title": "MLS Cup Playoffs 2025 – Second Leg Recap: Inter Miami, Philadelphia, San Diego & More",
   "author": "Mio Ristić",
@@ -123,28 +141,8 @@ const blogPosts = [
   "imageUrl": "https://cyprus-mail.com/image/s1100x733/fill/webp/path/wp-content/uploads/2023/07/messi.jpg",
   "link": "blog/messi-inter-miami-extension"
 },
-  {
-  "id": 74,
-  "title": "Portland Timbers & Felipe Mora Get Groove Back in Wild Card Win",
-  "author": "Mio Ristić",
-  "date": "October 23, 2025",
-  "excerpt": "Felipe Mora’s brace powered Portland Timbers past Real Salt Lake 3–1 in the 2025 MLS Wild Card match. Read the full playoff recap on US11.",
-  "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/prisachile/IDRGQPSWNJAULE3CHLPZVD3FGM.jpg",
-  "link": "blog/portland-real-playoffs"
-},
-  {
-  "id": 73,
-  "title": "Chicago Fire Blaze Past Orlando in Wild Card Clash",
-  "author": "Mio Ristić",
-  "date": "October 23, 2025",
-  "excerpt": "Chicago Fire defeated Orlando City 3–1 in the 2025 MLS Wild Card match, with Brian Gutiérrez and Hugo Cuypers leading the charge. Read the full match report on US11.",
-  "imageUrl": "https://cdn.wsn.com/filters:format(webp)/filters:no_upscale()/fit-in/1200x585/1745997572/chicago-fire-fc-vs-orlando-city-sc-2025-05-03.jpg",
-  "link": "blog/chicago-orlando-playoffs"
-},
 
-  
-  
- 
+
  
     
     

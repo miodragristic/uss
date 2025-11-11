@@ -49,9 +49,10 @@ const nextConfig = {
       'mlsnews.s3.amazonaws.com',
       'www.adnradio.cl',
       "www.750thegame.com",
-      "cloudfront-us-east-1.images.arcpublishing.com",
       "cyprus-mail.com",
       "brobible.com",
+      "images.squarespace-cdn.com",
+      
     ],
   },
 };

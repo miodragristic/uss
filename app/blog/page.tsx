@@ -12,6 +12,26 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 80,
+  "title": "MLS Playoffs Format: Is It Time for a Change?",
+  "author": "Mio Ristić",
+  "date": "November 10, 2025",
+  "excerpt": "A critical analysis of the MLS Playoffs format, exploring current issues, main criticisms, and possible solutions for a more competitive postseason.",
+  "imageUrl": "https://images.squarespace-cdn.com/content/v1/5c9a73454d87117017c01508/1686249453251-OXCODUQ3QUF79G4L38GW/525050.jpg",
+  "slug": "mls-playoffs-format"
+},
+
+    {
+  "id": 79,
+  "title": "MLS Playoffs 2025: The Final Eight — Drama, Stars, and Glory Await",
+  "author": "Mio Ristić",
+  "date": "November 10, 2025",
+  "excerpt": "Full preview of the 2025 MLS Cup Playoffs — key matchups, players, and predictions for Inter Miami, Philadelphia Union, LAFC, and others.",
+  "imageUrl": "https://www.365scores.com/es/news/wp-content/uploads/2025/07/GettyImages-1892797976-1024x694.jpg",
+  "slug": "mls-playoffs-2025-preview"
+}
+,
+    {
   "id": 78,
   "title": "MLS Cup Playoffs 2025 – Second Leg Recap: Inter Miami, Philadelphia, San Diego & More",
   "author": "Mio Ristić",
