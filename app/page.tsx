@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 81,
+  "title": "Timmy Tillman Called Up to USMNT as Pochettino Adjusts Roster",
+  "author": "Mio Ristić",
+  "date": "November 12, 2025",
+  "excerpt": "LAFC midfielder Timmy Tillman joins the USMNT as Mauricio Pochettino updates his roster ahead of friendlies against Paraguay and Uruguay.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltf367b68cbbc7f98e/poch2.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/timmy-tillman-usmnt-call-up"
+},
+  {
   "id": 80,
   "title": "MLS Playoffs Format: Is It Time for a Change?",
   "author": "Mio Ristić",
@@ -131,15 +140,6 @@ const blogPosts = [
   "excerpt": "Lionel Messi led Inter Miami CF to a commanding 3–1 playoff win over Nashville SC in the Audi 2025 MLS Cup Playoffs. Read the full recap, goals, and highlights on US11.",
   "imageUrl": "https://brobible.com/wp-content/uploads/2023/08/lionel-messi-taking-a-corner-kick-for-inter-miami.jpg",
   "link": "blog/inter-miami-nashville"
-},
-  {
-  "id": 75,
-  "title": "Lionel Messi Extends Inter Miami Contract Through 2028",
-  "author": "Mio Ristić",
-  "date": "October 25, 2025",
-  "excerpt": "Lionel Messi stays with Inter Miami CF until 2028, continuing his legendary MLS career. Read the full story and what to expect in Miami.",
-  "imageUrl": "https://cyprus-mail.com/image/s1100x733/fill/webp/path/wp-content/uploads/2023/07/messi.jpg",
-  "link": "blog/messi-inter-miami-extension"
 },
 
 

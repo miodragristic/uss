@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 81,
+  "title": "Timmy Tillman Called Up to USMNT as Pochettino Adjusts Roster",
+  "author": "Mio Ristić",
+  "date": "November 12, 2025",
+  "excerpt": "LAFC midfielder Timmy Tillman joins the USMNT as Mauricio Pochettino updates his roster ahead of friendlies against Paraguay and Uruguay.",
+  "imageUrl": "https://assets.goal.com/images/v3/bltf367b68cbbc7f98e/poch2.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "timmy-tillman-usmnt-call-up"
+},
+    {
   "id": 80,
   "title": "MLS Playoffs Format: Is It Time for a Change?",
   "author": "Mio Ristić",
