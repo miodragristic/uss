@@ -88,6 +88,25 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 83,
+  "title": "MLS Moves to Global Calendar: Summer-to-Spring Season Starts in 2027",
+  "author": "Mio Ristić",
+  "date": "November 14, 2025",
+  "excerpt": "Major League Soccer (MLS) shifts to a July–May season starting in 2027, aligning with top leagues worldwide, boosting transfers, player development, and fan engagement.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2240501357/crop/MM5DINRYGQ5DENRTGU5G433XMU5DAORSGQ2A====/GettyImages-2240501357.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/mls-new-format"
+},
+  {
+  "id": 82,
+  "title": "Major League Soccer Coming to Apple TV in 2026",
+  "author": "Mio Ristić",
+  "date": "November 14, 2025",
+  "excerpt": "Starting in 2026, all MLS matches will stream on Apple TV at no additional cost, giving fans a single platform for every match, including playoffs and the All-Star Game.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2201986577/crop/MM5DEMRVGA5DCMRWGY5G433XMU5DAORRGE3Q====/GettyImages-2201986577.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/apple-tv"
+}
+,
+  {
   "id": 81,
   "title": "Timmy Tillman Called Up to USMNT as Pochettino Adjusts Roster",
   "author": "Mio Ristić",
@@ -122,24 +141,6 @@ const blogPosts = [
   "excerpt": "Full recap of the second leg of the 2025 MLS Cup Playoffs, including highlights, scores, and standout performances from Inter Miami, Philadelphia Union, San Diego FC, and others.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-1469812350/crop/MM5DIMBUHA5DEMRXG45G433XMU5DENJQHIZDKNY=/GettyImages-1469812350.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "blog/mls-cup-playoffs-2025-second-leg"
-},
-  {
-  "id": 77,
-  "title": "MLS Playoffs 2025 Recap: Inter Miami, Philadelphia, San Diego & More",
-  "author": "Mio Ristić",
-  "date": "October 30, 2025",
-  "excerpt": "Full recap of the first round of the 2025 MLS Playoffs, including highlights, scores, and standout performances from Inter Miami, Philadelphia Union, San Diego FC, and more.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2243553938/crop/MM5DGMBWGQ5DCNZSGQ5G433XMU5DAORRGU4Q====/GettyImages-2243553938.jpg",
-  "link": "blog/playoffs-2025-recap"
-},
-  {
-  "id": 76,
-  "title": "Inter Miami Cruise Past Nashville in Dominant Playoff Victory",
-  "author": "Mio Ristić",
-  "date": "October 25, 2025",
-  "excerpt": "Lionel Messi led Inter Miami CF to a commanding 3–1 playoff win over Nashville SC in the Audi 2025 MLS Cup Playoffs. Read the full recap, goals, and highlights on US11.",
-  "imageUrl": "https://brobible.com/wp-content/uploads/2023/08/lionel-messi-taking-a-corner-kick-for-inter-miami.jpg",
-  "link": "blog/inter-miami-nashville"
 },
 
 
@@ -192,7 +193,7 @@ export default function HomePage() {
         </div>
 
         
-        <div className="hidden md:flex md:flex-col md:items-center mr-20  md:ml-8 mt-[-60px]">
+        {/* <div className="hidden md:flex md:flex-col md:items-center mr-20  md:ml-8 mt-[-60px]">
   <a
     href="/giveaway"
     target="_blank"
@@ -206,7 +207,7 @@ export default function HomePage() {
   className="rounded-2xl shadow-xl border-4 border-white transition-transform duration-300 hover:scale-105 object-cover object-center"
 />
   </a>
-</div>
+</div> */}
 
   {/* <a
     href="https://www.amazon.com/EA-SPORTS-FC-25-PlayStation-5/dp/B0D94PQMTX?_encoding=UTF8&pd_rd_w=fJRXR&content-id=amzn1.sym.c2cf8313-b86b-4327-9de4-9398adaa570b%3Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=c2cf8313-b86b-4327-9de4-9398adaa570b&pf_rd_r=3NBE51DSWDXM3D9NGENZ&pd_rd_wg=kJret&pd_rd_r=bd18fd78-0ca7-4c0f-b9b6-78ce5d2a1724&th=1&linkCode=sl1&tag=us11fc-20&linkId=2301b3814b15a415f8b63db3690103aa&language=en_US&ref_=as_li_ss_tl"
@@ -222,7 +223,7 @@ export default function HomePage() {
       
 
       {/* Mobile version */}
-      <div className="flex flex-col items-center ml-8 sm:hidden">
+      {/* <div className="flex flex-col items-center ml-8 sm:hidden">
         <Link href="/giveaway">
           <Image
             src="https://i.postimg.cc/Z5J9BRBT/www-us11fc-com.png"
@@ -233,7 +234,7 @@ export default function HomePage() {
           />
         </Link>
         
-      </div>
+      </div> */}
 
       {/* Football Shirts Section */}
 <div className="bg-white py-16">

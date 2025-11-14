@@ -12,6 +12,25 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 83,
+  "title": "MLS Moves to Global Calendar: Summer-to-Spring Season Starts in 2027",
+  "author": "Mio Ristić",
+  "date": "November 14, 2025",
+  "excerpt": "Major League Soccer (MLS) shifts to a July–May season starting in 2027, aligning with top leagues worldwide, boosting transfers, player development, and fan engagement.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2240501357/crop/MM5DINRYGQ5DENRTGU5G433XMU5DAORSGQ2A====/GettyImages-2240501357.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "mls-new-format"
+},
+    {
+  "id": 82,
+  "title": "Major League Soccer Coming to Apple TV in 2026",
+  "author": "Mio Ristić",
+  "date": "November 14, 2025",
+  "excerpt": "Starting in 2026, all MLS matches will stream on Apple TV at no additional cost, giving fans a single platform for every match, including playoffs and the All-Star Game.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2201986577/crop/MM5DEMRVGA5DCMRWGY5G433XMU5DAORRGE3Q====/GettyImages-2201986577.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "apple-tv"
+}
+,
+    {
   "id": 81,
   "title": "Timmy Tillman Called Up to USMNT as Pochettino Adjusts Roster",
   "author": "Mio Ristić",
