@@ -12,6 +12,35 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 86,
+  "title": "One Knoxville Shock the League: A Title Win That Changes Everything",
+  "author": "Mio Ristić",
+  "date": "November 14, 2025",
+  "excerpt": "One Knoxville SC claimed their first USL League One title in style, dominating Spokane 2–0. Here’s how they did it and what it means for the league.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/USL_League_One_abbr_light_logo.svg/1920px-USL_League_One_abbr_light_logo.svg.png",
+  "slug": "usl-one-champions"
+}
+,
+    {
+  "id": 85,
+  "title": "Why Everyone’s Talking About the USMNT vs Paraguay Brawl",
+  "author": "Mio Ristić",
+  "date": "November 17, 2025",
+  "excerpt": "The USMNT vs Paraguay friendly ended in a dramatic bench-clearing brawl. Here’s what really happened and what it reveals about the team under Pochettino.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt19784dca8a91db2a/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2246884471.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "us-paraguay-brawl"
+}
+,
+    {
+  "id": 84,
+  "title": "USMNT Gains Momentum Under Pochettino Ahead of 2026 World Cup",
+  "author": "Mio Ristić",
+  "date": "November 17, 2025",
+  "excerpt": "Mauricio Pochettino is shaping the USMNT with tactical maturity, defined roles, and clear playing style, as the team prepares for friendlies against Paraguay and Uruguay.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt4724cfaf9e2f7ee3/crop/MM5DCNZTGQ5DSNZVHJXG653FHI4TAORQ/poch-point169.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "pochettino-usmnt-analysis"
+},
+    {
   "id": 83,
   "title": "MLS Moves to Global Calendar: Summer-to-Spring Season Starts in 2027",
   "author": "Mio Ristić",

@@ -23,7 +23,7 @@ const nextConfig = {
       'drop-assets.ea.com',
       'images.pexels.com',
       'the18.com',
-      'dynamo.kiev.ua',
+      'encrypted-tbn0.gstatic.com',
       'cdn1.intermiami.news',
       'sports.mynorthwest.com',
       'cloudfront-us-east-1.images.arcpublishing.com',

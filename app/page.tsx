@@ -88,6 +88,36 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 86,
+  "title": "One Knoxville Shock the League: A Title Win That Changes Everything",
+  "author": "Mio Ristić",
+  "date": "November 14, 2025",
+  "excerpt": "One Knoxville SC claimed their first USL League One title in style, dominating Spokane 2–0. Here’s how they did it and what it means for the league.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/USL_League_One_abbr_light_logo.svg/1920px-USL_League_One_abbr_light_logo.svg.png",
+  "link": "blog/usl-one-champions"
+}
+,
+  {
+  "id": 85,
+  "title": "Why Everyone’s Talking About the USMNT vs Paraguay Brawl",
+  "author": "Mio Ristić",
+  "date": "November 17, 2025",
+  "excerpt": "The USMNT vs Paraguay friendly ended in a dramatic bench-clearing brawl. Here’s what really happened and what it reveals about the team under Pochettino.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt19784dca8a91db2a/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2246884471.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "blog/us-paraguay-brawl"
+},
+
+  {
+  "id": 84,
+  "title": "USMNT Gains Momentum Under Pochettino Ahead of 2026 World Cup",
+  "author": "Mio Ristić",
+  "date": "November 17, 2025",
+  "excerpt": "Mauricio Pochettino is shaping the USMNT with tactical maturity, defined roles, and clear playing style, as the team prepares for friendlies against Paraguay and Uruguay.",
+  "imageUrl": "https://assets.goal.com/images/v3/blt4724cfaf9e2f7ee3/crop/MM5DCNZTGQ5DSNZVHJXG653FHI4TAORQ/poch-point169.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "blog/pochettino-usmnt-analysis"
+}
+,
+  {
   "id": 83,
   "title": "MLS Moves to Global Calendar: Summer-to-Spring Season Starts in 2027",
   "author": "Mio Ristić",
@@ -115,34 +145,6 @@ const blogPosts = [
   "imageUrl": "https://assets.goal.com/images/v3/bltf367b68cbbc7f98e/poch2.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "blog/timmy-tillman-usmnt-call-up"
 },
-  {
-  "id": 80,
-  "title": "MLS Playoffs Format: Is It Time for a Change?",
-  "author": "Mio Ristić",
-  "date": "November 10, 2025",
-  "excerpt": "A critical analysis of the MLS Playoffs format, exploring current issues, main criticisms, and possible solutions for a more competitive postseason.",
-  "imageUrl": "https://images.squarespace-cdn.com/content/v1/5c9a73454d87117017c01508/1686249453251-OXCODUQ3QUF79G4L38GW/525050.jpg",
-  "link": "blog/mls-playoffs-format"
-},
-  {
-  "id": 79,
-  "title": "MLS Playoffs 2025: The Final Eight — Drama, Stars, and Glory Await",
-  "author": "Mio Ristić",
-  "date": "November 10, 2025",
-  "excerpt": "Full preview of the 2025 MLS Cup Playoffs — key matchups, players, and predictions for Inter Miami, Philadelphia Union, LAFC, and others.",
-  "imageUrl": "https://www.365scores.com/es/news/wp-content/uploads/2025/07/GettyImages-1892797976-1024x694.jpg",
-  "link": "blog/mls-playoffs-2025-preview"
-},
-  {
-  "id": 78,
-  "title": "MLS Cup Playoffs 2025 – Second Leg Recap: Inter Miami, Philadelphia, San Diego & More",
-  "author": "Mio Ristić",
-  "date": "November 2, 2025",
-  "excerpt": "Full recap of the second leg of the 2025 MLS Cup Playoffs, including highlights, scores, and standout performances from Inter Miami, Philadelphia Union, San Diego FC, and others.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-1469812350/crop/MM5DIMBUHA5DEMRXG45G433XMU5DENJQHIZDKNY=/GettyImages-1469812350.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/mls-cup-playoffs-2025-second-leg"
-},
-
 
  
     
@@ -170,71 +172,87 @@ export default function HomePage() {
               }}
       >
 {/* Left Content */}
-        <div className="flex flex-col justify-center h-auto max-w-[800px] mx-auto p-4 sm:p-8 bg-white/60 rounded-lg shadow-md mt-[-200px]">
-          <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-[#020617] mb-2">
-            Welcome to US11
-          </h2>
-          <p className="text-black font-bold py-4 max-w-[700px] text-base sm:text-lg leading-relaxed">
-            At US11, we are passionate about bringing you the latest news, insights, and updates from
-            the world of US soccer and Major League Soccer (MLS). Don't forget to visit our shop,
-            where you can find high-quality jerseys at great prices. Show your support for your
-            favorite teams with our official merchandise.
-          </p>
-          <div>
-          <a
-  href="/teams"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-white bg-[#020617] group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 items-center hover:bg-transparent hover:border-[#020617] hover:text-[#020617] rounded-lg transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer inline-block"
->
-  BROWSE TEAMS
-</a>
-          </div>
-        </div>
+<div className="flex flex-col justify-center h-auto max-w-[800px] mx-auto p-4 sm:p-8 bg-white/60 rounded-lg shadow-md mt-[-200px]">
+  <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-[#020617] mb-2">
+    Welcome to US11
+  </h2>
 
-        
-        {/* <div className="hidden md:flex md:flex-col md:items-center mr-20  md:ml-8 mt-[-60px]">
-  <a
-    href="/giveaway"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-   <Image
-  src="https://i.postimg.cc/Z5J9BRBT/www-us11fc-com.png"
-  alt="FC 26"
-  width={340}
-  height={500}
-  className="rounded-2xl shadow-xl border-4 border-white transition-transform duration-300 hover:scale-105 object-cover object-center"
-/>
-  </a>
-</div> */}
+  <p className="text-black font-bold py-4 max-w-[700px] text-base sm:text-lg leading-relaxed">
+    At US11, we are passionate about bringing you the latest news, insights, and updates from
+    the world of US soccer and Major League Soccer (MLS). Don't forget to visit our shop,
+    where you can find high-quality jerseys at great prices. Show your support for your
+    favorite teams with our official merchandise.
+  </p>
 
-  {/* <a
-    href="https://www.amazon.com/EA-SPORTS-FC-25-PlayStation-5/dp/B0D94PQMTX?_encoding=UTF8&pd_rd_w=fJRXR&content-id=amzn1.sym.c2cf8313-b86b-4327-9de4-9398adaa570b%3Aamzn1.symc.a68f4ca3-28dc-4388-a2cf-24672c480d8f&pf_rd_p=c2cf8313-b86b-4327-9de4-9398adaa570b&pf_rd_r=3NBE51DSWDXM3D9NGENZ&pd_rd_wg=kJret&pd_rd_r=bd18fd78-0ca7-4c0f-b9b6-78ce5d2a1724&th=1&linkCode=sl1&tag=us11fc-20&linkId=2301b3814b15a415f8b63db3690103aa&language=en_US&ref_=as_li_ss_tl"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-white bg-black px-6 py-3 rounded-2xl shadow-md hover:bg-white hover:text-black hover:border-black border-2 border-black transition-all duration-300 ease-in-out transform hover:scale-105"
-  >
-    BUY ON MLS STORE
-  </a> */}
+  <div>
+    <a
+      href="/teams"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white bg-[#020617] group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 items-center hover:bg-transparent hover:border-[#020617] hover:text-[#020617] rounded-lg transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer inline-block"
+    >
+      BROWSE TEAMS
+    </a>
+  </div>
 </div>
+
+
+{/* Right Content - Image + MLS Button */}
+<div className="hidden md:flex md:flex-col md:items-center mr-20 md:ml-8 mt-[-60px]">
+  
+  {/* IMAGE */}
+  <a
+    href="https://fanatics.93n6tx.net/e16Oyz"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      src="https://assets.goal.com/images/v3/getty-2219716068/crop/MM5DEMBUHA5DCMJVGI5G433XMU5DIMBUHIYTMOA=/GettyImages-2219716068.jpg?auto=webp&format=pjpg&width=3840&quality=60"
+      alt="World Cup Jerseys"
+      width={340}
+      height={500}
+      className="rounded-2xl shadow-xl border-4 border-white transition-transform duration-300 hover:scale-105 object-cover object-center"
+    />
+  </a>
+
+  {/* BUY BUTTON UNDER IMAGE */}
+  <a
+    href="https://fanatics.93n6tx.net/e16Oyz"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-6 text-white bg-black px-6 py-3 rounded-2xl shadow-md hover:bg-white hover:text-black hover:border-black border-2 border-black transition-all duration-300 ease-in-out transform hover:scale-105"
+  >
+    BUY WORLD CUP JERSEYS
+  </a>
+
+</div>
+              </div>
 
        
       
 
       {/* Mobile version */}
-      {/* <div className="flex flex-col items-center ml-8 sm:hidden">
-        <Link href="/giveaway">
+      <div className="flex flex-col items-center ml-8 sm:hidden">
+        <Link href="https://fanatics.93n6tx.net/e16Oyz">
           <Image
-            src="https://i.postimg.cc/Z5J9BRBT/www-us11fc-com.png"
+            src="https://assets.goal.com/images/v3/getty-2219716068/crop/MM5DEMBUHA5DCMJVGI5G433XMU5DIMBUHIYTMOA=/GettyImages-2219716068.jpg?auto=webp&format=pjpg&width=3840&quality=60"
             alt="MLS Finals"
             width={340}
             height={500}
             className="mr-20 mt-20"
           />
         </Link>
+         {/* BUY BUTTON UNDER IMAGE */}
+  <a
+    href="https://fanatics.93n6tx.net/e16Oyz"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-6 text-white bg-black px-6 py-3 rounded-2xl shadow-md hover:bg-white hover:text-black hover:border-black border-2 border-black transition-all duration-300 ease-in-out transform hover:scale-105"
+  >
+    BUY WORLD CUP JERSEYS
+  </a>
         
-      </div> */}
+      </div> 
 
       {/* Football Shirts Section */}
 <div className="bg-white py-16">
