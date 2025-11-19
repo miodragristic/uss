@@ -1,10 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
+                        import "./globals.css";
 
-import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
- 
+import { GoogleAnalytics } from "@next/third-parties/google";  // ← OVO JE BITNO
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,7 +17,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
- 
 export const metadata = {
   title: {
     default: "US11",
@@ -47,7 +48,6 @@ export const metadata = {
   },
 };
 
- 
 export default function RootLayout({
   children,
 }: {
@@ -62,6 +62,9 @@ export default function RootLayout({
         <main className="flex-grow pt-[150px]">{children}</main>
         <Footer />
       </body>
+
+      {/* ❗ Google Analytics 4 via Next.js official API */}
+      <GoogleAnalytics gaId="G-XXXXXXXXXX" /> 
     </html>
   );
 }
