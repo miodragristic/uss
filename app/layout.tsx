@@ -64,7 +64,7 @@ export default function RootLayout({
       </body>
 
       {/* ❗ Google Analytics 4 via Next.js official API */}
-      <GoogleAnalytics gaId="G-XXXXXXXXXX" /> 
+      <GoogleAnalytics gaId="G-ZCKQ7R7PSQ" /> 
     </html>
   );
 }
