@@ -1,11 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
-                        import "./globals.css";
+import "./globals.css";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
-import { GoogleAnalytics } from "@next/third-parties/google";  // ← OVO JE BITNO
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,10 +60,38 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-grow pt-[150px]">{children}</main>
         <Footer />
-      </body>
 
-      {/* ❗ Google Analytics 4 via Next.js official API */}
-      <GoogleAnalytics gaId="G-ZCKQ7R7PSQ" /> 
+        {/* Iubenda Consent Banner Scripts */}
+        <Script id="iub-config" strategy="afterInteractive">
+          {`
+            var _iub = _iub || [];
+            _iub.csConfiguration = {
+              "siteId":4323055,
+              "cookiePolicyId":70547526,
+              "lang":"en",
+              "storage":{"useSiteId":true}
+            };
+          `}
+        </Script>
+
+        <Script
+          src="https://cs.iubenda.com/autoblocking/4323055.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="//cdn.iubenda.com/cs/gpp/stub.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="//cdn.iubenda.com/cs/iubenda_cs.js"
+          strategy="afterInteractive"
+          charSet="UTF-8"
+        />
+
+        {/* Google Analytics 4 */}
+        <GoogleAnalytics gaId="G-ZCKQ7R7PSQ" />
+      </body>
     </html>
   );
 }
+
