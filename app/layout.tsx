@@ -4,7 +4,6 @@ import "./globals.css";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -89,9 +88,21 @@ export default function RootLayout({
         />
 
         {/* Google Analytics 4 */}
-        <GoogleAnalytics gaId="G-ZCKQ7R7PSQ" />
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-ZCKQ7R7PSQ`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZCKQ7R7PSQ', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
       </body>
     </html>
   );
 }
-
