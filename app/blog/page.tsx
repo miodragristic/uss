@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 87,
+  "title": "Mauricio Pochettino’s USMNT: Momentum, Identity, and Cautious Optimism",
+  "author": "Mio Ristić",
+  "date": "November 21, 2025",
+  "excerpt": "The USMNT is on the rise under Mauricio Pochettino, showing tactical structure, emerging young leaders, and a path toward the 2026 World Cup with measured optimism.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1185973972/crop/MM5DEMZTGQ5DCMZRGM5G433XMU5DENRTHI3TQ===/GettyImages-1185973972.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "mauricio-pochettinos-usmnt"
+},
+    {
   "id": 86,
   "title": "One Knoxville Shock the League: A Title Win That Changes Everything",
   "author": "Mio Ristić",

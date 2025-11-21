@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 87,
+  "title": "Mauricio Pochettino’s USMNT: Momentum, Identity, and Cautious Optimism",
+  "author": "Mio Ristić",
+  "date": "November 21, 2025",
+  "excerpt": "The USMNT is on the rise under Mauricio Pochettino, showing tactical structure, emerging young leaders, and a path toward the 2026 World Cup with measured optimism.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-1185973972/crop/MM5DEMZTGQ5DCMZRGM5G433XMU5DENRTHI3TQ===/GettyImages-1185973972.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "blog/mauricio-pochettinos-usmnt"
+},
+  {
   "id": 86,
   "title": "One Knoxville Shock the League: A Title Win That Changes Everything",
   "author": "Mio Ristić",
@@ -135,19 +144,7 @@ const blogPosts = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2201986577/crop/MM5DEMRVGA5DCMRWGY5G433XMU5DAORRGE3Q====/GettyImages-2201986577.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "blog/apple-tv"
 }
-,
-  {
-  "id": 81,
-  "title": "Timmy Tillman Called Up to USMNT as Pochettino Adjusts Roster",
-  "author": "Mio Ristić",
-  "date": "November 12, 2025",
-  "excerpt": "LAFC midfielder Timmy Tillman joins the USMNT as Mauricio Pochettino updates his roster ahead of friendlies against Paraguay and Uruguay.",
-  "imageUrl": "https://assets.goal.com/images/v3/bltf367b68cbbc7f98e/poch2.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/timmy-tillman-usmnt-call-up"
-},
-
- 
-    
+   
     
     
 ];
