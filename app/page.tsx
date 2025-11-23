@@ -88,6 +88,25 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 89,
+  "title": "Vancouver Whitecaps Stun LAFC in Dramatic Penalty Shootout",
+  "author": "Mio Ristić",
+  "date": "November 22, 2025",
+  "excerpt": "Vancouver Whitecaps defeated LAFC in the 2025 MLS Western Conference Semifinals after 120 minutes and a dramatic penalty shootout.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2248017867/crop/MM5DEOJRGI5DCNRTHA5G433XMU5DCMRWGM5DENJR/GettyImages-2248017867.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/whitecaps-stun-lafc"
+}
+,
+  {
+  "id": 88,
+  "title": "Pittsburgh Win USL Championship After Dramatic Penalty Shootout",
+  "author": "Mio Ristić",
+  "date": "November 22, 2025",
+  "excerpt": "Pittsburgh Riverhounds claimed their first USL Championship title after a tense 120-minute battle and a decisive 5–3 penalty shootout win over FC Tulsa.",
+  "imageUrl": "https://the18.com/sites/default/files/feature-images/GettyImages-1258549217.jpg",
+  "link": "blog/usl-champions"
+},
+  {
   "id": 87,
   "title": "Mauricio Pochettino’s USMNT: Momentum, Identity, and Cautious Optimism",
   "author": "Mio Ristić",
@@ -125,26 +144,7 @@ const blogPosts = [
   "imageUrl": "https://assets.goal.com/images/v3/blt4724cfaf9e2f7ee3/crop/MM5DCNZTGQ5DSNZVHJXG653FHI4TAORQ/poch-point169.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "blog/pochettino-usmnt-analysis"
 }
-,
-  {
-  "id": 83,
-  "title": "MLS Moves to Global Calendar: Summer-to-Spring Season Starts in 2027",
-  "author": "Mio Ristić",
-  "date": "November 14, 2025",
-  "excerpt": "Major League Soccer (MLS) shifts to a July–May season starting in 2027, aligning with top leagues worldwide, boosting transfers, player development, and fan engagement.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2240501357/crop/MM5DINRYGQ5DENRTGU5G433XMU5DAORSGQ2A====/GettyImages-2240501357.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/mls-new-format"
-},
-  {
-  "id": 82,
-  "title": "Major League Soccer Coming to Apple TV in 2026",
-  "author": "Mio Ristić",
-  "date": "November 14, 2025",
-  "excerpt": "Starting in 2026, all MLS matches will stream on Apple TV at no additional cost, giving fans a single platform for every match, including playoffs and the All-Star Game.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2201986577/crop/MM5DEMRVGA5DCMRWGY5G433XMU5DAORRGE3Q====/GettyImages-2201986577.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/apple-tv"
-}
-   
+
     
     
 ];

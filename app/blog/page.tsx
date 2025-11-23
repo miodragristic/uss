@@ -12,6 +12,27 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 89,
+  "title": "Vancouver Whitecaps Stun LAFC in Dramatic Penalty Shootout",
+  "author": "Mio Ristić",
+  "date": "November 22, 2025",
+  "excerpt": "Vancouver Whitecaps defeated LAFC in the 2025 MLS Western Conference Semifinals after 120 minutes and a dramatic penalty shootout.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2248017867/crop/MM5DEOJRGI5DCNRTHA5G433XMU5DCMRWGM5DENJR/GettyImages-2248017867.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "whitecaps-stun-lafc"
+}
+,
+    {
+  "id": 88,
+  "title": "Pittsburgh Win USL Championship After Dramatic Penalty Shootout",
+  "author": "Mio Ristić",
+  "date": "November 22, 2025",
+  "excerpt": "Pittsburgh Riverhounds claimed their first USL Championship title after a tense 120-minute battle and a decisive 5–3 penalty shootout win over FC Tulsa.",
+  "imageUrl": "https://the18.com/sites/default/files/feature-images/GettyImages-1258549217.jpg",
+  "slug": "usl-champions"
+}
+,
+    
+    {
   "id": 87,
   "title": "Mauricio Pochettino’s USMNT: Momentum, Identity, and Cautious Optimism",
   "author": "Mio Ristić",
