@@ -12,6 +12,25 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 91,
+  "title": "Inter Miami Dominates Without Suárez: Messi Leads, Silvetti and Allende Shine in Historic Win vs Cincinnati",
+  "author": "Mio Ristić",
+  "date": "November 24, 2025",
+  "excerpt": "Inter Miami defeated FC Cincinnati 4–0 to reach the MLS Eastern Conference Final for the first time, highlighting Messi’s brilliance and the impact of Silvetti and Allende without Suárez.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2248121981/crop/MM5DIMRQGI5DEMZWGQ5G433XMU5DAORSGE4Q====/GettyImages-2248121981.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "inter-miami-cincinnati"
+},
+    {
+  "id": 90,
+  "title": "Christian Pulisic Delivers in the Derby: Why AC Milan’s American Star Is Becoming Their Go-To Leader",
+  "author": "Mio Ristić",
+  "date": "November 24, 2025",
+  "excerpt": "Christian Pulisic starred in the Derby della Madonnina, helping AC Milan secure a crucial 1-0 victory over Inter with his decisive goal and leadership.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2248113240/crop/MM5DCNJQGQ5DQNBWHJXG653FHI2DIMJ2G4ZA====/GettyImages-2248113240.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "pulisic-inter-milan"
+}
+,
+    {
   "id": 89,
   "title": "Vancouver Whitecaps Stun LAFC in Dramatic Penalty Shootout",
   "author": "Mio Ristić",

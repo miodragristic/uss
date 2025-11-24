@@ -25,7 +25,7 @@ export const metadata = {
     description:
       "Mauricio Pochettino is starting to implement his vision with the USMNT. Read the full match analysis and player development insights on US11.",
     images: [
-      "https://assets.goal.com/images/v3/bltf367b68cbbc7f98e/poch2.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+      "https://assets.goal.com/images/v3/blt4724cfaf9e2f7ee3/crop/MM5DCNZTGQ5DSNZVHJXG653FHI4TAORQ/poch-point169.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
     ],
     creator: "@us11",
   },

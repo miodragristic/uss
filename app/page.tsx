@@ -86,7 +86,24 @@ const TrendingPlayers = () => {
 
 
 
-const blogPosts = [
+const blogPosts = [{
+  "id": 91,
+  "title": "Inter Miami Dominates Without Suárez: Messi Leads, Silvetti and Allende Shine in Historic Win vs Cincinnati",
+  "author": "Mio Ristić",
+  "date": "November 24, 2025",
+  "excerpt": "Inter Miami defeated FC Cincinnati 4–0 to reach the MLS Eastern Conference Final for the first time, highlighting Messi’s brilliance and the impact of Silvetti and Allende without Suárez.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2248121981/crop/MM5DIMRQGI5DEMZWGQ5G433XMU5DAORSGE4Q====/GettyImages-2248121981.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/inter-miami-cincinnati"
+},
+  {
+  "id": 90,
+  "title": "Christian Pulisic Delivers in the Derby: Why AC Milan’s American Star Is Becoming Their Go-To Leader",
+  "author": "Mio Ristić",
+  "date": "November 24, 2025",
+  "excerpt": "Christian Pulisic starred in the Derby della Madonnina, helping AC Milan secure a crucial 1-0 victory over Inter with his decisive goal and leadership.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2248113240/crop/MM5DCNJQGQ5DQNBWHJXG653FHI2DIMJ2G4ZA====/GettyImages-2248113240.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/pulisic-inter-milan"
+},
   {
   "id": 89,
   "title": "Vancouver Whitecaps Stun LAFC in Dramatic Penalty Shootout",
@@ -124,26 +141,7 @@ const blogPosts = [
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/USL_League_One_abbr_light_logo.svg/1920px-USL_League_One_abbr_light_logo.svg.png",
   "link": "blog/usl-one-champions"
 }
-,
-  {
-  "id": 85,
-  "title": "Why Everyone’s Talking About the USMNT vs Paraguay Brawl",
-  "author": "Mio Ristić",
-  "date": "November 17, 2025",
-  "excerpt": "The USMNT vs Paraguay friendly ended in a dramatic bench-clearing brawl. Here’s what really happened and what it reveals about the team under Pochettino.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt19784dca8a91db2a/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2246884471.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "blog/us-paraguay-brawl"
-},
 
-  {
-  "id": 84,
-  "title": "USMNT Gains Momentum Under Pochettino Ahead of 2026 World Cup",
-  "author": "Mio Ristić",
-  "date": "November 17, 2025",
-  "excerpt": "Mauricio Pochettino is shaping the USMNT with tactical maturity, defined roles, and clear playing style, as the team prepares for friendlies against Paraguay and Uruguay.",
-  "imageUrl": "https://assets.goal.com/images/v3/blt4724cfaf9e2f7ee3/crop/MM5DCNZTGQ5DSNZVHJXG653FHI4TAORQ/poch-point169.jpeg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "blog/pochettino-usmnt-analysis"
-}
 
     
     
