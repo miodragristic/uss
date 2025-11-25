@@ -86,7 +86,17 @@ const TrendingPlayers = () => {
 
 
 
-const blogPosts = [{
+const blogPosts = [
+  {
+  "id": 92,
+  "title": "San Diego FC Edges Minnesota in a Fierce 1–0 Battle to Reach Western Conference Final in Their Debut MLS Season",
+  "author": "Mio Ristić",
+  "date": "November 26, 2025",
+  "excerpt": "San Diego FC defeated Minnesota United 1–0 in an intense, physical playoff battle, advancing to the Western Conference Final in their debut MLS season.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2216643330/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216643330.jpg?width=1400&upscale=true",
+  "link": "blog/san-diego-minnesota"
+},
+  {
   "id": 91,
   "title": "Inter Miami Dominates Without Suárez: Messi Leads, Silvetti and Allende Shine in Historic Win vs Cincinnati",
   "author": "Mio Ristić",
@@ -132,15 +142,6 @@ const blogPosts = [{
   "imageUrl": "https://assets.goal.com/images/v3/getty-1185973972/crop/MM5DEMZTGQ5DCMZRGM5G433XMU5DENRTHI3TQ===/GettyImages-1185973972.jpg?auto=webp&format=pjpg&width=1920&quality=60",
   "link": "blog/mauricio-pochettinos-usmnt"
 },
-  {
-  "id": 86,
-  "title": "One Knoxville Shock the League: A Title Win That Changes Everything",
-  "author": "Mio Ristić",
-  "date": "November 14, 2025",
-  "excerpt": "One Knoxville SC claimed their first USL League One title in style, dominating Spokane 2–0. Here’s how they did it and what it means for the league.",
-  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/USL_League_One_abbr_light_logo.svg/1920px-USL_League_One_abbr_light_logo.svg.png",
-  "link": "blog/usl-one-champions"
-}
 
 
     
