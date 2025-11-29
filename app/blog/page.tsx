@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 93,
+  "title": "Christian Pulisic Likely to Miss AC Milan vs. Lazio, Says Massimiliano Allegri",
+  "author": "Mio Ristić",
+  "date": "November 28, 2025",
+  "excerpt": "AC Milan could be without star winger Christian Pulisic for their Serie A clash against Lazio, as Allegri prioritizes caution after the USMNT star’s recent hamstring injury.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2247574198/crop/MM5DENJXG45DCNBVGA5G433XMU5DAORRGM2A====/GettyImages-2247574198.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "pulisic-likely-miss-ac-milan-lazio"
+},
+    {
   "id": 92,
   "title": "San Diego FC Edges Minnesota in a Fierce 1–0 Battle to Reach Western Conference Final in Their Debut MLS Season",
   "author": "Mio Ristić",

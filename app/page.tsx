@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 93,
+  "title": "Christian Pulisic Likely to Miss AC Milan vs. Lazio, Says Massimiliano Allegri",
+  "author": "Mio Ristić",
+  "date": "November 28, 2025",
+  "excerpt": "AC Milan could be without star winger Christian Pulisic for their Serie A clash against Lazio, as Allegri prioritizes caution after the USMNT star’s recent hamstring injury.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2247574198/crop/MM5DENJXG45DCNBVGA5G433XMU5DAORRGM2A====/GettyImages-2247574198.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/pulisic-likely-miss-ac-milan-lazio"
+},
+  {
   "id": 92,
   "title": "San Diego FC Edges Minnesota in a Fierce 1–0 Battle to Reach Western Conference Final in Their Debut MLS Season",
   "author": "Mio Ristić",
@@ -133,15 +142,7 @@ const blogPosts = [
   "imageUrl": "https://the18.com/sites/default/files/feature-images/GettyImages-1258549217.jpg",
   "link": "blog/usl-champions"
 },
-  {
-  "id": 87,
-  "title": "Mauricio Pochettino’s USMNT: Momentum, Identity, and Cautious Optimism",
-  "author": "Mio Ristić",
-  "date": "November 21, 2025",
-  "excerpt": "The USMNT is on the rise under Mauricio Pochettino, showing tactical structure, emerging young leaders, and a path toward the 2026 World Cup with measured optimism.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-1185973972/crop/MM5DEMZTGQ5DCMZRGM5G433XMU5DENRTHI3TQ===/GettyImages-1185973972.jpg?auto=webp&format=pjpg&width=1920&quality=60",
-  "link": "blog/mauricio-pochettinos-usmnt"
-},
+ 
 
 
     
