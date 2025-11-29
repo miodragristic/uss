@@ -12,6 +12,25 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 95,
+  "title": "Brenden Aaronson and Leeds United: Is It Time to Reevaluate His Role?",
+  "author": "Mio Ristić",
+  "date": "November 29, 2025",
+  "excerpt": "Analysis of Brenden Aaronson's role at Leeds United, reviewing his recent performances, stats, and fan reactions.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2165145829/crop/MM5DEMZZGA5DCMZUGQ5G433XMU5DEOJYHIYTGMA=/GettyImages-2165145829.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "brenden-aaronson-and-leeds"
+},
+    {
+  "id": 94,
+  "title": "Today Is the Day: Conference Finals — Who Will Reach the MLS Cup Final?",
+  "author": "Mio Ristić",
+  "date": "November 29, 2025",
+  "excerpt": "Preview of the 2025 MLS Eastern and Western Conference Finals, featuring Inter Miami vs. NYCFC and San Diego FC vs. Vancouver Whitecaps. Full analysis and ticket links included.",
+  "imageUrl": "https://i.ibb.co/Swc5SdWv/Untitled-design.png",
+  "slug": "conference-finals"
+}
+,
+    {
   "id": 93,
   "title": "Christian Pulisic Likely to Miss AC Milan vs. Lazio, Says Massimiliano Allegri",
   "author": "Mio Ristić",

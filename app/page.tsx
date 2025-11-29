@@ -88,6 +88,16 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 95,
+  "title": "Brenden Aaronson and Leeds United: Is It Time to Reevaluate His Role?",
+  "author": "Mio Ristić",
+  "date": "November 29, 2025",
+  "excerpt": "Analysis of Brenden Aaronson's role at Leeds United, reviewing his recent performances, stats, and fan reactions.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2165145829/crop/MM5DEMZZGA5DCMZUGQ5G433XMU5DEOJYHIYTGMA=/GettyImages-2165145829.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/brenden-aaronson-and-leeds"
+}
+,
+  {
   "id": 93,
   "title": "Christian Pulisic Likely to Miss AC Milan vs. Lazio, Says Massimiliano Allegri",
   "author": "Mio Ristić",
@@ -133,15 +143,7 @@ const blogPosts = [
   "link": "blog/whitecaps-stun-lafc"
 }
 ,
-  {
-  "id": 88,
-  "title": "Pittsburgh Win USL Championship After Dramatic Penalty Shootout",
-  "author": "Mio Ristić",
-  "date": "November 22, 2025",
-  "excerpt": "Pittsburgh Riverhounds claimed their first USL Championship title after a tense 120-minute battle and a decisive 5–3 penalty shootout win over FC Tulsa.",
-  "imageUrl": "https://the18.com/sites/default/files/feature-images/GettyImages-1258549217.jpg",
-  "link": "blog/usl-champions"
-},
+
  
 
 
@@ -149,107 +151,41 @@ const blogPosts = [
     
 ];
 
-export default function HomePage() {
+
    
  
 
 
 
+  export default function HomePage() {
   return (
-    
     <>
-      {/* Background Image */}
-      <div className="relative w-full h-screen flex flex-col md:flex-row items-center justify-center px-4 md:px-6"
-              style={{
-                backgroundImage: 'url(https://images.unsplash.com/photo-1686168523188-8949907234a5?q=80&w=1974&auto=format&fit=crop)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                opacity: 1.9
-              }}
-      >
-{/* Left Content */}
-<div className="flex flex-col justify-center h-auto max-w-[800px] mx-auto p-4 sm:p-8 bg-white/60 rounded-lg shadow-md mt-[-200px]">
-  <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-[#020617] mb-2">
-    Welcome to US11
-  </h2>
+   {/* Hero Section */}
+<Link href="/blog/conference-finals" className="relative w-full h-[700px] block">
+  <Image
+    src="https://i.ibb.co/Swc5SdWv/Untitled-design.png"
+    alt="MLS Playoff Atmosphere"
+    layout="fill"
+    objectFit="cover"
+    objectPosition="center"
+    className="brightness-75"
+  />
 
-  <p className="text-black font-bold py-4 max-w-[700px] text-base sm:text-lg leading-relaxed">
-    At US11, we are passionate about bringing you the latest news, insights, and updates from
-    the world of US soccer and Major League Soccer (MLS). Don't forget to visit our shop,
-    where you can find high-quality jerseys at great prices. Show your support for your
-    favorite teams with our official merchandise.
-  </p>
-
-  <div>
-    <a
-      href="/teams"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-white bg-[#020617] group border-2 border-transparent px-4 sm:px-6 py-2 sm:py-3 my-2 items-center hover:bg-transparent hover:border-[#020617] hover:text-[#020617] rounded-lg transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer inline-block"
-    >
-      BROWSE TEAMS
-    </a>
+  <div className="absolute inset-0 flex flex-col justify-end items-center pb-20 px-6 text-center">
+    <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
+      Today Is the Day: Conference Finals
+    </h1>
+    <p className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold text-white leading-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
+      Who Will Reach the MLS Cup Final?
+    </p>
   </div>
-</div>
+</Link>
 
 
-{/* Right Content - Image + MLS Button */}
-<div className="hidden md:flex md:flex-col md:items-center mr-20 md:ml-8 mt-[-60px]">
-  
-  {/* IMAGE */}
-  <a
-    href="https://fanatics.93n6tx.net/e16Oyz"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Image
-      src="https://assets.goal.com/images/v3/getty-2219716068/crop/MM5DEMBUHA5DCMJVGI5G433XMU5DIMBUHIYTMOA=/GettyImages-2219716068.jpg?auto=webp&format=pjpg&width=3840&quality=60"
-      alt="World Cup Jerseys"
-      width={340}
-      height={500}
-      className="rounded-2xl shadow-xl border-4 border-white transition-transform duration-300 hover:scale-105 object-cover object-center"
-    />
-  </a>
 
-  {/* BUY BUTTON UNDER IMAGE */}
-  <a
-    href="https://fanatics.93n6tx.net/e16Oyz"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-6 text-white bg-black px-6 py-3 rounded-2xl shadow-md hover:bg-white hover:text-black hover:border-black border-2 border-black transition-all duration-300 ease-in-out transform hover:scale-105"
-  >
-    BUY WORLD CUP JERSEYS
-  </a>
 
-</div>
-              </div>
 
-       
-      
-
-      {/* Mobile version */}
-      <div className="flex flex-col items-center ml-8 sm:hidden">
-        <Link href="https://fanatics.93n6tx.net/e16Oyz">
-          <Image
-            src="https://assets.goal.com/images/v3/getty-2219716068/crop/MM5DEMBUHA5DCMJVGI5G433XMU5DIMBUHIYTMOA=/GettyImages-2219716068.jpg?auto=webp&format=pjpg&width=3840&quality=60"
-            alt="MLS Finals"
-            width={340}
-            height={500}
-            className="mr-20 mt-20"
-          />
-        </Link>
-         {/* BUY BUTTON UNDER IMAGE */}
-  <a
-    href="https://fanatics.93n6tx.net/e16Oyz"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="mt-6 text-white bg-black px-6 py-3 rounded-2xl shadow-md hover:bg-white hover:text-black hover:border-black border-2 border-black transition-all duration-300 ease-in-out transform hover:scale-105"
-  >
-    BUY WORLD CUP JERSEYS
-  </a>
-        
-      </div> 
+     
 
       {/* Football Shirts Section */}
 <div className="bg-white py-16">
