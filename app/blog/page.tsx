@@ -12,6 +12,25 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 97,
+  "title": "Brian White’s Brace Sends Vancouver Whitecaps to MLS Cup Final",
+  "author": "Mio Ristić",
+  "date": "November 29, 2025",
+  "excerpt": "USMNT striker Brian White scored a first-half brace to power Vancouver Whitecaps to a 3–1 victory over San Diego FC in the MLS Western Conference Final. Full match recap, key stats, and tactical analysis.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2209348682/crop/MM5DINRQGI5DENJYHE5G433XMU5DAORSGQYA====/GettyImages-2209348682.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "slug": "san-diego-vancouver"
+}
+,
+    {
+  "id": 96,
+  "title": "Inter Miami vs NYCFC: Allende Hat-Trick Sends Miami to MLS Cup Final",
+  "author": "Mio Ristić",
+  "date": "November 29, 2025",
+  "excerpt": "Inter Miami dominate NYCFC 5–1 in the Eastern Conference Final, powered by Tadeo Allende's hat-trick and Lionel Messi's midfield mastery. Full match recap, key stats, and tactical analysis.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2218021380/crop/MM5DINJRGI5DENJTHA5G433XMU5DAORSGM2Q====/GettyImages-2218021380.jpg?width=1400&upscale=true",
+  "slug": "inter-miami-vs-nycfc"
+},
+    {
   "id": 95,
   "title": "Brenden Aaronson and Leeds United: Is It Time to Reevaluate His Role?",
   "author": "Mio Ristić",

@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 97,
+  "title": "Brian White’s Brace Sends Vancouver Whitecaps to MLS Cup Final",
+  "author": "Mio Ristić",
+  "date": "November 29, 2025",
+  "excerpt": "USMNT striker Brian White scored a first-half brace to power Vancouver Whitecaps to a 3–1 victory over San Diego FC in the MLS Western Conference Final. Full match recap, key stats, and tactical analysis.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2209348682/crop/MM5DINRQGI5DENJYHE5G433XMU5DAORSGQYA====/GettyImages-2209348682.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "link": "blog/san-diego-vancouver"
+},
+  {
   "id": 95,
   "title": "Brenden Aaronson and Leeds United: Is It Time to Reevaluate His Role?",
   "author": "Mio Ristić",
@@ -132,18 +141,7 @@ const blogPosts = [
   "excerpt": "Christian Pulisic starred in the Derby della Madonnina, helping AC Milan secure a crucial 1-0 victory over Inter with his decisive goal and leadership.",
   "imageUrl": "https://assets.goal.com/images/v3/getty-2248113240/crop/MM5DCNJQGQ5DQNBWHJXG653FHI2DIMJ2G4ZA====/GettyImages-2248113240.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "blog/pulisic-inter-milan"
-},
-  {
-  "id": 89,
-  "title": "Vancouver Whitecaps Stun LAFC in Dramatic Penalty Shootout",
-  "author": "Mio Ristić",
-  "date": "November 22, 2025",
-  "excerpt": "Vancouver Whitecaps defeated LAFC in the 2025 MLS Western Conference Semifinals after 120 minutes and a dramatic penalty shootout.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2248017867/crop/MM5DEOJRGI5DCNRTHA5G433XMU5DCMRWGM5DENJR/GettyImages-2248017867.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/whitecaps-stun-lafc"
 }
-,
-
  
 
 
@@ -161,25 +159,31 @@ const blogPosts = [
   return (
     <>
    {/* Hero Section */}
-<Link href="/blog/conference-finals" className="relative w-full h-[700px] block">
+<Link href="/blog/inter-miami-vs-nycfc" className="relative w-full h-[700px] block">
   <Image
-    src="https://i.ibb.co/Swc5SdWv/Untitled-design.png"
-    alt="MLS Playoff Atmosphere"
+    src="https://assets.goal.com/images/v3/getty-2218021380/crop/MM5DINJRGI5DENJTHA5G433XMU5DAORSGM2Q====/GettyImages-2218021380.jpg?width=1400&upscale=true"
+    alt="Inter Miami vs NYCFC Eastern Conference Final"
     layout="fill"
     objectFit="cover"
     objectPosition="center"
     className="brightness-75"
   />
 
+   {/* Copyright in top-right corner */}
+  <span className="absolute top-2 right-4 text-xs text-white/80 z-10">
+    Copyright: 2025 Getty Images
+  </span>
+
   <div className="absolute inset-0 flex flex-col justify-end items-center pb-20 px-6 text-center">
     <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-      Today Is the Day: Conference Finals
+      Inter Miami vs NYCFC
     </h1>
     <p className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold text-white leading-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-      Who Will Reach the MLS Cup Final?
+      Allende Hat-Trick Sends Miami to MLS Cup Final
     </p>
   </div>
 </Link>
+
 
 
 
