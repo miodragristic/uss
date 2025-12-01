@@ -159,37 +159,30 @@ const blogPosts = [
   return (
     <>
    {/* Hero Section */}
-<Link href="/blog/inter-miami-vs-nycfc" className="relative w-full h-[700px] block">
+<Link href="/blog/mls-final-2025" className="relative w-full h-[700px] block">
   <Image
-    src="https://assets.goal.com/images/v3/getty-2218021380/crop/MM5DINJRGI5DENJTHA5G433XMU5DAORSGM2Q====/GettyImages-2218021380.jpg?width=1400&upscale=true"
-    alt="Inter Miami vs NYCFC Eastern Conference Final"
+    src="https://i.ibb.co/NdY7jggd/Dynamic-Soccer-Stars-in-Action.png"
+    alt="Inter Miami FC vs Vancouver Whitecaps MLS Cup Final"
     layout="fill"
     objectFit="cover"
-    objectPosition="center"
+    objectPosition="center 10%"  // pomeramo fokus niže
     className="brightness-75"
   />
 
-   {/* Copyright in top-right corner */}
+  {/* Copyright in top-right corner */}
   <span className="absolute top-2 right-4 text-xs text-white/80 z-10">
-    Copyright: 2025 Getty Images
+    Credit: US11
   </span>
 
   <div className="absolute inset-0 flex flex-col justify-end items-center pb-20 px-6 text-center">
     <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-      Inter Miami vs NYCFC
+      INTER MIAMI FC x VANCOUVER WHITECAPS
     </h1>
     <p className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold text-white leading-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-      Allende Hat-Trick Sends Miami to MLS Cup Final
+      Finally, Countdown to the MLS Cup Final 2025
     </p>
   </div>
 </Link>
-
-
-
-
-
-
-     
 
       {/* Football Shirts Section */}
 <div className="bg-white py-16">

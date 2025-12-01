@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: false, // Iskljucuje Tailwind dark varijante
+  darkMode: 'class', // uključujemo class-based dark mode
   content: [
     "./src/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -8,13 +8,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      // UKLANJAMO custom varijable jer prate dark mode kroz .dark klasu
-      // colors: {
-      //   background: "var(--background)",
-      //   foreground: "var(--foreground)",
-      // },
-    },
+    extend: {},
   },
   plugins: [],
 };

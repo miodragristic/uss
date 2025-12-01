@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+  "id": 98,
+  "title": "Finally, Countdown: Inter Miami FC vs Vancouver Whitecaps – Everything You Need to Know for the MLS Cup Final",
+  "author": "Mio Ristić",
+  "date": "December 1, 2025",
+  "excerpt": "The stage is set for one of the most anticipated matches in MLS history: Inter Miami FC faces off against the Vancouver Whitecaps in the 2025 MLS Cup Final. Full match preview, kickoff times, and fan gear links included.",
+  "imageUrl": "https://i.ibb.co/NdY7jggd/Dynamic-Soccer-Stars-in-Action.png",
+  "slug": "mls-final-2025"
+},
+    {
   "id": 97,
   "title": "Brian White’s Brace Sends Vancouver Whitecaps to MLS Cup Final",
   "author": "Mio Ristić",
