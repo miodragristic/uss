@@ -1,8 +1,5 @@
-"use client"; // dodaj ovo jer koristimo React state
-
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
-import { useState, useEffect } from "react";
 import "./globals.css";
 
 import Navbar from "./components/Navbar";
@@ -54,37 +51,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [darkMode, setDarkMode] = useState(false);
-
-  // Set HTML class on mount and when darkMode changes
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [darkMode]);
-
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black dark:bg-black dark:text-white transition-colors duration-300`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-
         <main className="flex-grow pt-[150px]">{children}</main>
-
-        {/* Footer with Dark Mode Toggle */}
-        <Footer>
-          <div className="flex justify-center py-4">
-            <button
-              onClick={() => setDarkMode(!darkMode)}
-              className="px-4 py-2 rounded-md bg-gray-200 dark:bg-gray-800 text-black dark:text-white hover:opacity-80 transition"
-            >
-              {darkMode ? "Light Mode" : "Dark Mode"}
-            </button>
-          </div>
-        </Footer>
+        <Footer />
 
         {/* Iubenda Consent Banner Scripts */}
         <Script id="iub-config" strategy="afterInteractive">
