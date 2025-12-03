@@ -150,6 +150,7 @@ Copyright: 2023 Zach Sanderson/ISI Photos
             <p>Published: November 10, 2025</p>
             <p>Author: Mio Ristić</p>
           </div>
+          
         </footer>
 
       </div>

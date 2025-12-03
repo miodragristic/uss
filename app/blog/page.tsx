@@ -12,6 +12,25 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+"id": 100,
+"title": "Cristiano Ronaldo Is Coming to Atlanta: Georgia Prepares for a Football Spectacle",
+"author": "Mio Ristić",
+"date": "December 3, 2025",
+"excerpt": "Ronaldo heads to Atlanta for the USMNT friendly against Portugal on March 31, 2026. Fans can witness one of football’s greatest players live at Mercedes-Benz Stadium.",
+"imageUrl": "https://assets.goal.com/images/v3/getty-2233954657/crop/MM5DEMZTGY5DCMZRGQ5G433XMU5DEMBQG45DS===/GettyImages-2233954657.jpg?auto=webp&format=pjpg&width=3840&quality=60](https://assets.goal.com/images/v3/getty-2233954657/crop/MM5DEMZTGY5DCMZRGQ5G433XMU5DEMBQG45DS===/GettyImages-2233954657.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+"slug": "ronaldo-in-atlanta"
+}
+,
+    {
+  "id": 99,
+  "title": "USMNT Prepares for World Cup 2026: European Giants Arrive for Friendlies",
+  "author": "Mio Ristić",
+  "date": "December 3, 2025",
+  "excerpt": "The U.S. Men’s National Team gears up for the 2026 World Cup with high-profile friendlies against Belgium, Portugal, and Germany. Full match dates, venues, and preparation insights included.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2234693152/crop/MM5DGMRQGA5DCOBQGA5G433XMU5DGNRQHI2DK===/GettyImages-2234693152.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "slug": "usmnt-prepares-2026"
+},
+    {
   "id": 98,
   "title": "Finally, Countdown: Inter Miami FC vs Vancouver Whitecaps – Everything You Need to Know for the MLS Cup Final",
   "author": "Mio Ristić",

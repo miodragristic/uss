@@ -157,6 +157,7 @@ Copyright: 2025 Getty Images
             <Link href="/blog" className="text-sm text-gray-500 hover:text-gray-800">Back to blog</Link>
             <Link href="/teams" className="text-sm text-red-700 hover:text-red-800 ml-4">#MLS</Link>
           </div>
+          
         </footer>
 
       </div>

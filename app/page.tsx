@@ -88,6 +88,25 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+"id": 100,
+"title": "Cristiano Ronaldo Is Coming to Atlanta: Georgia Prepares for a Football Spectacle",
+"author": "Mio Ristić",
+"date": "December 3, 2025",
+"excerpt": "Ronaldo heads to Atlanta for the USMNT friendly against Portugal on March 31, 2026. Fans can witness one of football’s greatest players live at Mercedes-Benz Stadium.",
+"imageUrl": "https://assets.goal.com/images/v3/getty-2233954657/crop/MM5DEMZTGY5DCMZRGQ5G433XMU5DEMBQG45DS===/GettyImages-2233954657.jpg?auto=webp&format=pjpg&width=3840&quality=60](https://assets.goal.com/images/v3/getty-2233954657/crop/MM5DEMZTGY5DCMZRGQ5G433XMU5DEMBQG45DS===/GettyImages-2233954657.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+"link": "blog/ronaldo-in-atlanta"
+}
+,
+  {
+  "id": 99,
+  "title": "USMNT Prepares for World Cup 2026: European Giants Arrive for Friendlies",
+  "author": "Mio Ristić",
+  "date": "December 3, 2025",
+  "excerpt": "The U.S. Men’s National Team gears up for the 2026 World Cup with high-profile friendlies against Belgium, Portugal, and Germany. Full match dates, venues, and preparation insights included.",
+  "imageUrl": "https://assets.goal.com/images/v3/getty-2234693152/crop/MM5DGMRQGA5DCOBQGA5G433XMU5DGNRQHI2DK===/GettyImages-2234693152.jpg?auto=webp&format=pjpg&width=1920&quality=60",
+  "link": "blog/usmnt-prepares-2026"
+},
+  {
   "id": 97,
   "title": "Brian White’s Brace Sends Vancouver Whitecaps to MLS Cup Final",
   "author": "Mio Ristić",
@@ -124,25 +143,8 @@ const blogPosts = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2216643330/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216643330.jpg?width=1400&upscale=true",
   "link": "blog/san-diego-minnesota"
 },
-  {
-  "id": 91,
-  "title": "Inter Miami Dominates Without Suárez: Messi Leads, Silvetti and Allende Shine in Historic Win vs Cincinnati",
-  "author": "Mio Ristić",
-  "date": "November 24, 2025",
-  "excerpt": "Inter Miami defeated FC Cincinnati 4–0 to reach the MLS Eastern Conference Final for the first time, highlighting Messi’s brilliance and the impact of Silvetti and Allende without Suárez.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2248121981/crop/MM5DIMRQGI5DEMZWGQ5G433XMU5DAORSGE4Q====/GettyImages-2248121981.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/inter-miami-cincinnati"
-},
-  {
-  "id": 90,
-  "title": "Christian Pulisic Delivers in the Derby: Why AC Milan’s American Star Is Becoming Their Go-To Leader",
-  "author": "Mio Ristić",
-  "date": "November 24, 2025",
-  "excerpt": "Christian Pulisic starred in the Derby della Madonnina, helping AC Milan secure a crucial 1-0 victory over Inter with his decisive goal and leadership.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2248113240/crop/MM5DCNJQGQ5DQNBWHJXG653FHI2DIMJ2G4ZA====/GettyImages-2248113240.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/pulisic-inter-milan"
-}
- 
+  
+
 
 
     
