@@ -11,6 +11,7 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+   
     {
 "id": 100,
 "title": "Cristiano Ronaldo Is Coming to Atlanta: Georgia Prepares for a Football Spectacle",
