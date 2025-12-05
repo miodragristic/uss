@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
-import { FaFacebookF, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import Link from 'next/link';
+import { FaFacebookF, FaTwitter, FaWhatsapp, FaShoppingCart } from 'react-icons/fa';
 import { FiCopy } from 'react-icons/fi';
 
 
@@ -25,9 +25,38 @@ const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIC
 const twitterShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent('USMNT in Group D: Analysis, Challenges, and Chances for World Cup 2026')}`;
 const whatsappShare = `https://api.whatsapp.com/send?text=${encodeURIComponent(currentUrl)}`;
 
+// Sample USMNT jerseys data
+  const jerseys = [
+    {
+      id: 1,
+      title: 'USMNT Nike 2024 Away Replica Jersey - Blue',
+      price: '$51.29 with code: FESTIVE',
+      imageUrl: 'https://fanatics.frgimages.com/usmnt/mens-nike-blue-usmnt-2024-away-replica-jersey_ss5_p-201149806+pv-1+u-sok5v33k09b74r2ypoou+v-7nlefv7wgkw3hgfxcmy7.jpg?_hv=2&w=1018',
+      link: 'https://fanatics.93n6tx.net/POXjPj',
+    },
+    {
+      id: 2,
+      title: 'USMNT Nike 2025 Away Replica Jersey - Navy',
+      price: '$129.99',
+      imageUrl: 'https://fanatics.frgimages.com/usmnt/mens-nike-navy-usmnt-2025-away-replica-jersey_ss5_p-202297013+pv-1+u-f9wal9lduvhdzyrsu8xw+v-p6kn5elckajdhcsojmpr.jpg?_hv=2&w=1018',
+      link: 'https://www.mlsstore.com/usmnt-away-jersey',
+    },
+    {
+      id: 3,
+      title: 'USMNT Nike 2024 Home Replica Jersey - White',
+      price: '$60.79 with code: FESTIVE',
+      imageUrl: 'https://fanatics.frgimages.com/usmnt/mens-nike-white-usmnt-2024-home-replica-jersey_ss5_p-201149800+pv-1+u-wehxef8zguyjty2iocsy+v-snchhstz5d1dem5wyg20.jpg?_hv=2&w=1018',
+      link: 'https://fanatics.93n6tx.net/9LRGRE',
+    },
+  ];
+
 return ( <article className="w-full min-h-screen bg-white text-[#020617]"> <div className="max-w-4xl mx-auto py-12 px-4 md:px-0">
 {/* HEADER */} <header className="mb-8"> <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-3">
 USMNT in Group D: Analysis, Challenges, and Chances for World Cup 2026 </h1> <div className="flex items-center gap-4 mt-2 text-sm text-gray-500"> <span>Mio Ristić</span> <span>•</span> <time dateTime="2025-12-05">December 5, 2025</time> </div>
+  {/* Tags */}
+          <div className="flex flex-wrap items-center gap-2 mt-3">
+            <Link href="/teams/usa-national-team" className="text-xs bg-blue-800 text-white px-3 py-1 rounded-full hover:bg-blue-900 transition">#USMNT</Link>
+          </div>
 
 
       {/* SHARE BUTTONS */}
@@ -88,12 +117,50 @@ USMNT in Group D: Analysis, Challenges, and Chances for World Cup 2026 </h1> <di
       <p>On paper, the group might appear manageable. In practice, Paraguay is a physical challenge, Australia an organizational challenge, and the European playoff winner a tactical challenge. The United States may be favorites, but only on the pitch can they prove readiness for 2026.</p>
     </section>
 
+    {/* USMNT JERSEYS SECTION */}
+            <section className="my-12">
+              <h2 className="text-3xl font-bold text-[#020617] mb-6 tracking-tight">Shop USMNT Gear</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                {jerseys.map((j) => (
+                  <div key={j.id} className="border rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+                    <div className="w-full h-64 relative">
+                      <Image
+                        src={j.imageUrl}
+                        alt={j.title}
+                        fill
+                        style={{ objectFit: 'cover' }}
+                        className="w-full h-full"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <h3 className="text-lg font-semibold mb-2">{j.title}</h3>
+                      <p className="text-gray-600 mb-4">{j.price}</p>
+                      <a
+                        href={j.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block w-full text-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-transparent hover:text-[#020617] hover:border hover:border-[#020617] transition"
+                      >
+                        Buy Now <FaShoppingCart className="inline ml-2" />
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+    
+
     {/* FOOTER */}
     <footer className="mt-12 border-t pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
       <div className="text-sm text-gray-600">
         <p>Published: December 5, 2025</p>
         <p>Author: US11 FC</p>
+      
       </div>
+      <div className="flex gap-2">
+            <Link href="/blog" className="text-sm text-gray-500 hover:text-gray-800">Back to blog</Link>
+            <Link href="/teams/usa-national-team" className="text-sm text-blue-800 hover:text-blue-900 ml-4">#USMNT</Link>
+          </div>
     </footer>
   </div>
 </article>
