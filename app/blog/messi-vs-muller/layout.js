@@ -10,7 +10,7 @@ export const metadata = {
     siteName: "US11",
     images: [
       {
-        url: "https://assets.goal.com/images/v3/getty-2249325528/crop/MM5DCNRQGQ5DSMBSHJXG653FHIYTOMZ2GM2TC===/GettyImages-2249325528.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+        url: "https://i.ibb.co/zVdYQrkC/Untitled-design-2.png",
         width: 1200,
         height: 800,
         alt: "Messi vs Müller MLS Cup Final",
