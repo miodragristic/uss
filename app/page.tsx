@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+  "id": 101,
+  "title": "Messi vs. Müller: The Final Chapter of a European Rivalry Arrives in MLS",
+  "author": "Mio Ristić",
+  "date": "December 5, 2025",
+  "excerpt": "Lionel Messi and Thomas Müller face off in the 2025 MLS Cup final. Read analysis, match insights, and see how these European legends are shaping MLS history.",
+   "imageUrl": "https://i.ibb.co/zVdYQrkC/Untitled-design-2.png",
+  "link": "blog/messi-vs-muller"
+},
+  {
 "id": 100,
 "title": "Cristiano Ronaldo Is Coming to Atlanta: Georgia Prepares for a Football Spectacle",
 "author": "Mio Ristić",
@@ -134,17 +143,6 @@ const blogPosts = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2247574198/crop/MM5DENJXG45DCNBVGA5G433XMU5DAORRGM2A====/GettyImages-2247574198.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "blog/pulisic-likely-miss-ac-milan-lazio"
 },
-  {
-  "id": 92,
-  "title": "San Diego FC Edges Minnesota in a Fierce 1–0 Battle to Reach Western Conference Final in Their Debut MLS Season",
-  "author": "Mio Ristić",
-  "date": "November 26, 2025",
-  "excerpt": "San Diego FC defeated Minnesota United 1–0 in an intense, physical playoff battle, advancing to the Western Conference Final in their debut MLS season.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2216643330/crop/MM5DIMBQGA5DEMRVGA5G433XMU5DAORSGA4Q====/GettyImages-2216643330.jpg?width=1400&upscale=true",
-  "link": "blog/san-diego-minnesota"
-},
-  
-
 
 
     

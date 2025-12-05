@@ -24,7 +24,7 @@ export const metadata = {
     title: "Messi vs. Müller: 2025 MLS Cup Final | US11 Blog",
     description: "Messi vs Müller in the 2025 MLS Cup final: analysis, insights, and official gear for fans.",
     images: [
-      "https://assets.goal.com/images/v3/getty-2249325528/crop/MM5DCNRQGQ5DSMBSHJXG653FHIYTOMZ2GM2TC===/GettyImages-2249325528.jpg?auto=webp&format=pjpg&width=3840&quality=60"
+      "https://i.ibb.co/zVdYQrkC/Untitled-design-2.png"
     ],
     creator: "@us11",
   },

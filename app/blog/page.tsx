@@ -11,6 +11,15 @@ import Us11 from '../../public/11.png';
 
 const Blog = () => {
   const blogPosts = [
+   {
+  "id": 101,
+  "title": "Messi vs. Müller: The Final Chapter of a European Rivalry Arrives in MLS",
+  "author": "Mio Ristić",
+  "date": "December 5, 2025",
+  "excerpt": "Lionel Messi and Thomas Müller face off in the 2025 MLS Cup final. Read analysis, match insights, and see how these European legends are shaping MLS history.",
+   "imageUrl": "https://i.ibb.co/zVdYQrkC/Untitled-design-2.png",
+  "slug": "messi-vs-muller"
+},
    
     {
 "id": 100,
