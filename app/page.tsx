@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+"id": 102,
+"title": "USMNT in Group D: Challenges and Chances for World Cup 2026",
+"author": "Mio Ristić",
+"date": "December 5, 2025",
+"excerpt": "A deep dive into the USMNT's opponents in Group D, tactical insights, and what fans can expect in the 2026 World Cup.",
+"imageUrl": "https://assets.goal.com/images/v3/blt72949e9c276641f4/crop/MM5DGOBYGE5DEMJYGM5G433XMU5DAORSGAZA====/GettyImages-2246882882.jpg",
+"link": "blog/usa-world-cup"
+},
+  {
   "id": 101,
   "title": "Messi vs. Müller: The Final Chapter of a European Rivalry Arrives in MLS",
   "author": "Mio Ristić",
