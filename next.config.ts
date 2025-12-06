@@ -54,11 +54,17 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.squarespace-cdn.com' },
     ],
   },
+
+  // Primer proxy/rewrite konfiguracije
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'https://external-api.com/:path*',
+      },
+      // Dodaj druge rewrites/proxy po potrebi
+    ];
+  },
 };
 
 export default nextConfig;
-
-
-
-
- 

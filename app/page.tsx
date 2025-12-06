@@ -96,6 +96,7 @@ const blogPosts = [
 "imageUrl": "https://assets.goal.com/images/v3/getty-2223853224/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMZXHA5DCMBX/GettyImages-2223853224.jpg",
 "link": "blog/mls-transfers-2025"
 },
+  
   {
 "id": 102,
 "title": "USMNT in Group D: Challenges and Chances for World Cup 2026",
