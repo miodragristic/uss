@@ -88,6 +88,15 @@ const TrendingPlayers = () => {
 
 const blogPosts = [
   {
+"id": 103,
+"title": "MLS Transfers 2025/26: Biggest Moves and Roster Updates",
+"author": "Mio Ristić",
+"date": "December 6, 2025",
+"excerpt": "A complete overview of the biggest MLS transfers, contract extensions, and roster changes ahead of the 2026 season, including Messi, Lloris, Brenner, and more.",
+"imageUrl": "https://assets.goal.com/images/v3/getty-2223853224/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMZXHA5DCMBX/GettyImages-2223853224.jpg",
+"link": "blog/mls-transfers-2025"
+},
+  {
 "id": 102,
 "title": "USMNT in Group D: Challenges and Chances for World Cup 2026",
 "author": "Mio Ristić",
@@ -133,16 +142,7 @@ const blogPosts = [
   "imageUrl": "https://assets.goal.com/images/v3/getty-2209348682/crop/MM5DINRQGI5DENJYHE5G433XMU5DAORSGQYA====/GettyImages-2209348682.jpg?auto=webp&format=pjpg&width=3840&quality=60",
   "link": "blog/san-diego-vancouver"
 },
-  {
-  "id": 95,
-  "title": "Brenden Aaronson and Leeds United: Is It Time to Reevaluate His Role?",
-  "author": "Mio Ristić",
-  "date": "November 29, 2025",
-  "excerpt": "Analysis of Brenden Aaronson's role at Leeds United, reviewing his recent performances, stats, and fan reactions.",
-  "imageUrl": "https://assets.goal.com/images/v3/getty-2165145829/crop/MM5DEMZZGA5DCMZUGQ5G433XMU5DEOJYHIYTGMA=/GettyImages-2165145829.jpg?auto=webp&format=pjpg&width=3840&quality=60",
-  "link": "blog/brenden-aaronson-and-leeds"
-}
-
+  
     
     
 ];

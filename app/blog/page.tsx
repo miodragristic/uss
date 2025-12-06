@@ -12,6 +12,15 @@ import Us11 from '../../public/11.png';
 const Blog = () => {
   const blogPosts = [
     {
+"id": 103,
+"title": "MLS Transfers 2025/26: Biggest Moves and Roster Updates",
+"author": "Mio Ristić",
+"date": "December 6, 2025",
+"excerpt": "A complete overview of the biggest MLS transfers, contract extensions, and roster changes ahead of the 2026 season, including Messi, Lloris, Brenner, and more.",
+"imageUrl": "https://assets.goal.com/images/v3/getty-2223853224/crop/MM5DCOBQHA5DCMBRG45G433XMU5DCMZXHA5DCMBX/GettyImages-2223853224.jpg",
+"slug": "mls-transfers-2025"
+},
+    {
 "id": 102,
 "title": "USMNT in Group D: Challenges and Chances for World Cup 2026",
 "author": "Mio Ristić",
