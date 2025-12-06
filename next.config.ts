@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  turbopack: {
-    root: './', // Ovo pomaže da Next.js pravilno detektuje root direktorijum
-  },
+ turbopack: {},
 
   images: {
     remotePatterns: [
