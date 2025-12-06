@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  turbopack: {
+    root: './', // Ovo pomaže da Next.js pravilno detektuje root direktorijum
+  },
+
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'assets.goal.com' },
@@ -55,14 +59,13 @@ const nextConfig = {
     ],
   },
 
-  // Primer proxy/rewrite konfiguracije
+  // Proxy / rewrite konfiguracija umesto middleware
   async rewrites() {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://external-api.com/:path*',
+        destination: 'https://external-api.com/:path*', // Zameni sa stvarnim API endpointom
       },
-      // Dodaj druge rewrites/proxy po potrebi
     ];
   },
 };
