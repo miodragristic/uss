@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
- turbopack: {},
+  // Turbopack konfiguracija sa root-om
+  turbopack: {
+    root: __dirname, // ovo osigurava da Turbopack zna gde je koren projekta
+  },
 
+  // Remote images konfiguracija
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'assets.goal.com' },
